@@ -1,18 +1,15 @@
 ---
 layout: page
-title: About
+title: yo! 
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I'm Julien.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I've recently left Paris for Lisboa with my life partner M and we're gonna be parents in a few months.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Those two changes brought an immeasurable amount of stuff in my head and I decided to create a space over the internet to unload it. 
 
+My aim is to share thoughts, photos _(weekly?)_, to record knowledge _(through peripherical-brain posts)_ but most importantly to step back from the pace of life, reflect upon it _(through "recently“ posts)_ and bring back some human feelings around the internet - at least for me.
 
-[jekyll-organization]: https://github.com/jekyll
+_This blog is inspired from [Tom McWright's one](https://macwright.org/)._

@@ -5,10 +5,15 @@ date:   2015-10-01
 categories: peripherical-brain
 ---
 
-*This is my peripherical-brain for python / pandas*
-<br><br>
+*I'm a product data analyst (currently working for [leboncoin.fr](http://leboncoin.fr)). <br>
+This is my peripherical-brain for `python` / `pandas`, it's not exhaustive, but I tried to update it with cool stuff I learned along the way.*
+
+
 `Start: 2015`<br>
 `Last Update: Nov.2019`
+<br>
+<br>
+
 
 # Python
 
