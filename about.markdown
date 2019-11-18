@@ -16,7 +16,7 @@ My aim is to share thoughts, photos _(weekly?)_, record cool stuff I learned _(t
 
 I share other contents [here and there](https://twitter.com/julienzanni).
 
-Feel free to say yo! -->  `hello@julienzanni.fr`
+Feel free to say yo! -->  `hello@julienzanni.fr`
 
 <br>
 
