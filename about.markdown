@@ -4,7 +4,7 @@ title: yo!
 permalink: /about/
 ---
 
-![](/assets/auto_portrait.jpg){:class="img-responsive"}
+![](/assets/photos/auto_portrait.jpg){:class="img-responsive"}
 
 I'm Julien.
 
