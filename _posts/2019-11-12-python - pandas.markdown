@@ -6,7 +6,7 @@ categories: peripherical-brain
 ---
 
 *I'm a product data analyst (currently working for [leboncoin.fr](http://leboncoin.fr)). <br>
-This is my peripherical-brain for `python` / `pandas`, it's not exhaustive, but I tried to update it with cool stuff I learned along the way.*
+This is my peripherical-brain for `python` / `pandas`, it's not exhaustive, but I try to update it with cool stuff I learned along the way.*
 
 
 `Start: 2015`<br>
