@@ -5,6 +5,11 @@ date:   2019-10-31 13:51:58 +0000
 categories: writing
 ---
 
+![](/assets/photos/sintra.jpg){:class="img-responsive"}
+> ##### Sintra Castle Red Sky
+
+<br>
+
 I started this blog with jekyll and minima theme that I twisted a bit. It's been fun, I'll continue to make some small design changes along the way. 
 
 Matthew Halsall released a new album that I purchased on [bandcamp](https://bandcamp.com/), it's splendid:
@@ -18,4 +23,6 @@ This [Radiohead documentary](https://www.arte.tv/fr/videos/082766-000-A/le-monde
 I took a paid subscription to the french online journal ['Les Jours'](https://lesjours.fr/).
 It's independant, add free and high quality journalism. 
 _(And they have great music recommendations --> [Four tet](https://lesjours.fr/obsessions/face-a-face-b/ep11-four-tet-charanjit-singh/) and [Nihls Frahm](https://lesjours.fr/obsessions/face-a-face-b/ep22-nils-frahm-francesco-tristano/))_
+
+Nights are not always quiet recently, I'm happy to have this new internet tool to reflect upon.
 
