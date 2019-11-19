@@ -11,7 +11,7 @@ layout: default
 
     {%- if site.posts.size > 0 -%}
     
-        {% for category in site.categories %}
+        {% for category in site.categories reversed %}
         <h3>{{ category[0] }}</h3>
         <ul>
         {% for post in category[1] %}
