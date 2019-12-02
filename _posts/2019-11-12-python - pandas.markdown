@@ -139,6 +139,23 @@ day n - 364 = same week day y-1
 ```
 <br>
 
+> ##### [Iterating through a range of dates in Python](https://stackoverflow.com/questions/1060279/iterating-through-a-range-of-dates-in-python)
+
+```python
+from datetime import timedelta, date
+
+def daterange(start_date, end_date):
+    for n in range(int ((end_date - start_date).days)):
+        yield start_date + timedelta(n)
+
+start_date = date(2013, 1, 1)
+end_date = date(2015, 6, 2)
+for single_date in daterange(start_date, end_date):
+    print(single_date.strftime("%Y-%m-%d"))
+
+```
+<br>
+
 
 <br>
 <br>
@@ -641,20 +658,17 @@ df.plot(lw=1)
 ```
 <br>
 
-> ##### [Iterating through a range of dates in Python](https://stackoverflow.com/questions/1060279/iterating-through-a-range-of-dates-in-python)
+> ##### [How to sort a multi-index](https://stackoverflow.com/questions/14733871/multi-index-sorting-in-pandas#)
 
 ```python
-from datetime import timedelta, date
+df.sort_values([('level_0', 'level_1')], ascending=False)
+```
+<br>
 
-def daterange(start_date, end_date):
-    for n in range(int ((end_date - start_date).days)):
-        yield start_date + timedelta(n)
 
-start_date = date(2013, 1, 1)
-end_date = date(2015, 6, 2)
-for single_date in daterange(start_date, end_date):
-    print(single_date.strftime("%Y-%m-%d"))
-
+> ##### Group by on index level
+```python
+df.groupby(level=0).sum()
 ```
 <br>
 
