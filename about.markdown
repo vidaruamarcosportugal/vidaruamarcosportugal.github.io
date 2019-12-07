@@ -24,4 +24,6 @@ Feel free to say yo! -->  `hello@julienzanni.fr`
 
 <br>
 
-##### _[Tom McWright's blog](https://macwright.org/) inspired me to create this one._
+###### _This blog is build with [jekyll](https://jekyllrb.com/)_
+###### _Inspired from [Tom McWright's blog](https://macwright.org/)_
+###### _[Image compression module from Valerija Spasojevic](https://github.com/valerijaspasojevic/jekyll-compress-images)_
