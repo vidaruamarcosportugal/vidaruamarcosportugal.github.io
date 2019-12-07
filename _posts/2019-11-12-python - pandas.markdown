@@ -197,7 +197,8 @@ df_tmp.to_csv('daily_retention.csv', mode='a', header=False)
 ```
 <br>
 
-> ##### How to handle automation date with manual date capability     
+> ##### How to handle automation date with manual date capability    
+
 ```python
 # date
 if len(sys.argv) > 1:
@@ -207,6 +208,7 @@ else:
 current_date = toStrDateIso(ref_date + timedelta(days = -2))
 previous_date = toStrDateIso(ref_date + timedelta(days = -3))
 ```
+
 <br>
 
 > ##### Jupyter notebook best pratices
@@ -233,6 +235,7 @@ or df_data = pd.read_csv("/path/file.csv", parse_dates=['col1', 'col2'])
 - `reset_index` > moves the index to the right out of index
 - `unstack` moves line to the top index ('up’) / stack 
 
+<br>
 
 > ##### Most efficient way to select part of a data frame
 
@@ -667,6 +670,7 @@ df.sort_values([('level_0', 'level_1')], ascending=False)
 
 
 > ##### Group by on index level
+
 ```python
 df.groupby(level=0).sum()
 ```
