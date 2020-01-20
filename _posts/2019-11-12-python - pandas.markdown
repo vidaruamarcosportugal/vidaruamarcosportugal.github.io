@@ -10,7 +10,7 @@ This is my peripherical-brain for `python` / `pandas`, it's not exhaustive, but
 
 
 `Start: 2015`<br>
-`Last Update: Nov.2019`
+`Last Update: Jan.2020`
 <br>
 <br>
 
@@ -674,6 +674,28 @@ df.sort_values([('level_0', 'level_1')], ascending=False)
 ```python
 df.groupby(level=0).sum()
 ```
+<br>
+
+> ##### Retention - Color scoping vmin/vmax + fix graph
+
+```python
+import seaborn as sns
+#sns.set(style='white')
+plt.figure(figsize=(15, 8))
+plt.title('Cohorts: weekly Buyers Retention')
+ax = sns.heatmap(weekly_buyer_retention, mask=weekly_buyer_retention.isnull(), annot=True, fmt='.0%', vmin=0, vmax=0.15);
+
+# fix the wrong diplay
+bottom, top = ax.get_ylim()
+ax.set_ylim(bottom + 0.5, top - 0.5)
+plt.yticks(rotation='horizontal')
+```
+
+<br>
+
+> ##### Function on several columns with .loc
+![](/assets/photos/pandas_function_on_columns.jpg){:class="img-responsive"}
+
 <br>
 
 <br>
