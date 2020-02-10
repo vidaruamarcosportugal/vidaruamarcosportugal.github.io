@@ -9,7 +9,7 @@ categories: peripherical-brain
 This is my peripherical-brain for `python` / `pandas`, it's not exhaustive, but I try to update it with cool stuff I learned along the way.*
 
 
-`Start: 2015`<br>
+`Started: ~2015`<br>
 `Last Update: Jan.2020`
 <br>
 <br>
