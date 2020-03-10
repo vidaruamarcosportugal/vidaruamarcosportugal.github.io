@@ -4,14 +4,6 @@ title: yo!
 permalink: /about/
 ---
 
-<picture style='flex:none; align-self: center;'>
-  <source srcset='/photos/auto_portrait.webp' type='image/webp' />
-  <img
-    src='/photos/auto_portrait.jpg'
-    alt='Julien Zanni'
-    style='width:80px; height:80px; margin:15px 0;' />
-</picture>
-
 ![](/assets/photos/auto_portrait.jpg){:class="img-responsive"}
 
 I'm Julien.
