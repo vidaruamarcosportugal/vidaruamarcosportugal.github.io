@@ -21,9 +21,9 @@ figure > img { display: block; }
 figcaption { font-size: 14px; }
 
 /** Lists */
-ul, ol { margin-left: 30px; }
+ul, ol { margin-left: 30px; list-style-type: none;}
 
-li > ul, li > ol { margin-bottom: 0; }
+li > ul, li > ol { margin-bottom: 0; list-style-type: none;}
 
 /** Headings */
 h1, h2, h3, h4, h5, h6 { font-weight: 400; }
@@ -114,7 +114,7 @@ table td { border: 1px solid #e8e8e8; }
 .post-list-heading { font-size: 28px; }
 
 .post-list { margin-left: 0; list-style: none; }
-.post-list > li { margin-bottom: 8px; }
+.post-list > li { margin-bottom: 8px; list-style-type: none; }
 
 .post-meta { font-size: 10px; color: #828282; }
 

@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "Recently"
+date:   2019-10-31 13:51:58 +0000
+categories: writing
+---
+
+<picture>
+    <source srcset="/assets/photos/sintra.jpg"
+            media="(min-width: 800px)">
+    <img src="/assets/photos/sintra.jpg" />
+</picture>
+> ##### Sintra Castle Red Sky
+
+<br>
+
+I started this blog with jekyll and minima theme that I twisted a bit. It's been fun, I'll continue to make some small design changes along the way. 
+
+Matthew Halsall released a new album that I purchased on [bandcamp](https://bandcamp.com/), it's splendid:
+<iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=1352949287/size=large/bgcol=ffffff/linkcol=e99708/minimal=true/transparent=true/" seamless><a href="http://matthewhalsall.bandcamp.com/album/oneness">Oneness by Matthew Halsall</a></iframe>
+<br>
+
+This [Radiohead documentary](https://www.arte.tv/fr/videos/082766-000-A/le-monde-selon-radiohead/) brought me a lot of context I didn't have about the group, and, what a group...
+
+3 weeks ago we started portuguese classes. I'll do a post on the approach we took to learn this new language. It feels good to learn a whole new universe!
+
+I took a paid subscription to the french online journal ['Les Jours'](https://lesjours.fr/).
+It's independant, add free and high quality journalism. 
+_(And they have great music recommendations --> [Four tet](https://lesjours.fr/obsessions/face-a-face-b/ep11-four-tet-charanjit-singh/) and [Nihls Frahm](https://lesjours.fr/obsessions/face-a-face-b/ep22-nils-frahm-francesco-tristano/))_
+
+Nights are not always quiet recently, I'm happy to have this new internet tool to reflect upon.
+
