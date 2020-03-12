@@ -18,21 +18,21 @@ layout: default
             {% endfor %}
             {% if counter > 5 %}
                 {% for post in category[1] limit:5 %}
-                <li>
-                    {%- assign date_format = site.minima.date_format | default: "%d-%m-%Y" -%}
-                    <span class="post-meta">{{ post.date | date: date_format }} - </span>    
-                    <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
-                </li>
+                    <li>
+                        {%- assign date_format = site.minima.date_format | default: "%d-%m-%Y" -%}
+                        <span class="post-meta">{{ post.date | date: date_format }} - </span>    
+                        <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+                    </li>
                 {% endfor %}
                         <a class="post-meta" href="/category/{{ category[0] }}">[→ archives]</a>
             {% else %} 
                 {% for post in category[1] %}
-                <li>
-                {%- assign date_format = site.minima.date_format | default: "%d-%m-%Y" -%}
-                <span class="post-meta">{{ post.date | date: date_format }} - </span>    
-                <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
-                </li>
-            {% endfor %}       
+                    <li>
+                    {%- assign date_format = site.minima.date_format | default: "%d-%m-%Y" -%}
+                    <span class="post-meta">{{ post.date | date: date_format }} - </span>    
+                    <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+                    </li>
+                {% endfor %}       
             {% endif %}
             </ul>
         {% endfor %}
