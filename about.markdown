@@ -27,6 +27,6 @@ Feel free to say yo!
 
 <br>
 
-###### _This blog is build with [jekyll](https://jekyllrb.com/)_
-###### _Inspired from [Tom McWright's blog](https://macwright.org/)_
-###### _[Image compression module from Valerija Spasojevic](https://github.com/valerijaspasojevic/jekyll-compress-images)_
+<h6 class="post-meta" id="this-blog-is-build-with-jekyll"><em>This blog is build with <a href="https://jekyllrb.com/">jekyll</a></em></h6>
+<h6 class="post-meta" id="inspired-from-tom-mcwrights-blog"><em>Inspired from <a href="https://macwright.org/">Tom McWright’s blog</a></em></h6>
+<h6 class="post-meta" id="image-compression-module-from-valerija-spasojevic"><em><a href="https://github.com/valerijaspasojevic/jekyll-compress-images">Image compression module from Valerija Spasojevic</a></em></h6>

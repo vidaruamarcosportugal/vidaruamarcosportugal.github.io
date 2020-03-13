@@ -19,7 +19,7 @@ layout: default
             {% if counter > 5 %}
                 {% for post in category[1] limit:5 %}
                     <li>
-                        {%- assign date_format = site.minima.date_format | default: "%d-%m-%Y" -%}
+                        {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%}
                         <span class="post-meta">{{ post.date | date: date_format }} - </span>    
                         <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
                     </li>
@@ -28,13 +28,27 @@ layout: default
             {% else %} 
                 {% for post in category[1] %}
                     <li>
-                    {%- assign date_format = site.minima.date_format | default: "%d-%m-%Y" -%}
-                    <span class="post-meta">{{ post.date | date: date_format }} - </span>    
-                    <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+                        {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%}
+                        <span class="post-meta">{{ post.date | date: date_format }} - </span>    
+                        <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
                     </li>
                 {% endfor %}       
             {% endif %}
             </ul>
         {% endfor %}
     {%- endif -%}
+    <h3><a href="/category/reading">reading</a></h3>
+    <ul>
+        {% for book in site.data.books limit:3 %}
+            {% assign status = book.exclusive_shelf %}    
+            {%- if status == 'read' -%}
+                <li>
+                    {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%}
+                    <span class="post-meta">{{ book.date_read | date: date_format }} - </span>    
+                    <a>{{ book.title | where_exp: "book",  "book.exclusive_shelf == 'read'" }}</a> 
+                </li>
+                {% endif %}
+        {% endfor %}
+        <a class="post-meta" href="/category/reading">[→ archives]</a>
+    </ul>
 </div>
