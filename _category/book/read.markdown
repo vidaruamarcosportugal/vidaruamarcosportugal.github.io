@@ -3,6 +3,9 @@ layout: default
 tag: book
 permalink: "/category/book/read"
 ---
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="/assets/js/graph.js"></script>
+
 <div>
     {%- if page.title -%}
         <h1>{{ page.title }}</h1>
