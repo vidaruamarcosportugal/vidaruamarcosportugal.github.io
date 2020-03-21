@@ -1,8 +1,8 @@
 ---
 layout: default
-date:   2013-02-14
+date:   2015-08-09
 categories: photos
-img: "https://live.staticflickr.com/8519/8516172739_327637a639_h.jpg" 
+img: "https://live.staticflickr.com/727/23032080896_e5f3bf1802_k.jpg"
 ---
 
 <picture>

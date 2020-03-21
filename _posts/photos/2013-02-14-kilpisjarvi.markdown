@@ -2,7 +2,7 @@
 layout: default
 date:   2013-02-14
 categories: photos
-img: "https://live.staticflickr.com/8519/8516172739_327637a639_h.jpg" 
+img: "https://live.staticflickr.com/8526/8517282386_fdb79ee241_k.jpg"
 ---
 
 <picture>
