@@ -4,6 +4,14 @@ tag: photos
 permalink: "/category/photos/gallery"
 ---
 
+<style>
+.memories {text-align: right;}
+.memories > .post-meta {text-align: right;}
+</style>
+
+<div class="memories">
+    <a class="post-meta" href="/category/photos/memories">→ All Memories</a>
+</div>
 <ul>
 {% for post in site.categories.photos reverse limit:10 %}
     <br>
@@ -16,4 +24,6 @@ permalink: "/category/photos/gallery"
     <br>
 {% endfor %}
 </ul>
-<h4><a href="/category/photos/memories">→ All Memories</a></h4>
+<div class="memories">
+    <a class="post-meta" href="/category/photos/memories">→ All Memories</a>
+</div>
