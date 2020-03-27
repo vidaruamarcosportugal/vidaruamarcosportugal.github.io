@@ -15,7 +15,7 @@ I switched from Lightroom to Darktable mid-2019 after changing my laptop (I didn
 <br>
 This document aims to reflect upon my previous Lightroom workflow and how I can adapt it to Darktable. → Living document ahead!
 
-#### **Lightroom Workflow (+tips & tricks)**
+### **Lightroom Workflow (+tips & tricks)**
 
 1. **Import**
 - Copy as DNG (thanks Maxou ;)
@@ -79,7 +79,7 @@ Useful Shortcuts:
 
 <br>
 
-## Darktable Workflow 
+### **Darktable Workflow** 
 ##### ([→ shortcuts lists](https://www.darktable.org/usermanual/en/shortcuts.html))
 
 1. **Import**
@@ -93,7 +93,7 @@ Useful Shortcuts:
     - Or → custom zoom: `e` for bigger / `g` for smaller (→ grid)
     - `Tab` to remove menus
     - `f` to get full screen    
-	- ‘r’ to reject photos
+	- `r` to reject photos
     - Rate `1` to `5` for easier selection 
     - Tagging: name of the person + place 
     - When selected for print, use tag `to_print`
