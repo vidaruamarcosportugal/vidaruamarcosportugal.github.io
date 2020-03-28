@@ -7,7 +7,7 @@ categories: peripherical-brain
 `Started: 2015-03-15`<br>
 `Last Update: 2020-03-27`
 
-**English vocabulary**{: style="background-color:#ADECF4"} that I originally started in [Evernote 🐘.](https://www.evernote.com/shard/s24/sh/ce3f88f2-b3dc-4d4e-b67f-b06e43f3b08f/a1519b7cb45cdc04eadefee083484ac2)<br><br>
+**English vocabulary**{: style="background-color:#B7F7D1"} that I originally started in [Evernote 🐘.](https://www.evernote.com/shard/s24/sh/ce3f88f2-b3dc-4d4e-b67f-b06e43f3b08f/a1519b7cb45cdc04eadefee083484ac2)<br><br>
 
 **Projects:**
 - [ ] Clean this file
@@ -27,13 +27,13 @@ categories: peripherical-brain
 ---
 <br>
 **dabble in [sth]**{: style="background-color:#B7F7D1"} <br>
-- informal (do [sth] occasionally)
+- do [sth] occasionally (informal)
 - s'essayer (à [qch]) v pron
 - tâter (de [qch])  (figuré)
  <br>
 `Although on occasion she would dabble in poetry, her literary reputation is based entirely on her work as a novelist.`
 
-**dabble**{: style="background-color:#B7F7D1"} <br>
+**to dabble**{: style="background-color:#B7F7D1"} <br>
 - informal (do [sth] occasionally)
 - s'essayer (à [qch]) v pron
 - tâter (de [qch]) (figuré)
@@ -42,74 +42,55 @@ categories: peripherical-brain
 `"Tu es peintre ? " "Je m'y suis essayé."`
 
 ---
-sleuth n
-(detective) 
-(familier)
-limier nm
- 
- 
-détective nmf
- 
-Nancy was a sleuth who had solved many mysteries.
- 
-Nancy était une détective qui avait résolu beaucoup de mystères.
- 
-Traductions supplémentaires
-Anglais
+<br>
+**sleuth**{: style="background-color:#B7F7D1"} n<br>
+- detective (familier) <br>
+`Nancy was a sleuth who had solved many mysteries.` <br>
+`Nancy était une détective qui avait résolu beaucoup de mystères.`
 
-Français
-sleuth n
-(group of bears) 
-(d'ours)
-groupe nm
-sleuth⇒ vi
-(act as detective)
-enquêter⇒ vi
+**to sleuth**{: style="background-color:#B7F7D1"} ⇒ vi<br>
+- enquêter⇒ vi (act as detective) 
 
 ---
+<br>
+**expel [sth]**{: style="background-color:#B7F7D1"} ⇒ vtr<br>
+- émettre⇒, dégager⇒, rejeter⇒ vtr (un gaz, une substance)<br>
+`The unidentified parcel was expelling a noxious odour.` <br>
+`Le colis non identifié émettait (or: dégageait) une odeur toxique.`
 
-expel [sth]⇒ vtr
-(substance, gas: emit) 
-(un gaz, une substance)
-émettre⇒, dégager⇒, rejeter⇒ vtr
- 
-The unidentified parcel was expelling a noxious odour.
- 
-Le colis non identifié émettait (or: dégageait) une odeur toxique.
-expel [sb]⇒ vtr
-(student: ban, bar) 
-(un élève)
-renvoyer⇒, expulser⇒ vtr
- 
-She got expelled for shouting at a teacher.
- 
-Elle s'est fait renvoyer pour avoir crié sur un professeur.
+**expel [sb]⇒ vtr**{: style="background-color:#B7F7D1"} <br>
+- renvoyer⇒, expulser⇒ vtr (un élève) <br>
+`She got expelled for shouting at a teacher.`<br
+`Elle s'est fait renvoyer pour avoir crié sur un professeur.`
 
 ---
-
-unparalleled adj
-(unmatched, not equalled)
-hors pair loc adj
+<br>
+**unparalleled**{: style="background-color:#B7F7D1"} adj<br>
+- unmatched, not equalled <br>
+- hors pair <br>
  
-The Emperor held a position of unparalleled power.
- 
-L'Empereur avait une position de force hors pair.
-
----
-
-se mouiller v pron
-familier (se compromettre) (figurative)
-stick your neck out v expr
- 
- (figurative)
-go out on a limb v expr
- 
-Je me suis mouillée pour la défendre dans cette affaire.
- 
-I stuck my neck out to defend her in this matter.
+`The Emperor held a position of unparalleled power.`<br>
+`L'Empereur avait une position de force hors pair.`
 
 ---
+<br>
+**stick your neck out**{: style="background-color:#B7F7D1"} v expr <br>
+- se mouiller v pron (familier) <br>
+- se compromettre (figurative)<br>
+`Je me suis mouillée pour la défendre dans cette affaire.`<br>
+`I stuck my neck out to defend her in this matter.`
 
+<br>
+**go out on a limb**{: style="background-color:#B7F7D1"} v expr figurative<br>
+- (say [sth] daring)	<br>
+- s'exposer⇒ v pron<br>
+- prendre des risques loc v<br>
+`He went out on a limb when he asked his boss for a raise.`<br>
+`Il a pris des risques quand il a demandé une augmentation à son patron.`
+ 
+
+---
+<br>
 rote n
 (routine)
 répétition nf
