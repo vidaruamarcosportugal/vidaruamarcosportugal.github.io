@@ -63,7 +63,7 @@ a .post-link {
 
 .book > div { 
   /* display: grid; */
-  grid-template-columns: 1fr .75fr min-content 70px;
+  /* grid-template-columns: 1fr .75fr min-content 70px;
   grid-column-start: 1;
   grid-column-gap: 5px;
   align-content: center;
@@ -71,7 +71,7 @@ a .post-link {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-} */
+}  */ */
 
 /** `main` element */
 main { display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */ }

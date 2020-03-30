@@ -91,85 +91,53 @@ categories: peripherical-brain
 
 ---
 <br>
-rote n
-(routine)
-répétition nf
+**rote**{: style="background-color:#B7F7D1"} n<br> 
+- routine
+- répétition nf<br> 
  
-Lucy is bored with the rote of daily life.
- 
-Lucy est lasse de la répétition de la vie quotidienne.
+`Lucy is bored with the rote of daily life.`<br> 
+`Lucy est lasse de la répétition de la vie quotidienne.`
 
 ---
-
-soul-searchingn
-(self-examination)
-examen de conscience nm
- 
- 
-remise en question nf
- 
- 
-débat intérieur nm
- 
- 
-se poser des questions v pron
-soul-searchingadj
-(related to self-analysis)
-introspectif, introspective adj
- 
- 
-d'introspection loc adj
- 
- (nuit,...)
-(passé) à se remettre en question, (passé)à se poser des temps loc adj
-
+<br>
+**soul-searching**{: style="background-color:#B7F7D1"} n
+- self-examination <br>
+- examen de conscience nm<br>
+- remise en question nf<br>
+- débat intérieur nm<br>
+- se poser des questions v pron
 
 ---
-
-hindrance n
-(impediment: progress)
-obstacle nm
+<br>
+**hindrance**{: style="background-color:#B7F7D1"} n
+- (impediment: progress)
+- obstacle
+- entrave 
+- frein <br>
  
- 
-entrave nf
- 
- 
-frein nm
- 
-Stacy's mom thought that her daughter's boyfriend would be a hindrance to her success.
- 
-La mère de Stacy croyait que le copain de sa fille serait un obstacle à son succès.
-hindrance n
-(impediment: physical)
-obstacle nm
- 
- 
-entrave nf
- 
-James' broken leg was a big hindrance, but he made it onto the team somehow anyway.
- 
-La jambe cassée de James constituait un énorme obstacle, mais il a quand même réussi à intégrer l'équipe.
+`Stacy's mom thought that her daughter's boyfriend would be a hindrance to her success.`<br>
+`La mère de Stacy croyait que le copain de sa fille serait un obstacle à son succès.`<br>
+ <br>
+`James' broken leg was a big hindrance, but he made it onto the team somehow anyway.`<br>
+`La jambe cassée de James constituait un énorme obstacle, mais il a quand même réussi à intégrer l'équipe.`<br>
 
 ---
-
-chutzpah,
+<br>
+**chutzpah,
 chutzpa,
 hutzpah,
-hutzpa n
-uncountable (Yiddish: nerve, impudence) (familier)
-culot nm
- 
- (un peu vieilli)
-toupet nm
- 
- 
-audace nf
+hutzpa**{: style="background-color:#B7F7D1"} n
+- uncountable (Yiddish: nerve, impudence) (familier)
+- culot
+- toupet
+- audace
 
 ---
-apples to apples
-1. NORTH AMERICAN
-   used with reference to a comparison regarded as valid because it concerns two things that are fundamentally the same.
-   "there is no apples-to-apples comparison when comparing a foreign currency to USD"
+<br>
+**apples to apples**{: style="background-color:#B7F7D1"} (North American)
+- used with reference to a comparison regarded as valid because it concerns two things that are fundamentally the same.
+`There is no apples-to-apples comparison when comparing a foreign currency to USD.`
+
 ---
 
 stance n
