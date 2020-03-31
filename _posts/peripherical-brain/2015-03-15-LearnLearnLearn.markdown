@@ -139,84 +139,50 @@ hutzpa**{: style="background-color:#B7F7D1"} n
 `There is no apples-to-apples comparison when comparing a foreign currency to USD.`
 
 ---
+<br>
+**stance**{: style="background-color:#B7F7D1"} n
+- position nf figurative (viewpoint)
+- point de vue nm
+- posture nf (posture, bearing)
 
-stance n
-figurative (viewpoint)
-position nf
- 
- 
-point de vue nm
- 
-Daphne didn't agree at all with Evelyn's stance on the issue.
- 
-Daphne n'était pas du tout d'accord avec le point de vue d'Evelyn sur la question.
- 
-Daphne n'était pas du tout d'accord avec le point de vue d'Evelyn sur la question.
-stance n
-(posture, bearing)
-posture nf
- 
- 
-position nf
- 
-Rick was waiting at the corner, his stance relaxed.
- 
-Rick attendait au coin, dans une posture détendue.
+`Daphne didn't agree at all with Evelyn's stance on the issue.`<br> 
+`Daphne n'était pas du tout d'accord avec le point de vue d'Evelyn sur la question.`
+<br> 
+`Rick was waiting at the corner, his stance relaxed.`<br> 
+`Rick attendait au coin, dans une posture détendue.`
 
 
 ---
-
-nimble adj
-(dexterous, fast)
-agile, leste, preste adj
- 
-Kate had nimble fingers that were perfect for needlework.
- 
-Avec ses doigts agiles, Kate était douée pour les travaux d'aiguille.
+<br>
+**nimble**{: style="background-color:#B7F7D1"} adj 
+- agile, leste, preste adj (dexterous, fast)
+<br>
+`Kate had nimble fingers that were perfect for needlework.`<br> 
+`Avec ses doigts agiles, Kate était douée pour les travaux d'aiguille.`
 
 
 ---
-
-sore adj
-(painful, tender)
-faire mal v impers
- 
-Ouch! Please don't touch the bruise on my arm. It's really sore.
- 
-Aïe ! Ne touche pas mon bleu sur le bras, ça fait très mal.
+<br>
+**sore**{: style="background-color:#B7F7D1"} adj
+- faire mal v impers (painful, tender)<br>
+`Ouch! Please don't touch the bruise on my arm. It's really sore.`<br>
+`Aïe ! Ne touche pas mon bleu sur le bras, ça fait très mal.`
 sore adj
 (throat: enflamed) (gorge, yeux,…)
-irrité loc adj
- 
- 
-to have a sore throat : avoir mal à la gorge loc v
- 
-Tina had a cold; her nose was running and her throat was sore.
- 
-Tina avait un rhume ; son nez coulait et sa gorge était irritée.
- 
-Tina avait un rhume ; son nez coulait et elle avait mal à la gorge.
-sore adj
-(muscle: aching)
-endolori, douloureux, douloureuse adj
- 
- 
-to have a sore [sth] : avoir mal à [qch], avoir des courbatures à [qch] loc v
- 
- (familier)
-to have a sore [sth] : avoir [qch]en compote loc v
- 
- 
-to be sore all over : avoir mal partout, être courbaturé loc v
- 
-Philip's legs were sore after the long run he'd been on the day before.
- 
-Philip avait mal aux jambes (or: avait des courbatures aux jambes) après la longue course qu'il avait faite la veille.
- 
-Philip avait les jambes en compote après la longue course qu'il avait faite la veille.
 
+ 
+**to have a sore [sth]**{: style="background-color:#B7F7D1"}
+- avoir mal à [qch], avoir des courbatures à [qch] loc v
+- endolori, douloureux, douloureuse adj (muscle: aching) 
+- to have a sore [sth] : avoir [qch]en compote loc v  (familier)<br>
+`Tina had a cold; her nose was running and her throat was sore.`<br>
+`Tina avait un rhume ; son nez coulait et sa gorge était irritée.`
+<br>  
+`Philip's legs were sore after the long run he'd been on the day before.`<br>
+`Philip avait mal aux jambes (or: avait des courbatures aux jambes) après la longue course qu'il avait faite la veille.`<br> 
+`Philip avait les jambes en compote après la longue course qu'il avait faite la veille.`
 
-"Great chat last night ... me bit of a sore head cheers Felix"
+`"Great chat last night ... me bit of a sore head cheers Felix"`
 
 ---
 
