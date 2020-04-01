@@ -3,6 +3,7 @@ layout: default
 tag: book
 permalink: "/category/book/read"
 jsarr:
+     - js/d3.js
      - js/graph.js
 ---
 
