@@ -3,18 +3,16 @@ layout: default
 tag: book
 permalink: "/category/book/read"
 ---
-<script src="https://d3js.org/d3.v5.min.js"></script>
-<script src="/assets/js/graph.js"></script>
-<script src="/vidaruamarcosportugal/assets/js/graph.js"></script>
 
-<div class="d3_graph">
-</div>
+<script src="/assets/js/graph.js" type="text/javascript"></script>
 
 <div>
     {%- if page.title -%}
         <h1>{{ page.title }}</h1>
     {%- endif -%}
 </div>
+
+<div class="d3_graph"></div>
 
 <h3><a href="/category/book/to-read">→ To Read List</a></h3>
 
