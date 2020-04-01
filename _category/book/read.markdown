@@ -2,9 +2,9 @@
 layout: default
 tag: book
 permalink: "/category/book/read"
+jsarr:
+     - js/graph.js
 ---
-
-<script src="/assets/js/graph.js" type="text/javascript"></script>
 
 <div>
     {%- if page.title -%}
@@ -12,7 +12,8 @@ permalink: "/category/book/read"
     {%- endif -%}
 </div>
 
-<div class="d3_graph"></div>
+<div class="d3_graph">
+</div>
 
 <h3><a href="/category/book/to-read">→ To Read List</a></h3>
 

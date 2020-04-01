@@ -71,6 +71,7 @@ d3.csv("/vidaruamarcosportugal/_data/books.csv", function(d) {
             .attr('transform', `translate(0,${ height - margin.bottom })`)
             // then just call this to render it
             .call( xAxis )
+            .style('font-weight', 400)
         
         svg.append('g')
             .attr('class', 'text')
