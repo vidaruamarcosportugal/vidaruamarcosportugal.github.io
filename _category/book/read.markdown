@@ -5,6 +5,10 @@ permalink: "/category/book/read"
 ---
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="/assets/js/graph.js"></script>
+<script src="/vidaruamarcosportugal/assets/js/graph.js"></script>
+
+<div class="d3_graph">
+</div>
 
 <div>
     {%- if page.title -%}
