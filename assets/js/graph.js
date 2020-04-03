@@ -8,10 +8,15 @@ d3.csv("/vidaruamarcosportugal/_data/books.csv", function(d) {
     }
     }).then(function(data) {
         data = data.filter(function(d) {return d.exclusive_shelf == "read"})
+        data.sort(function(a, b) {
+            return a.rating - b.rating;
+          });
+        
         var ratingCount = d3.nest()
                             .key(function(d) { return d.rating })
                             .rollup(function(v) { return v.length; })
                             .entries(data);
+        console.log(ratingCount);
         
     height = 200
     width = 700
@@ -62,6 +67,7 @@ d3.csv("/vidaruamarcosportugal/_data/books.csv", function(d) {
             // .attr('height', d => yScale(0) - yScale(ratingCount.rating))
             .attr('height', d => yScale(0) - yScale(d.value))
             .style('fill', '#FF965A')
+            
       
         // Here we render the x axis
         svg.append('g')
@@ -71,8 +77,9 @@ d3.csv("/vidaruamarcosportugal/_data/books.csv", function(d) {
             .attr('transform', `translate(0,${ height - margin.bottom })`)
             // then just call this to render it
             .call( xAxis )
+            .order()
             .style('font-weight', 400)
-        
+            
         svg.append('g')
             .attr('class', 'text')
             // .attr("fill", "white")
@@ -94,6 +101,7 @@ d3.csv("/vidaruamarcosportugal/_data/books.csv", function(d) {
             .style('font-family', 'sans-serif')
             .style('font-size', 12)
             .style('font-weight', 600)
+            
     
       // it works the same for the y axis
     //   svg.append('g')
