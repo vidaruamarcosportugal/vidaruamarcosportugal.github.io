@@ -1,11 +1,12 @@
 ---
 layout: post
 title:  "Recently"
-date:   2020-03-11
+date:   2020-04-04
 categories: writing
 ---
 
 ![](/assets/photos/e_hand.jpg){:class="img-responsive"}
+
 
 <br> 
 Tout est autour d'E. et j'aimerais faire un journal de bord mensuel.<br> 
@@ -86,3 +87,7 @@ La série de vidéos [France Inter Comment j'ai dessiné](https://www.youtube.co
 
 <br>
 Je ferai une liste des articles concernant le Covid-19 qui m'ont interpellés, comment ne pas en parler...
+
+<br>
+<br>
+<a class="post-meta">_Post started 2020-03-11_</a>
