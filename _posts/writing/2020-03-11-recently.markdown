@@ -1,0 +1,88 @@
+---
+layout: post
+title:  "Recently"
+date:   2020-03-11
+categories: writing
+---
+
+![](/assets/photos/e_hand.jpg){:class="img-responsive"}
+
+<br> 
+Tout est autour d'E. et j'aimerais faire un journal de bord mensuel.<br> 
+Voici les bricoles qui accompagnent la douceur du quotidien actuel.
+
+<br>
+**On repeat tracks**:<br>
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3304924972/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://jenifa.bandcamp.com/album/hurt-me-again">Hurt Me Again by Mole Map</a></iframe>
+<br>
+J'étais comme un enfant quand j'ai vu ça :
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3104888983/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://fourtet.bandcamp.com/album/sixteen-oceans">Sixteen Oceans by Four Tet</a></iframe>
+<br>
+Cet album s'annonce chouette, je vais attendre sa sortie :
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1975185457/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://orionsun.bandcamp.com/album/hold-space-for-me">Hold Space For Me by orion sun</a></iframe>
+
+<br>
+**Books I read** :
+- [Déclic](https://declic-lelivre.com/) - <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture><br>
+→ Superbe travail sur l'état d'internet d'aujourd'hui et des solutions concrètes pour faire évoluer nos usages et faire perdurer les valeurs fondamentales de cet outil incroyable. Bravo Maxou !<br>
+- [L'éducation vraiment positive](https://www.leslibraires.fr/livre/15098265-l-education-vraiment-positive-ce-qu-il-faut-sa--beatrice-kammerer-larousse) -  <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture><br>
+→ Je ne m'attendais pas à ça en lisant ce livre, je pensais avoir dans les mains un guide pratique sur la parentalité positive et j'y ai plutôt trouvé une prise de recul avisée et documentée à l'égard d'une forme d'éducation définitivement intéressante mais qu'il serait trop facile d'ériger en doxa.<br>
+- [Nino dans la nuit](https://www.leslibraires.ca/livres/nino-dans-la-nuit-capucine-johannin-9791030410112.html) - <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture><br>
+→ J'ai mis quelques pages à rentrer dans ce roman dont je trouvais l'écriture un peu "show off" au début et je l'ai ensuite dévoré. Il m'a rappelé le roman de [David Lopez, Fief](https://www.leslibraires.ca/livres/fief-david-lopez-9782021362152.html) que j'avais adoré. Derrière l'apparente violence de l'environnement des personnages, j'y ai vu beaucoup d'amour et d'amitié, on a envi d'aller se perdre avec eux. 
+
+<br>
+On a dévoré la saison 4 de This Is Us en une semaine. C'est parfois tellement dans la caricature et 'cheesy' qu'on se demande pourquoi ça nous touche autant (l'attachement aux personnages ?), on se trouve une excuse en se disant que c'est le fait d'être désormais parents...
+
+<br>
+Je suis sur Flickr depuis 2010 et je paye une version pro depuis 2015 pour faire le backup de mes photos. Récemment, j'ai passé plusieurs début de matinée avec E. en porte bébé à passer en revue les quelques 36K photos que j'ai uploadé depuis... 10 ans ! Ca me replonge dans beaucoup de souvenirs et d'émotions. J'en ai tiré une sélection que j'ai regroupé [ici](https://vidaruamarcosportugal.github.io/category/photos/memories) (je ferai surement un post pour expliquer comment j'ai agencé la partie photo)
+
+<br>
+La série de vidéos [France Inter Comment j'ai dessiné](https://www.youtube.com/playlist?list=PL43OynbWaTMLSUzMpmqwuKcJNbTeC5GhD) est géniale, ça donne envie de dessiner, j'y reviendrai dans un autre billet.
+
+<br>
+Je ferai une liste des articles concernant le Covid-19 qui m'ont interpellés, comment ne pas en parler...
