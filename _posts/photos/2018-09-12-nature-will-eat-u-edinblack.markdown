@@ -1,8 +1,8 @@
 ---
 layout: default
-date:   2018-09-06
+date:   2018-09-12
 categories: photos
-img: "https://live.staticflickr.com/65535/49711408776_c8a16eb0de_k.jpg"
+img: "https://live.staticflickr.com/65535/49711710557_2df14ba8a1_k.jpg"
 ---
 
 <picture>
