@@ -26,6 +26,15 @@ categories: peripherical-brain
 
 ---
 <br>
+**fitful**{: style="background-color:#B7F7D1"} adj <br>
+- intermittent, sporadique adjadj	(erratic, sporadic)	
+- agité adj (sommeil) <br>
+`Danny had a fitful sleep last night.` <br>
+`Danny a eu le sommeil agité cette nuit.` <br>
+<br>
+
+---
+<br>
 **enact [sth]**{: style="background-color:#B7F7D1"} ⇒ vtr <br>
 - promulguer⇒, décréter⇒ vtr (law)	<br>
 `The government has enacted a new tax law.`<br>
