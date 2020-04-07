@@ -5,7 +5,7 @@ date:   2015-03-15
 categories: peripherical-brain
 ---
 `Started: 2015-03-15`<br>
-`Last Update: 2020-03-27`
+`Last Update: 2020-04`
 
 **English vocabulary**{: style="background-color:#B7F7D1"} that I originally started in [Evernote 🐘.](https://www.evernote.com/shard/s24/sh/ce3f88f2-b3dc-4d4e-b67f-b06e43f3b08f/a1519b7cb45cdc04eadefee083484ac2)<br><br>
 
@@ -23,6 +23,107 @@ categories: peripherical-brain
 **vocabulario**{: style="background-color:#ADECF4"} <br>
 **vocabulario**{: style="background-color:#B7F7D1"} <br>
 **traduction**{: style="background-color:#c9c9c9"} <br> -->
+
+---
+<br>
+**enact [sth]**{: style="background-color:#B7F7D1"} ⇒ vtr <br>
+- promulguer⇒, décréter⇒ vtr (law)	<br>
+`The government has enacted a new tax law.`<br>
+`Le gouvernement a promulgué une nouvelle taxe.`<br>
+- jouer⇒ vtr (portray dramatically)	<br>
+`The theatre group enacted one of Shakespeare's plays.`<br>
+`La troupe de théâtre jouait une pièce de Shakespeare.`<br>
+- promulguer des lois loc v (enact laws vtr + npl	(establish laws))<br>
+
+---
+<br>
+**muster [sth/sb]**{: style="background-color:#B7F7D1"} adj <br>
+- rassembler⇒ vtr (summon: courage, energy)	
+- trouver⇒ vtr <br>
+`Bob mustered his courage and went for it.` <br>
+`Bob a rassemblé son courage et y est allé.` <br>
+`Il a finalement trouvé le courage de demander à Émilie de sortir avec lui.` <br>
+- rassembler⇒, regrouper⇒ vtr (assemble: troops, soldiers)	<br>
+`The sergeant mustered his soldiers.` <br>
+`Le sergent a rassemblé ses soldats.` <br>
+- rassemblement nm (assembly for inspection)	<br>
+`We hurried into our uniforms so we wouldn't be late for muster.`<br>
+`Nous avons enfilé nos uniformes rapidement pour ne pas arriver en retard au rassemblement.`<br>
+
+---
+<br>
+**genuine**{: style="background-color:#B7F7D1"} adj <br>
+- véritable adj(real) (matériau)	<br>
+`The assay office said it was genuine silver.`<br>
+`Selon le labo, c'est de l'argent véritable.`<br>
+- authentique adj<br>
+`The forgery looked almost genuine.`<br>
+`La contrefaçon paraissait presque authentique.`<br>
+- sincère adj<br>
+`You have my genuine thanks.`<br>
+`Je vous présente mes sincères salutations.`<br>
+- franc adj (person: sincere)	<br>
+`He was quite genuine with them but they didn't trust him.`<br>
+`Il a été plutôt franc avec eux mais ils ne l'ont pas cru.`<br>
+
+---
+<br>
+**pillory [sb]**{: style="background-color:#B7F7D1"} n <br>
+- pilori nmn	historical (public punishment: stocks)	
+- mettre au pilori, clouer au pilori vtr, ridiculiser⇒ vtrpillory [sb]⇒ vtr	(hold up to ridicule)	
+<br>
+
+---
+<br>
+**gotcha**{: style="background-color:#B7F7D1"} n <br>
+- Je t'ai eu ! interj / slang (got you: used when capturing [sb] or [sth])	
+- Je te tiens ! interj
+- pigé ! figurative (got you: I understand your meaning) (familier)	
+<br>
+
+---
+<br>
+**brink**{: style="background-color:#B7F7D1"} n <br>
+- bord nm - figurative (edge, verge) (figuré) <br>
+`Les filles étaient au bord des larmes.` <br>
+`Le phare se dressait au bord de la falaise.`
+- bord de l'eau nm (land bordering water) <br>	
+`Un oubli important ? Signalez une erreur ou suggérez une amélioration.`
+
+**on the brink of [sth]**{: style="background-color:#B7F7D1"} <br>
+- au bord de [qch] 
+- sur le point de faire [qch] <br>
+`The Mexican Grey Wolf was on the brink of extinction, but conservation efforts are bringing it back.` <br>
+`Le loup gris du Mexique était au bord de l'extinction, mais les efforts faits dans ce domaine ont permis de réintroduire cette espèce.` <br>
+`Le loup gris du Mexique était sur le point de s'éteindre, mais les efforts faits dans ce domaine ont permis de réintroduire cette espèce.` <br>
+
+**on the brink of doing [sth]**{: style="background-color:#B7F7D1"} <br>
+- sur le point de faire [qch] prep	(about to)	
+- au bord de [qch] (figuré)	
+- à deux doigts de faire [qch] <br>
+`She was on the brink of committing suicide when she called the crisis hotline.` <br>
+`Elle était sur le point de se suicider quand elle appela SOS Amitié.` <br>
+`Elle était au bord du suicide quand elle appela SOS Amitié.` <br>
+`on the brink of the abyss` <br>
+`on the edge of the abyss` <br>
+
+---
+<br>
+**cusp**{: style="background-color:#B7F7D1"} n<br>
+- pointe nf (pointy end)
+- corne nf (du croissant de lune)<br>
+`Hold the pole with the cusp pointing downward.`<br>
+`Tiens le bâton avec la pointe vers le bas.`<br>
+- passage nm figurative (astrology: threshold between signs) (Astrologie)	<br>
+`I was born on the cusp of Aquarius.`<br>
+`Je suis né lors du passage de Verseau.`<br>
+- point de transition nm - figurative (threshold, point between)	
+- charnière nf (figuré)	
+- point d'inflexion nm (courbe mathématique)	<br>
+`September marks the cusp of summer and autumn.`<br>
+`Septembre fait la charnière entre l'été et l'automne.`<br>
+`Owen est au bord d'une avancée dans sa thérapie.`<br>
+
 
 ---
 <br>
