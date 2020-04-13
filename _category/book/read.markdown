@@ -93,3 +93,26 @@ jsarr:
     {%- endif -%}
 {% endfor %}
 </ul>
+
+<br>
+
+---
+
+<br>
+
+<h3>→ Didn't get to the end...</h3>
+
+<ul>
+{% for book in site.data.books %}
+    {% assign not_finished = book.bookshelves %}
+    {%- if not_finished == 'not-finished' -%}
+    <li>
+        {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%}
+        <div>
+            <span class="post-meta">{{ book.date_added | where_exp: "book",  "book.bookshelves == 'not-finished'" | date: date_format }} - </span>    
+            <a href="{{book.open_library_url_info_ISBN13}}">{{ book.title | where_exp: "book",  "book.bookshelves == 'not-finished'" }}</a> - <a style='font-style: italic; font-weight: 200; font-size: 12px;' href="{{book.open_library_url_info_ISBN13}}">{{ book.author }}</a> 
+        </div>
+    </li>
+    {%- endif -%}
+{% endfor %}
+</ul>
