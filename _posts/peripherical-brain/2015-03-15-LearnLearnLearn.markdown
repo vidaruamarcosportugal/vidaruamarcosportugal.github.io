@@ -12,7 +12,8 @@ As an non-native speaker, I try to improve the diversity of my vocabulary.<br><b
 This page loops over a csv file thanks to [jekyll data files](https://jekyllrb.com/docs/datafiles/) to style the content below!<br>
 
 **Projects:**
-- [x] Automate this page and bring back all the vocabulary in the csv file
+- [x] Automate this page
+- [ ] Bring back all the vocabulary in the csv file #wip
 - [ ] Convert every word to the Portuguese vocabulary
 - [ ] Create a "flashcard module" to review it more often
 
