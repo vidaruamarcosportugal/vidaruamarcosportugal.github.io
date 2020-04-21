@@ -10,13 +10,21 @@ This is my peripherical-brain for `python` / `pandas`, it's not exhaustive, but
 
 
 `Started: ~2015`<br>
-`Last Update: Jan.2020`
+`Last Update: 2020.04`
 <br>
 <br>
 
 
-# Python
+# Python 
 
+#### Ressources
+##### - [Beyond PEP8 -  Best practices for beautiful intelligible code](https://www.youtube.com/watch?v=wf-BqAjZb8M&feature=emb_title) → very useful tips, thanks [ryx,r](https://ryxcommar.com/2019/10/24/how-i-learned-python/)
+
+
+##### (_[→ressources list](https://github.com/Evryjazz/learning_by_doing)_)
+<br>
+___
+<br>
 > ##### Create on the fly list for loop:
 
 ``` python
