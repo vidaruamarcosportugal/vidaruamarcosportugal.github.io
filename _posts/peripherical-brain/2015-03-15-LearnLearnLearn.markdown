@@ -41,7 +41,7 @@ This page loops over a csv file thanks to [jekyll data files](https://jekyllrb.c
 <div>
     {% for vocab in site.data.learn %}
         {% assign word = vocab.words %}
-        <a style='background-color:#B7F7D1; font-weight:600;'>{{ word }}</a><a class='post-meta'>  - {{ vocab.type }}</a><br>
+        <a class='vocab'  style='background-color:#B7F7D1; font-weight:600;'>{{ word }}</a><a class='post-meta'>  - {{ vocab.type }}</a><br>
         {%- if vocab.synonym != nil -%}
             <a class='post-meta'>{{ vocab.synonym }} <br></a>
         {%- endif -%}
