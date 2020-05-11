@@ -706,6 +706,14 @@ plt.yticks(rotation='horizontal')
 
 <br>
 
+> ##### Pandas Plot - Rotate X Axis
+
+```python
+df.plot(figsize=(15,7), kind='bar', rot=0)
+```
+
+<br>
+
 <br>
 <br>
 ---
