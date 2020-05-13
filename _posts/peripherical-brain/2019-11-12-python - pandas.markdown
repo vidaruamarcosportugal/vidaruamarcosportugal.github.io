@@ -15,17 +15,28 @@ This is my peripherical-brain for `python` / `pandas`, it's not exhaustive, but
 <br>
 
 
-# Python 
 
-#### Ressources
-##### - [Beyond PEP8 -  Best practices for beautiful intelligible code](https://www.youtube.com/watch?v=wf-BqAjZb8M&feature=emb_title) → very useful tips, thanks [ryx,r](https://ryxcommar.com/2019/10/24/how-i-learned-python/)
+<!-- **vocabulario**{: style="background-color:#FFEF9E"} <br>
+**sentenças**{: style="background-color:#FEC1D0"} <br>
+**vocabulario**{: style="background-color:#ADECF4"} <br>
+**vocabulario**{: style="background-color:#B7F7D1"} <br>
+**traduction**{: style="background-color:#c9c9c9"} <br> -->
 
 
-##### (_[→ressources list](https://github.com/Evryjazz/learning_by_doing)_)
+# **Python** 🐍 
+
+**Ressources**{: style="background-color:#FFEF9E"}
+- [Beyond PEP8 -  Best practices for beautiful intelligible code](https://www.youtube.com/watch?v=wf-BqAjZb8M&feature=emb_title) → very useful tips, thanks [ryx,r](https://ryxcommar.com/2019/10/24/how-i-learned-python/)
+- [→ ressources list](https://github.com/Evryjazz/learning_by_doing)
+- [Daily global retention](https://gist.github.com/Evryjazz/c426f9c2ecf5be5708aa5186f9a671c9)
+- [List comprehension](https://chrisalbon.com/python/data_wrangling/pandas_list_comprehension/)
+
 <br>
-___
+<a style='color:#e6e6e6;'>___</a>
 <br>
-> ##### Create on the fly list for loop:
+
+<br>
+**Create on the fly list for loop:**{: style="background-color:#FEC1D0"} <br>
 
 ``` python
 for info in df.column.unique().to_list():
@@ -33,7 +44,7 @@ for info in df.column.unique().to_list():
 ```
 <br>
 
-> ##### Enumerate() for loop:
+**Enumerate() for loop:**{: style="background-color:#FEC1D0"} <br>
 
 ``` python
 env_list = [responsive, ios, android]
@@ -46,16 +57,14 @@ for idx, env in enumerate(env_list):
 ```
 <br>
 
-> ##### Python has a HTTP server built into the# standard library. This is super handy for# previewing websites.
-
-> ##### Python 3.x
-
+**Python has a HTTP server built into the# standard library. This is super handy for# previewing websites.**{: style="background-color:#FEC1D0"} <br>
+**Python 3**{: style="background-color:#FEC1D0"} <br>
 ``` python
 $ python3 -m http.server
 ```
 <br>
 
-> ##### Python 2.x
+**Python 2**{: style="background-color:#FEC1D0"} <br>
 
 ``` python
 # (This will serve the current directory at#  http://localhost:8000)
@@ -63,21 +72,21 @@ $ python -m SimpleHTTPServer 8000
 ```
 <br>
 
-> ##### Backward range() 350 --> 0
+**Backward range() 350 --0**{: style="background-color:#FEC1D0"} <br>
 
 ``` python
 range(350, 0, -1)
 ```
 <br>
 
-> ##### execute a python file in terminal
+**Execute a python file in terminal**{: style="background-color:#FEC1D0"} <br>
 
 ``` python
 python filename.py
 ```
 <br>
 
-> ##### How to document a function
+**How to document a function**{: style="background-color:#FEC1D0"} <br>
 
 ```python
 def function():
@@ -89,18 +98,14 @@ Docstring:
 ```
 <br>
 
-> ##### File concatenation and folder cleaning	
+**File concatenation and folder cleaning**{: style="background-color:#FEC1D0"} <br>
 
 ```python
 os.system("sh /opt/insight-repositories/pyLBC/reporting/concat_and_clean.sh " + current_date_name)
 ```
 <br>
 
-> ##### [Daily global retention](https://gist.github.com/Evryjazz/c426f9c2ecf5be5708aa5186f9a671c9)
-
-> ##### [List comprehension](https://chrisalbon.com/python/data_wrangling/pandas_list_comprehension/)
-
-> ##### Loop over a date range and get first and last day of the week (or the month with rrule.MONTHLY)
+**Loop over a date range and get first and last day of the week (or the month with rrule.MONTHLY)**{: style="background-color:#FEC1D0"} <br>
 
 ```python 
 from datetime import datetime, timedelta, date
@@ -118,20 +123,18 @@ for dt in rrule.rrule(rrule.WEEKLY, dtstart=start, until=end):
 ```
 <br>
 
-
-> ##### .format() method for variable: [Template Strings](https://realpython.com/python-string-formatting/)
+**.format() method for variable: [Template Strings](https://realpython.com/python-string-formatting/)**{: style="background-color:#FEC1D0"} <br>
 
 ```python
 from string import Template
 name = 'Bob'
 t = Template('Hey, $name!')
 t.substitute(name=name)
->>> 'Hey, Bob!'
+>>'Hey, Bob!'
 ```
 <br>
 
-
-> ##### [yesterday](https://stackoverflow.com/questions/30483977/python-get-yesterdays-date-as-a-string-in-yyyy-mm-dd-format/30484112)
+**[yesterday](https://stackoverflow.com/questions/30483977/python-get-yesterdays-date-as-a-string-in-yyyy-mm-dd-format/30484112)**{: style="background-color:#FEC1D0"} <br>
 
 ```python
 from datetime import datetime, timedelta
@@ -139,7 +142,7 @@ yesterday = datetime.strftime(datetime.now() - timedelta(1), '%Y-%m-%d')
 ```
 <br>
 
-> ##### How to easily get same week day y-1
+**How to easily get same week day y-1**{: style="background-color:#FEC1D0"} <br>
 
 ```
 52*7 = 364
@@ -147,7 +150,7 @@ day n - 364 = same week day y-1
 ```
 <br>
 
-> ##### [Iterating through a range of dates in Python](https://stackoverflow.com/questions/1060279/iterating-through-a-range-of-dates-in-python)
+**[Iterating through a range of dates in Python](https://stackoverflow.com/questions/1060279/iterating-through-a-range-of-dates-in-python)**{: style="background-color:#FEC1D0"} <br>
 
 ```python
 from datetime import timedelta, date
@@ -164,6 +167,13 @@ for single_date in daterange(start_date, end_date):
 ```
 <br>
 
+**Find any text between '<' and '>**{: style="background-color:#FEC1D0"} 
+
+```python
+import re
+text = '<me@email.com>'
+re.findall(r'<(.*?)>', text)
+```
 
 <br>
 <br>
@@ -171,30 +181,30 @@ for single_date in daterange(start_date, end_date):
 <br>
 <br>
 
-# Pandas
+# **Pandas** 🐼
 
-> ##### Some useful ressources / links
+**Ressources**{: style="background-color:#FFEF9E"}
 - [Best intro ever](https://www.youtube.com/watch?v=5JnMutdy6Fw)
 - [Enthought Python Pandas Cheat Sheets](https://www.evernote.com/shard/s24/res/7561ff62-c921-4ab6-9189-9d8993d6b32c)
 - [StackOverflow Favorites](https://stackoverflow.com/users/2505731/julienzanni?tab=favorites)
 
 <br>
 
-> ##### groupby nomenclature
+**groupby nomenclature**{: style="background-color:#B7F7D1"}
 
 ``` python 
 df[['metric_1', 'metric_2’]].groupby('df.dimension_1', 'df.dimension_2').df_metrics.mean()
 ```
 <br>
 
-> ##### Put index as column
+**Put index as column**{: style="background-color:#B7F7D1"}
 
 ```python
 df.reset_index(inplace=True)
 ```
 <br>
 
-> ##### Append data to csv with mode="a"
+**Append data to csv with mode="a"**{: style="background-color:#B7F7D1"}
 
 ```python
 # create tmp dataframe
@@ -205,11 +215,11 @@ df_tmp.to_csv('daily_retention.csv', mode='a', header=False)
 ```
 <br>
 
-> ##### How to handle automation date with manual date capability    
+**How to handle automation date with manual date capability**{: style="background-color:#B7F7D1"}
 
 ```python
 # date
-if len(sys.argv) > 1:
+if len(sys.argv) 1:
     ref_date = toStrDateIso(sys.argv[1])
 else:
     ref_date = date.today()
@@ -219,18 +229,7 @@ previous_date = toStrDateIso(ref_date + timedelta(days = -3))
 
 <br>
 
-> ##### Jupyter notebook best pratices
-
-```
-* read_clipboard option pour grapher rapidement
-* Best practice in order to load xiti request (and come back to it) :
-* df = xiti_get_results_parallel_page(sub_request_2, path_to_write, request_name, user, password)
-* df.to_csv(path_to_write + 'file name')
-* df_meaning = pd.read_csv(path_to_write + 'file name' )
-```
-<br>
-
-> ##### How to load csv files and interpreting: date + decimal with comma instead of dot
+**How to load csv files and interpreting: date + decimal with comma instead of dot**{: style="background-color:#B7F7D1"}
 
 ```python
 df_data = pd.read_csv("/path/file.csv", sep=";", parse_dates=True, decimal=",")
@@ -238,14 +237,14 @@ or df_data = pd.read_csv("/path/file.csv", parse_dates=['col1', 'col2'])
 ```
 <br>
 
-> ##### Index manipulation
-- `set_index` > moves columns to left index
-- `reset_index` > moves the index to the right out of index
+**Index manipulation**{: style="background-color:#B7F7D1"}
+- `set_index` moves columns to left index
+- `reset_index` moves the index to the right out of index
 - `unstack` moves line to the top index ('up’) / stack 
 
 <br>
 
-> ##### Most efficient way to select part of a data frame
+**Most efficient way to select part of a data frame**{: style="background-color:#B7F7D1"}
 
 ```python 
 df.set_index(['a', 'b']).sort_index()
@@ -253,7 +252,7 @@ df.loc[('v','u')]
 ```
 <br>
 
-> ##### How to add thousand separator to a .plot() graph
+**How to add thousand separator to a .plot() graph**{: style="background-color:#B7F7D1"}
 
 ```python
 ax = plt.gca()
@@ -261,14 +260,14 @@ ax.get_yaxis().set_major_formatter(plt.FuncFormatter(lambda x, loc: "{:,}".forma
 ```
 <br>
 
-> ##### Merge on right and left index
+**Merge on right and left index**{: style="background-color:#B7F7D1"}
 
 ```python
 df_global = pd.merge(df_1, df_2, left_index=True, right_index=True)
 ```
 <br>
 
-> ##### When importing csv, make sure dd/mm/yyyy object format translate in yyy-mm-dd datetime object
+**When importing csv, make sure dd/mm/yyyy object format translate in yyy-mm-dd datetime object**{: style="background-color:#B7F7D1"}
 
 ```python
 df = pd.read_csv()
@@ -276,28 +275,28 @@ df.column_date = pd.to_datetime(df.column_date, format='%d/%m/%Y')
 ```
 <br>
 
-> ##### Drop a specific column
+**Drop a specific column**{: style="background-color:#B7F7D1"}
 
 ```python
 del df['column_name']
 ```
 <br>
 
-> ##### Aggregate on specific column and get a dataframe (double brackets)
+**Aggregate on specific column and get a dataframe (double brackets)**{: style="background-color:#B7F7D1"}
 
 ```python
 df.groupby('column_name')[['column_name']].count()
 ```
 <br>
 
-> ##### Aggregate on specific column and get a serie (single bracket)
+**Aggregate on specific column and get a serie (single bracket)**{: style="background-color:#B7F7D1"} 
 
 ```python
 df.groupby('column_name')['column_name'].count()
 ```
 <br>
 
-> ##### Methods to rename columns
+**Methods to rename columns**{: style="background-color:#B7F7D1"} 
 
 ```python
 column_names = {
@@ -318,7 +317,7 @@ df.columns = ['col_1', 'col_2', ...]
 ```
 <br>
 
-> ##### Convert specific column in datetime object (time consuming method)
+**Convert specific column in datetime object (time consuming method)**{: style="background-color:#B7F7D1"} 
 
 ```python 
 df.column_date = pd.to_datetime(df.column_date)
@@ -329,21 +328,21 @@ df.column_date = pd.to_datetime(df.column_date, format="%Y-%m-%d")
 ```
 <br>
 
-> ##### how to use different agg method in the same groupby
+**How to use different agg method in the same groupby**{: style="background-color:#B7F7D1"} 
 
 ```python 
 df.groupby('col1').agg({'col2' : 'count', 'col3' : 'sum'})
 ```
 <br>
 
-> ##### how to return the number of unique element of a serie
+**how to return the number of unique element of a serie**{: style="background-color:#B7F7D1"} 
 
 ```python
 df.col.nunique()
 ```
 <br>
 
-> ##### From an object column containing number, clean '-' and convert it to int (with pandas version 0.17)
+**From an object column containing number, clean '-' and convert it to int (with pandas version 0.17)**{: style="background-color:#B7F7D1"} 
 
 ```python
 df.ad_price = df.ad_price.replace({'-' : 0})
@@ -351,35 +350,36 @@ df.ad_price = pd.to_numeric(df.ad_price)
 ```
 <br>
 
-> ##### From an object column containing number, replace ',' with '.'
+
+**From an object column containing number, replace ',' with '.'**{: style="background-color:#B7F7D1"} 
 
 ```python
 df.ca_ht.str.replace(',' , '.') # use the comma!
 ```
 <br>
 
-> ##### get column percentage occurencies  / number
+**Get column percentage occurencies  / number**{: style="background-color:#B7F7D1"} 
 
 ```python
 df.col.value_counts(normalize=True)/ df.col.value_counts(normalize=False) or df.col.value_counts()
 ``` 
 <br>
 
-> ##### Filter datetime columns that have X days in difference 
+**Filter datetime columns that have X days in difference**{: style="background-color:#B7F7D1"} 
 
 ```python
 df[df.col_datetime1 - df.col_datetime2 <= 'X days']
 ```
 <br>
 
-> ##### int64 serie to object
+**int64 serie to object**{: style="background-color:#B7F7D1"} 
 
 ```python
 df.int_col = df.int_col.apply(str)
 ```
 <br>
 
-> ##### Filter values of a column based on conditions from another set of columns
+**Filter values of a column based on conditions from another set of columns**{: style="background-color:#B7F7D1"} 
 
 ```python
 df.loc[(df["Gender"]=="Female") & (df["Education"]=="Not Graduate") & (df["Loan_Status"]=="Y"), ["Gender","Education","Loan_Status"]]
@@ -388,36 +388,28 @@ df.loc[(df.user_weight == 'big') | (df.user_weight == 'medium') & (df.user_type 
 ```
 <br>
 
-> ##### Skip first raw when importing excel
+**Skip first raw when importing excel**{: style="background-color:#B7F7D1"} 
 
 ```python
 df_3 = pd.read_excel('contact_3.xlsx', skiprows=1)
 ```
 <br>
 
-#### Find any text between '<' and '>
+**YOY evolution over time**{: style="background-color:#B7F7D1"} 
 
-```python
-import re
-text = '<me@email.com>'
-re.findall(r'<(.*?)>', text)
-```
-<br>
-
-> ##### YOY evolution over time
 ```python
 df.resample('M')[['metric ']].sum().pct_change(12)
 ```
 <br>
 
-> ##### Datetime format apply the format and allow us to manipulate it as we want after!
+**Datetime format apply the format and allow us to manipulate it as we want after!**{: style="background-color:#B7F7D1"} 
 
 ```python
 df_data.Date = pd.to_datetime(df_data.Date, format="%d/%m/%Y")    
 ```
 <br>
 
-> ##### Handy matplotlib funtions to get thousands or percentage
+**Handy matplotlib funtions to get thousands or percentage**{: style="background-color:#B7F7D1"} 
 
 ```python
 def plt_thousand():
@@ -432,14 +424,14 @@ def plt_percentage(df):
 ```
 <br>
 
-> ##### No index column when creating a csv
+**No index column when creating a csv**{: style="background-color:#B7F7D1"} 
 
 ```python
 df.to_csv('my_csv.csv', sep=';', index=False)
 ```
 <br>
 
-> ##### How to read files in a folder
+**How to read files in a folder**{: style="background-color:#B7F7D1"} 
 
 ```python
 import os
@@ -447,49 +439,49 @@ os.listdir(os.curdir)
 ```
 <br>
 
-> ##### Delete several columns (will delete columns 1, 7, 9, 10, 11)
+**Delete several columns (will delete columns 1, 7, 9, 10, 11)**{: style="background-color:#B7F7D1"} 
 
 ```python
 df = df.drop(df.columns[[1, 7, 9, 10, 11]], axis=1)
 ```
 <br>
 
-> ##### Split column text with an argument _and_ select the second part of the split
+**Split column text with an argument _and_ select the second part of the split**{: style="background-color:#B7F7D1"} 
 
 ```python
 df['str_obj_column'] = df['str_obj_column'].str.split('argument', expand=True)[1]
 ```
 <br>
 
-> ##### renaming multiple columns
+**Renaming multiple columns**{: style="background-color:#B7F7D1"} 
 
 ```python
 df.columns = ['colunm_1_name', ..., 'column_n_name']
 ```
 <br>
 
-> ##### index to datetime
+**Index to datetime**{: style="background-color:#B7F7D1"} 
 
 ```python
 df.index = pd.to_datetime(df.index)
 ```
 <br>
 
-> ##### insert image in text cell
+**Insert image in text cell**{: style="background-color:#B7F7D1"} 
 
 ```python
 ![title](img/image.png)
 ```
 <br>
 
-> ##### remove the first blank row when assigning index (this is caused by the name assigned to the index)
+**Remove the first blank row when assigning index (this is caused by the name assigned to the index)**{: style="background-color:#B7F7D1"} 
 
 ```python
 df.index.name=None
 ```
 <br>
 
-> ##### for loops to concat df
+**For loops to concat df**{: style="background-color:#B7F7D1"} 
 
 ```python
 list_nb = ['0', '1', '2']
@@ -508,14 +500,14 @@ for idx, i in enumerate(list_nb):
 ```
 <br>
 
-> ##### How to create a new empty dataframe
+**How to create a new empty dataframe**{: style="background-color:#B7F7D1"} 
 
 ```python
 df = pd.DataFrame()
 ```
 <br>
 
-> ##### How to calculate % of grouped df
+**How to calculate % of grouped df**{: style="background-color:#B7F7D1"} 
 
 ```python
 grouped_df = grouped_df.groupby('desired_column').apply(lambda x: x/x.sum() *100)
@@ -523,23 +515,23 @@ grouped_df = grouped_df.groupby('desired_column').apply(lambda x: x/x.sum() *100
 ```
 <br>
 
-> ##### how to calculate D3/D1 % from a multiIndex DF?
+**How to calculate D3/D1 % from a multiIndex DF?**{: style="background-color:#B7F7D1"} 
 
 ```python
 df['d3vsd1'] =  df[df.columns[1]] / df[df.columns[0]] *100
 df['d3vsd1'].plot(figsize=(15,8))
-# > use df.columns[level] !
+# use df.columns[level] !
 ```
 <br>
 
-> ##### how to sort df by a specific column
+**How to sort df by a specific column**{: style="background-color:#B7F7D1"} 
 
 ```python
 df = df.sort_values('column_to_sort')
 ```
 <br>
 
-> ##### When returning a dataframe from a function, we need to assign it to a variable in order to use it
+**When returning a dataframe from a function, we need to assign it to a variable in order to use it**{: style="background-color:#B7F7D1"} 
 
 ```python
 def function():
@@ -549,7 +541,7 @@ df_var = function()
 ```
 <br>
 
-> ##### reload packages without restarting the kernel
+**Reload packages without restarting the kernel**{: style="background-color:#B7F7D1"} 
 
 ```python
 %reload_ext autoreload
@@ -557,7 +549,7 @@ df_var = function()
 ```
 <br>
 
-> ##### [Flatten hierarchical index in columns](https://stackoverflow.com/questions/14507794/pandas-how-to-flatten-a-hierarchical-index-in-columns)
+**[Flatten hierarchical index in columns](https://stackoverflow.com/questions/14507794/pandas-how-to-flatten-a-hierarchical-index-in-columns)**{: style="background-color:#B7F7D1"} 
 
 ```python
 df.columns = df.columns.get_level_values(0)
@@ -566,8 +558,8 @@ pd.DataFrame(df.to_records()) # multiindex become columns
 ```
 <br>
 
-> ##### Combine multiple index into one index
 
+**Combine multiple index into one index**{: style="background-color:#B7F7D1"} 
 ```python
 df.columns = [' '.join(col).strip() for col in df.columns.values]
 # even better:
@@ -575,57 +567,61 @@ pd.DataFrame(df.to_records()) # multiindex become columns and new index is integ
 ```
 <br>
 
-> ##### How to reference a link to another cell
+**How to reference a link to another cell**{: style="background-color:#B7F7D1"} 
 
 ```python
 [link to the cell](#name-of-the-markdown-cell)
 ```
 <br>
 
-### Selection
-> ##### To select rows whose column value equals a scalar, some_value, use ==:
+<a style='color:#e6e6e6;'>___</a>
+
+### **Selection**
+**To select rows whose column value equals a scalar, some_value, use ==:**{: style="background-color:#B7F7D1"} 
 
 ```python
 df.loc[df['column_name'] == some_value]
 ```
 <br>
 
-> ##### To select rows whose column value is in an iterable, some_values, use isin:
+**To select rows whose column value is in an iterable, some_values, use isin:**{: style="background-color:#B7F7D1"} 
 
 ```python
 df.loc[df['column_name'].isin(some_values)]
 ```
 <br>
 
-> ##### Combine multiple conditions with &:
+**Combine multiple conditions with &:**{: style="background-color:#B7F7D1"} 
 
 ```python
 df.loc[(df['column_name'] == some_value) & df['other_column'].isin(some_values)]
 ```
 <br>
 
-> ##### To select rows whose column value does not equal some_value, use !=:
+**To select rows whose column value does not equal some_value, use !=:**{: style="background-color:#B7F7D1"} 
 
 ```python
 df.loc[df['column_name'] != some_value]
 ```
 <br>
 
-> ##### isin returns a boolean Series, so to select rows whose value is not in some_values, negate the boolean Series using `~`:
+**isin returns a boolean Series, so to select rows whose value is not in some_values, negate the boolean Series using `~`:**{: style="background-color:#B7F7D1"} 
 
 ```python
 df.loc[~df['column_name'].isin(some_values)]
 ```
 <br>
+<a style='color:#e6e6e6;'>___</a>
+<br>
 
-> ##### UnicodeDecodeError when reading CSV file > ‘ISO-8859-1' is the solution
+**UnicodeDecodeError when reading CSV file ‘ISO-8859-1' is the solution**{: style="background-color:#B7F7D1"} 
 
 ```python
 df = pd.read_csv('file.csv', sep=';', encoding = 'ISO-8859-1')
 ```
 <br>
 
-> ##### How to put last column first
+**How to put last column first**{: style="background-color:#B7F7D1"} 
 
 ```python
 cols = list(df.columns)
@@ -634,57 +630,56 @@ df = df[cols]
 ```
 <br>
 
-> ##### How to replace negative value with 0 (clip / clip_lower)
+**How to replace negative value with 0 (clip / clip_lower)**{: style="background-color:#B7F7D1"} 
 
 ```python
 df[['neg_col_1', 'neg_col_2']] = df[['neg_col_1', 'neg_col_2']].clip_lower(0)
 ```
 <br>
 
-> ##### How to keep only date from datetime full format (dt.date)
+**How to keep only date from datetime full format (dt.date)**{: style="background-color:#B7F7D1"} 
 
 ```python
 df.d_time_date = df.d_time_date.dt.date
 ```
 <br>
 
-> ##### Set graph size when starting a new notebook
+**Set graph size when starting a new notebook**{: style="background-color:#B7F7D1"} 
 
 ```python
 plt.rcParams['figure.figsize'] = (17, 5)
 ```
 <br>
 
-> ##### How to create a Y-1 column? With .shift(364) !
+**How to create a Y-1 column? With .shift(364) !**{: style="background-color:#B7F7D1"} 
 
 ```python
 df['visits_y1'] = df.visits.shift(364)
 ```
 <br>
 
-> ##### .plot() line width 
+**.plot() line width**{: style="background-color:#B7F7D1"} 
 
 ```python
 df.plot(lw=1)
 ```
 <br>
 
-> ##### [How to sort a multi-index](https://stackoverflow.com/questions/14733871/multi-index-sorting-in-pandas#)
+**[How to sort a multi-index](https://stackoverflow.com/questions/14733871/multi-index-sorting-in-pandas#)**{: style="background-color:#B7F7D1"} 
 
 ```python
 df.sort_values([('level_0', 'level_1')], ascending=False)
 ```
 <br>
 
-
-> ##### Group by on index level
+**Group by on index level**{: style="background-color:#B7F7D1"} 
 
 ```python
 df.groupby(level=0).sum()
 ```
 <br>
 
-> ##### Retention - Color scoping vmin/vmax + fix graph
+**Retention - Color scoping vmin/vmax + fix graph**{: style="background-color:#B7F7D1"} 
 
 ```python
 import seaborn as sns
@@ -701,12 +696,12 @@ plt.yticks(rotation='horizontal')
 
 <br>
 
-> ##### Function on several columns with .loc
+**Function on several columns with .loc**{: style="background-color:#B7F7D1"} 
 ![](/assets/photos/pandas_function_on_columns.jpg){:class="img-responsive"}
 
 <br>
 
-> ##### Pandas Plot - Rotate X Axis
+**Pandas Plot - Rotate X Axis**{: style="background-color:#B7F7D1"} 
 
 ```python
 df.plot(figsize=(15,7), kind='bar', rot=0)
@@ -716,10 +711,13 @@ df.plot(figsize=(15,7), kind='bar', rot=0)
 
 <br>
 <br>
----
+
+<a style='color:#e6e6e6;'>___</a>
+
 <br>
 <br>
 
-> WIP
+
+**#WIP**
 * CoolStuffILearn - unix / bash
 * CoolStuffILearn - SQL
