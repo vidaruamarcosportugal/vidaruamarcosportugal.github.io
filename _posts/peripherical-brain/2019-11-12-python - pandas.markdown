@@ -421,6 +421,13 @@ def plt_percentage(df):
     # transform ylabel decimal in percentage
     ax = df
     ax.yaxis.set_major_formatter(FuncFormatter(lambda y, _: '{:.0%}'.format(y)))
+
+# or (↓ might be a better option) 
+
+def plt_percentage():
+    # transform ylabel decimal in percentage
+    ax = plt.gca()
+    ax.get_yaxis().set_major_formatter(plt.FuncFormatter(lambda y, _: '{:.0%}'.format(y)))
 ```
 <br>
 
@@ -708,6 +715,108 @@ df.plot(figsize=(15,7), kind='bar', rot=0)
 ```
 
 <br>
+
+**Graph function project #wip**{: style="background-color:#B7F7D1"} 
+
+```python
+def graph(dataframe, **kwargs):
+    '''
+    Function to improve matplotlib graphs readability
+    
+    Prerequisite:
+    → import matplotlib as mpl
+    → import matplotlib.pyplot as plt
+    → from matplotlib.ticker import FuncFormatter
+    → import matplotlib.ticker as mtick
+    → from cycler import cycler
+    → functions plt_thousand() + plt_percentage()
+    
+    Optional informations:
+    - kind: ['line', 'bar', 'barh', 'area'...]
+    - rot: handle xaxis text rotation
+    - figsize: per default to (15,7)
+    - title: optional title for the graph
+    - stacked: True to be stacked
+    - thousand: rely on the custom function plt_thousand()
+    - percentage: rely on the custom function plt_percentage()
+    
+    todo:
+    - legend: yes|no, location, custom values, understand why several column referenced
+    - title position (put it a bit higher)
+    
+    '''
+    
+    
+    # kwargs mapping
+    kind = kwargs.get('kind', 'line')
+    rot = kwargs.get('rot', None)
+    figsize = kwargs.get('figsize', (15,7))
+    title = kwargs.get('title', None)
+    stacked = kwargs.get('stacked', False)
+    thousand = kwargs.get('thousand', False)
+    percentage = kwargs.get('percentage', False)
+    legend = kwargs.get('legend', True)
+    
+    
+    # plotting
+    dataframe.plot(kind=kind, rot=rot, figsize=figsize, title=title, stacked=stacked, legend=legend)
+
+    # legend
+    plt.rcParams['legend.frameon'] = True
+    plt.rcParams['legend.loc'] = 'upper right'
+    
+            
+    # add an horizonal label for the y axis 
+    #plt.text(-0.23, 0.96, 'Transaction Type', fontsize=15, fontweight='black', color = '#333F4B')
+
+    # set the spines position
+    #ax.spines['bottom'].set_position(('axes', -0.04))
+    #ax.spines['left'].set_position(('axes', 0.015))
+
+    # style
+    
+    # font
+    plt.rcParams['font.family'] = 'sans-serif'
+    plt.rcParams['font.serif'] = 'Arial'
+    plt.rcParams['font.size'] = 12
+
+    # axis style
+    plt.rcParams['axes.edgecolor'] = '#E6EBEF'
+    plt.rcParams['axes.linewidth'] = 0.8
+    plt.rcParams['axes.facecolor'] = 'white'
+    plt.rcParams['axes.titleweight'] = 'heavy'
+    
+    # change the style of the axis spines
+    plt.rcParams['axes.spines.top'] = False
+    plt.rcParams['axes.spines.right'] = False
+    plt.rcParams['axes.labelcolor'] = '#3C3C3C'
+    
+    plt.rcParams['xtick.top'] = False
+    plt.rcParams['ytick.right'] = False
+    #ax.spines['right'].set_color('none')
+    #ax.spines['left'].set_smart_bounds(True)
+    #ax.spines['bottom'].set_smart_bounds(True)
+    
+    # line style
+    plt.rcParams['lines.linewidth'] = 1.5
+    
+    # color
+    plt.rcParams['axes.prop_cycle'] = cycler('color', ['#FF6E14', '#3C78C8', '#FFBE00', '#55B950', '#DC002D', '#7346AA', '#BEBEBE', '#A8B4C0'])
+    
+    # label
+    #ax.set_xlabel('Percentage', fontsize=15, fontweight='black', color = '#333F4B')
+    
+    # Handle Thousand notation on y-axis
+    if thousand == True:
+        plt_thousand()
+        
+    # Handle Percentage notation on y-axis
+    if percentage == True:
+        plt_percentage()
+    
+```
+
+
 
 <br>
 <br>
