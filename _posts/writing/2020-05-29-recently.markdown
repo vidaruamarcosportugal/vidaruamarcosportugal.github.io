@@ -1,0 +1,138 @@
+---
+layout: post
+title:  "Recently"
+date:   2020-05-29
+categories: writing
+---
+
+<picture>
+    <source srcset="https://live.staticflickr.com/65535/49796800032_21062184e7_k.jpg"
+            media="(min-width: 800px)">
+    <img src="https://live.staticflickr.com/65535/49796800032_21062184e7_k.jpg"/>
+</picture>
+
+<br> 
+J'ai démarré un journal de bord pour E. que je vais garder en dehors de ce blog. Quel émerveillement la parentalité...
+
+<br>
+**On repeat tracks**:<br>
+**Matthew Halsall**  - _Weekly Meditations_
+<iframe src="https://open.spotify.com/embed/playlist/13KamUFObWQasnuRpmMljx" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<br>
+On a dansé pas mal de fois sur l'album **Dimanche à Bamako** d'_Amadou & Mariam_ avec E. et M.
+<iframe src="https://open.spotify.com/embed/album/6iGoXwENON2onjXpv9bO38" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+
+<br>
+<a style='color:#e6e6e6;'>_________</a>
+<br>
+
+→ Le [**podcast de Sam Harris avec Matt Mullenweg**](https://samharris.org/podcasts/194-new-future-work/), CEO de Automattic,  m'a donné envi de poser sur papier quelques réflexions et ressources sur le travail à distance que je pratique depuis 9 mois maintenant. _(Merci Lorraine pour la ref)_ <br>
+Je parlerai du sujet dans un post dédié. _(spoiler : quel kiff!)_
+
+
+<br>
+<a style='color:#e6e6e6;'>_________</a>
+<br>
+
+**Bouquins lus :**
+- [**Illusion financière** - _Gaël Giraud_](https://www.leslibraires.fr/livre/5690062-illusion-financiere-gael-giraud-l-atelier) <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture><br>
+- [**Sum: Forty Tales from the Afterlives** - _David Eagleman_](https://openlibrary.org/books/OL16873074M/Sum)<picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture><br>
+- [**Plutôt couler en beauté que flotter sans grâce** - _Corinne Morel Darleux_](https://www.editionslibertalia.com/catalogue/la-petite-litteraire/corinne-morel-darleux-plutot-couler-en-beaute) → qu'est-ce que ça fait du bien de lire ça pendant cette période... <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture><br>
+
+**En cours de lecture :**
+- **Drive** - _Daniel H. Pink_ → source d'inspiration majeure sur le travail 'distributed' évoqué par Matt Mullenweg que j'ai mentionné plus haut dans le podcast de Sam Harris.
+- **Les racines du ciel** - _Romain Gary_ → mentionné à de nombreuses reprises dans l'essaie ↑ de Corinne Morel Darleux, je me suis dit qu'il était temps de sy mettre.
+
+<br>
+<a style='color:#e6e6e6;'>_________</a>
+<br>
+
+**Covid-19** <br>
+J'ai pas envi de faire long sur le sujet, juste un récap des ressources qui m'ont particulièrement éguiller sur le sujet ou qui m'ont donné matière à réfléchir (_par ordre chronologique_) : 
+- [**En quarantaine**](https://lesjours.fr/obsessions/coronavirus-quarantaine/), le suivi quotidien du journal indépendant en ligne [Les Jours](https://lesjours.fr/), et c'était gratuit pour tout le monde !
+- [**Coronavirus: Why You Must Act Now**](https://medium.com/@tomaspueyo/coronavirus-act-today-or-people-will-die-f4d3d9cd99ca)
+- [**Face à une crise économique inédite : le nécessaire engagement massif de l’État**](https://www.revue-projet.com/articles/2020-04-giraud-face-a-une-crise-economique-inedite-le-necessaire-engagement-massif-de-l-etat/10522)
+- [**Covid-19 : fin de partie ?!**](https://jdmichel.blog.tdg.ch/archive/2020/03/18/covid-19-fin-de-partie-305096.html)
+- [**Ce que le confinement nous apprend de l'économie**](https://www.mediapart.fr/journal/france/110420/ce-que-le-confinement-nous-apprend-de-l-economie?utm_source=article_offert&utm_medium=email&utm_campaign=TRANSAC&utm_content=&utm_term=&xtor=EPR-1013-%5Barticle-offert%5D&M_BT=2248424467041)
+- [**Le confinement, idéal pour se confronter à l'absurdité de nos existences**](https://www.marianne.net/debattons/billets/le-confinement-ideal-pour-se-confronter-l-absurdite-de-nos-existences)
+- [**La crise sanitaire est l’occasion de réfléchir à la décroissance choisie**](https://reporterre.net/La-crise-sanitaire-est-l-occasion-de-reflechir-a-la-decroissance-choisie)
+- Le meilleur résumé global sur le sujet sur lequel j'ai pu tomber  : 
+[**Why the Coronavirus is so Confusing?** - _by Ed Yong_](https://www.theatlantic.com/health/archive/2020/04/pandemic-confusing-uncertainty/610819/)
+-  Vidéo intéressante sur nos biais cognitifs appliqués au COVID-19 :  [**Prise de décision et biais cognitifs: l'exemple du COVID-19**](https://www.youtube.com/watch?v=H6IAOM3Ei2o&feature=youtu.be)
+- [**L'appel de Vincent Lindon**](https://www.invidio.us/watch?v=EdZBZUN2t-4) → Vincent Président !
+
+
+<br>
+<a style='color:#e6e6e6;'>_________</a>
+<br>
+
+→ La série **High Maintenance** de HBO est vraiment cool : c'est d'une douce lenteur, avec une [soundtrack](https://open.spotify.com/playlist/7FW7aWJS6Ty6gNwt0TYrGX?si=bLTwm2T3R223S-tU_-XZtQ) très chouette, c'est imprévisible, décalé et surprenant, high five pour High Maintenance !
+
+<br>
+<a style='color:#e6e6e6;'>_________</a>
+<br>
+
+On a démarré l'apprentissage de quelques signes tirés de la "Langue Française des Signes" avec le bouquin [**Signe avec moi**](http://www.signeavecmoi.com/livres-en-francais). <br>
+C'est assez cool et qui sait, ça nous permettra peut être de mieux comprendre E. avant qu'il ne puisse s'exprimer par la parole, pourquoi ne pas tenter ?!
+
+<br>
+<a style='color:#e6e6e6;'>_________</a>
+<br>
+
+J'ai déjà parlé du [**Podcast Présages**](https://www.presages.fr/blog/2020/sur-le-vif/isabelle-attard) que je trouve excellent.
+J'ai particulièrement aimé [**l'épisode avec Isabelle Attard**](https://www.presages.fr/blog/2020/sur-le-vif/isabelle-attard).
+Son penchant pour l'anarchisme m'a donné envi de regarder le documentaire _'Ni Dieux ni Maîtres'_ de Tancrède Ramonet et de me pencher sur quelques lectures... A suivre !
+
+<br>
+<br>
+<a class="post-meta">_Post started 2020-04-05_</a>
