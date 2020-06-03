@@ -816,6 +816,13 @@ def graph(dataframe, **kwargs):
     
 ```
 
+<br>
+
+**[How to load a tsv file](https://stackoverflow.com/questions/9652832/how-to-load-a-tsv-file-into-a-pandas-dataframe)**{: style="background-color:#B7F7D1"} 
+
+```python
+df = pd.read_csv('https://raw.githubusercontent.com/justmarkham/DAT8/master/data/chipotle.tsv', sep='\t')
+```
 
 
 <br>
