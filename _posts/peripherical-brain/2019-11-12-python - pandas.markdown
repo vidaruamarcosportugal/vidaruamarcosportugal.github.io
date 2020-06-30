@@ -823,6 +823,22 @@ def graph(dataframe, **kwargs):
 ```python
 df = pd.read_csv('https://raw.githubusercontent.com/justmarkham/DAT8/master/data/chipotle.tsv', sep='\t')
 ```
+<br>
+
+**How to make a dataframe with a single date column**{:style="background-color:#B7F7D1"} 
+
+```python
+df_period_index = pd.period_range(start='1/1/2018', end='31/12/2018', freq='D')
+df_date = pd.DataFrame()
+df_date['date'] = df_period_index
+```
+
+↑ the date column is going to be a period object. <br>
+**From period object to datetime:**{:style="background-color:#B7F7D1"} 
+```python
+df_date.date = df_date['date'].apply(lambda d: pd.to_datetime(str(d)))
+```
+
 
 
 <br>
