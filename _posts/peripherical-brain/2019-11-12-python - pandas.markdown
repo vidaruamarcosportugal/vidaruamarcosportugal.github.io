@@ -184,8 +184,7 @@ re.findall(r'<(.*?)>', text)
 # **Pandas** 🐼
 
 **Ressources**{: style="background-color:#FFEF9E"}
-- [Best intro ever](https://www.youtube.com/watch?v=5JnMutdy6Fw)
-- [Enthought Python Pandas Cheat Sheets](https://www.evernote.com/shard/s24/res/7561ff62-c921-4ab6-9189-9d8993d6b32c)
+- [Brandon Rhodes: Pandas From The Ground Up _(PyCon 2015)_](https://www.youtube.com/watch?v=5JnMutdy6Fw) = Best intro ever 🙏
 - [StackOverflow Favorites](https://stackoverflow.com/users/2505731/julienzanni?tab=favorites)
 
 <br>
