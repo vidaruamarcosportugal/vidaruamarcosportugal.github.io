@@ -1,11 +1,9 @@
 ---
 layout: post
-title:  "test"
-date:   2020-05-29
+title:  ""Plutôt couler en beauté que flotter sans grâce""
+date:   2020-05-12
+permalink: "/writing/book/plutot-couler-en-beaute.html"
 ---
-
-categories: writing
-"Plutôt couler en beauté que flotter sans grâce"
 
 <picture>
     <source srcset="https://live.staticflickr.com/8587/16678712765_6de3c5da1e_c.jpg"
@@ -13,7 +11,6 @@ categories: writing
     <img src="https://live.staticflickr.com/8587/16678712765_6de3c5da1e_c.jpg"/>
 </picture>
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/evryjazz/16471703647/in/dateposted-public/" title="Untitled"><img src="https://live.staticflickr.com/8582/16471703647_170763dd21_c.jpg" width="800" height="534" alt="Untitled"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 - [**Plutôt couler en beauté que flotter sans grâce** - _Corinne Morel Darleux_](https://www.editionslibertalia.com/catalogue/la-petite-litteraire/corinne-morel-darleux-plutot-couler-en-beaute) → qu'est-ce que ça fait du bien de lire ça pendant cette période... <picture>
                 <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
