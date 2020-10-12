@@ -2,7 +2,8 @@
 layout: post
 title:  ""Plutôt couler en beauté que flotter sans grâce""
 date:   2020-05-12
-permalink: "/writing/book/plutot-couler-en-beaute.html"
+permalink: "/writing/book/2020/05/12/plutot-couler-en-beaute.html"
+categories: writing
 ---
 
 <picture>
