@@ -142,6 +142,17 @@ yesterday = datetime.strftime(datetime.now() - timedelta(1), '%Y-%m-%d')
 ```
 <br>
 
+**today**{: style="background-color:#FEC1D0"} <br>
+
+```python
+from datetime import datetime
+today = datetime.strftime(datetime.now(), '%Y-%m-%d')
+```
+<br>
+
+
+
+
 **How to easily get same week day y-1**{: style="background-color:#FEC1D0"} <br>
 
 ```
@@ -722,7 +733,7 @@ def graph(dataframe, **kwargs):
     '''
     Function to improve matplotlib graphs readability
     
-    Prerequisite:
+    Prerequisites:
     → import matplotlib as mpl
     → import matplotlib.pyplot as plt
     → from matplotlib.ticker import FuncFormatter
@@ -731,7 +742,7 @@ def graph(dataframe, **kwargs):
     → functions plt_thousand() + plt_percentage()
     
     Optional informations:
-    - kind: ['line', 'bar', 'barh', 'area'...]
+    - kind: ['line', 'bar', 'barh', 'area', 'pie'...]
     - rot: handle xaxis text rotation
     - figsize: per default to (15,7)
     - title: optional title for the graph
@@ -745,28 +756,58 @@ def graph(dataframe, **kwargs):
     
     '''
     
-    
     # kwargs mapping
-    kind = kwargs.get('kind', 'line')
-    rot = kwargs.get('rot', None)
-    figsize = kwargs.get('figsize', (15,7))
-    title = kwargs.get('title', None)
+    kind = kwargs.get('kind', None) # type du graphique
+    rot = kwargs.get('rot', 0) # rotation des x labels (0 = horizontal)
+    figsize = kwargs.get('figsize', (15,7)) # taille du graphique
+    title = kwargs.get('title', None) 
     stacked = kwargs.get('stacked', False)
-    thousand = kwargs.get('thousand', False)
-    percentage = kwargs.get('percentage', False)
+    thousand = kwargs.get('thousand', False) # ajout d'une virgule pour séparer les milliers
+    percentage = kwargs.get('percentage', False) # multiplié par 100 et ajout du % 
     legend = kwargs.get('legend', True)
+    subplots = kwargs.get('subplots', False) # Doit être à True si kind='pie'
+    xlabel = kwargs.get('xlabel', None) # Pas de titre pour l'axe des abscisses par défaut
+    ylabel = kwargs.get('ylabel', None) # Pas de titre pour l'axe des abscisses par défaut
+    ylim = kwargs.get('ylim', None) # Démarrage de l'axe des ordonnés
+    xlim = kwargs.get('xlim', None) # Démarrage de l'axe des abscisses
+    legend_loc =  kwargs.get('legend.loc', 'best')
+    legend = kwargs.get('legend', None)
+    color =  kwargs.get('color', 'set_1') # set_1 per default
+    text =  kwargs.get('text', None)
     
+    # Nuancier leboncoin : https://adevinta.frontify.com/document/2#/basics/couleurs/le-nuancier
+    # remap colors to 'set_1' per default
+    plt.rcParams['axes.prop_cycle'] = cycler('color', ['#FF6E14', '#3C78C8', '#FFBE00', '#55B950', '#DC002D', '#7346AA', '#BEBEBE', '#A8B4C0'])
+    if color == 'set_1':
+        set_1  = cycler('color', ['#FF6E14', '#3C78C8', '#FFBE00', '#55B950', '#DC002D', '#7346AA', '#BEBEBE', '#A8B4C0'])
+        color =  kwargs.get('color', set_1) 
+    if color == 'set_2': 
+        set_2 = cycler('color', ['#FFD74B', '#87CD82', '#F05069', '#234678', '#870019', '#412864', '#3C3C3C', '#647382'])
+        plt.rcParams['axes.prop_cycle'] = set_2
+    if color == 'set_3':
+        set_3  = cycler('color', ['#9B7DC3', '#D7E1F5', '#FFF0CD', '#DCF0DC', '#FACDD2', '#E6D7F0', '#E6EBEF', '#CAD1D9'])
+        plt.rcParams['axes.prop_cycle'] = set_3
     
-    # plotting
-    dataframe.plot(kind=kind, rot=rot, figsize=figsize, title=title, stacked=stacked, legend=legend)
-
+    # plotting main function
+    (dataframe.plot(kind=kind
+                  , rot=rot 
+                  , figsize=figsize
+                  , title=title
+                  , stacked=stacked
+                  , legend=legend
+                  , subplots=subplots
+                  , ylim=ylim
+                  , xlim=xlim)
+    )
+    
     # legend
     plt.rcParams['legend.frameon'] = True
-    plt.rcParams['legend.loc'] = 'upper right'
     
-            
+    if legend_loc != 'best':
+        plt.rcParams['legend.loc'] = legend_loc
+    
     # add an horizonal label for the y axis 
-    #plt.text(-0.23, 0.96, 'Transaction Type', fontsize=15, fontweight='black', color = '#333F4B')
+    # plt.text(-0.23, 0.96, 'Transaction Type', fontsize=15, fontweight='black', color = '#333F4B')
 
     # set the spines position
     #ax.spines['bottom'].set_position(('axes', -0.04))
@@ -799,19 +840,24 @@ def graph(dataframe, **kwargs):
     # line style
     plt.rcParams['lines.linewidth'] = 1.5
     
-    # color
-    plt.rcParams['axes.prop_cycle'] = cycler('color', ['#FF6E14', '#3C78C8', '#FFBE00', '#55B950', '#DC002D', '#7346AA', '#BEBEBE', '#A8B4C0'])
-    
     # label
-    #ax.set_xlabel('Percentage', fontsize=15, fontweight='black', color = '#333F4B')
+    #ax.set_xlabel(xlabel, fontsize=15, fontweight='black', color = '#333F4B')
+    plt.xlabel(xlabel, fontsize=15, fontweight='black', color='#333F4B')
+    plt.ylabel(ylabel, fontsize=15, fontweight='black', color='#333F4B')
+    plt.ylim(ylim)
+    plt.xlim(xlim)
     
-    # Handle Thousand notation on y-axis
+    # handle Thousand notation on y-axis
     if thousand == True:
         plt_thousand()
         
-    # Handle Percentage notation on y-axis
+    # handle Percentage notation on y-axis
     if percentage == True:
         plt_percentage()
+
+    # custom legend    
+    if legend != None:
+        plt.legend(legend)
     
 ```
 
@@ -838,6 +884,26 @@ df_date['date'] = df_period_index
 df_date.date = df_date['date'].apply(lambda d: pd.to_datetime(str(d)))
 ```
 
+<br>
+
+**How to drop empty rows (_when noting in the cell_)**{:style="background-color:#B7F7D1"} <br>
+[_stackoverflow_](https://stackoverflow.com/questions/29314033/drop-rows-containing-empty-cells-from-a-pandas-dataframe)
+
+```python
+df = df[df.column_name.astype(bool)]
+# df.column_name.astype(bool) = True
+# and empty row return False ;) !
+```
+
+
+<br>
+
+**Create new column with "Year-Quarter" from datetime object**{:style="background-color:#B7F7D1"} <br>
+[_stackoverflow_](https://stackoverflow.com/questions/1406131/is-there-a-python-function-to-determine-which-quarter-of-the-year-a-date-is-in)
+
+```python
+df_op['order_quarter'] = df_op.event_datetime.apply(lambda x: x.strftime('%Y' + '-' + str((x.month-1)//3))) 
+```
 
 
 <br>
