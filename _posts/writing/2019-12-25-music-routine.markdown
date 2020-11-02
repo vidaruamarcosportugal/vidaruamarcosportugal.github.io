@@ -9,7 +9,7 @@ categories: writing
 > ##### Roy Hargrove - Art Rock Festival 2010
 
 
-##### _last update: Feb. 2020_
+##### _last update: Nov. 2020_
 <br>
 
 #### During the week:
@@ -19,10 +19,18 @@ categories: writing
 
 - [Pop N' Co](https://www.franceinter.fr/emissions/pop-co) (_french content_) is a splendid short radioshow that highlights a track with the delicate voice of Rebecca Manzoni.
 
+<br>
+
 #### During the week-end:
 - **[Mailtape](https://www.mailta.pe/)**: I won't be objective here as it's the labor of love of a very good friend, but honestly the project is beautiful. Each sunday morning, you'll receive a music selection curated with a guest. It widens the horizon.
 
 - **Tiny Desk Concert**: it's cool to discover or see groups you already like doing a small, non-conventional concert. This one with [BBNG ](https://www.npr.org/2017/01/19/510575120/badbadnotgood-tiny-desk-concert) is definitely one of favorite so far.
+
+<br>
+
+#### Misc:
+- **[@dimitribosch](@dimitribosch)** published this **[nice list](https://github.com/db0sch/awesome_webradioss)** that I've been digging!
+
 
 <br>
 _I'll update the list along the way!_
