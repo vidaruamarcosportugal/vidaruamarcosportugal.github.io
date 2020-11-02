@@ -29,7 +29,7 @@ categories: writing
 <br>
 
 #### Misc:
-- **[@dimitribosch](@dimitribosch)** published this **[nice list](https://github.com/db0sch/awesome_webradioss)** that I've been digging!
+- **[@dimitribosch](https://twitter.com/dimitribosch)** published this **[nice list](https://github.com/db0sch/awesome_webradios)** that I've been digging!
 
 
 <br>
