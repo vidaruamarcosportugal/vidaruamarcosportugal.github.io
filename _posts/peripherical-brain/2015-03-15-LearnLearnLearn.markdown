@@ -64,3 +64,9 @@ This page loops over a csv file thanks to [jekyll data files](https://jekyllrb.c
         {%- endif -%}    
     {% endfor %}
 </div>
+
+
+
+<script>
+console.log('test')
+</script>

@@ -159,6 +159,15 @@ today = datetime.strftime(datetime.now(), '%Y-%m-%d')
 52*7 = 364
 day n - 364 = same week day y-1
 ```
+
+<br>
+
+**How to create a Y-1 column? With .shift(364) !**{: style="background-color:#B7F7D1"} 
+
+```python
+df['visits_y1'] = df.visits.shift(364)
+```
+
 <br>
 
 **[Iterating through a range of dates in Python](https://stackoverflow.com/questions/1060279/iterating-through-a-range-of-dates-in-python)**{: style="background-color:#FEC1D0"} <br>
@@ -666,13 +675,7 @@ df.d_time_date = df.d_time_date.dt.date
 ```python
 plt.rcParams['figure.figsize'] = (17, 5)
 ```
-<br>
 
-**How to create a Y-1 column? With .shift(364) !**{: style="background-color:#B7F7D1"} 
-
-```python
-df['visits_y1'] = df.visits.shift(364)
-```
 <br>
 
 **.plot() line width**{: style="background-color:#B7F7D1"} 
