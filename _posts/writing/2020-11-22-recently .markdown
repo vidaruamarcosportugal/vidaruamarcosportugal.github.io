@@ -1,0 +1,153 @@
+---
+layout: post
+title:  "Recently"
+date:   2020-11-22
+categories: writing
+---
+
+<picture>
+    <source srcset="https://live.staticflickr.com/65535/50363954701_dbbdf8f28c_c.jpg"
+            media="(min-width: 800px)">
+    <img src="https://live.staticflickr.com/65535/50363954701_dbbdf8f28c_c.jpg"/>
+</picture>
+<a style='color:#e6e6e6;'>_Ericeira, here we come!_</a>
+
+
+<br> 
+
+J'ai beaucoup eu l'envie d'écrire ces derniers mois mais j'ai clairement manqué d'énergie. <br>
+Ce recently reprend quelques bonnes miettes de ces fabuleux mais au combien fatiguants derniers mois.
+
+<br>
+<a style='color:#e6e6e6;'>___</a>
+<br>
+
+Big move à venir : Bye Bye Lisboa → Bem-vindo Ericeira! 🏄
+
+<br>
+<a style='color:#e6e6e6;'>___</a>
+<br>
+
+**Les films qui m'ont marqué depuis le dernier [recently](https://vidaruamarcosportugal.github.io/writing/2020/05/29/recently.html):**<br>
+- Le capital au XXI - Thomas Piketty
+- Sorry we missed you - Ken Loach
+
+<br>
+<a style='color:#e6e6e6;'>___</a>
+<br>
+
+**Ces podcasts ont fait du bien à mes oreilles (et mon cerveau) :**<br>
+- [Sismique](https://www.sismique.fr/post/convention-citoyenne-pour-le-climat-val%C3%A9rie-cabanes)
+- [Thinkerview - Albert Dupontel](https://www.thinkerview.com/albert-dupontel-adieu-les-cons-transhumance-suicidaire/) : boomer plutôt cool !
+- Les couilles sur la table - Tout sur la bite → Episode d'utilité publique
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/846561637&color=%23f6d5d6&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/lescouilles-podcast" title="Les couilles sur la table" target="_blank" style="color: #cccccc; text-decoration: none;">Les couilles sur la table</a> · <a href="https://soundcloud.com/lescouilles-podcast/tout-sur-la-bite" title="Tout sur la bite" target="_blank" style="color: #cccccc; text-decoration: none;">Tout sur la bite</a></div>
+
+
+<br>
+<a style='color:#e6e6e6;'>___</a>
+<br>
+
+**On repeat tracks**:<br>
+_Principalement ma liste "Like Songs" sur Spotify._
+<iframe src="https://open.spotify.com/embed/playlist/24pXJCcj2aQ38EgAQFk2Az" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<br>
+<a style='color:#e6e6e6;'>___</a>
+<br>
+
+**Bouquins lus ces deux derniers mois :**
+- [**Le temps des humbles** - _Désirée et Alain Frappier_](https://steinkis.com/livres/le-temps-des-humbles/le-temps-des-humbles.html)<picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture><br>
+_Qu'est-ce que j'aimerais retourner au Chili..._
+- [**L'art de perdre** - _Alice Zeniter_](https://editions.flammarion.com/Catalogue/hors-collection/litterature-francaise/lart-de-perdre)<picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture><br> 
+_Une première partie très prenante, surtout ayant une grand-mère pieds noir et deux grands pères envoyés à la guerre d'Algérie._
+- [**Dans la forêt** - _Jean Hegland_](https://www.babelio.com/livres/Hegland-Dans-la-foret/888010)<picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture><br>
+_Ecrit en 1996, avec un thème assez visionnaire pour l'époque au regard de la période que l'on vit et de l'urgence climatique qui s'impose à nous comme un sujet majeur, un bouquin puissant qui m'a happé._
+- **Le viel homme et son chat - Tome 1** - _Nekomaki_<picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture><br>
+_Plus mignon tu meurs._
+
+<br>
+<a style='color:#e6e6e6;'>___</a>
+<br>
+
+**Quelques liens en vrac :**
+- [Que c'est beau le BMX flat](https://www.youtube.com/watch?v=yJBK5olnG5s) (Rémanescence de l'adolescence) 
+- Cette [vidéo](https://thekidshouldseethis.com/post/how-do-masks-work-against-covid-19-video) m'a aidé à comprendre l'intérêt de porter un masque.
+- PPM, ça veut dire quoi ?  Explications [ici](https://scrippsco2.ucsd.edu/data/atmospheric_co2/primary_mlo_co2_record.html) et [ici](https://sioweb.ucsd.edu/programs/keelingcurve/permissions-and-data-sources/).
+- Sites Open data in Portugal :
+    - https://dados.gov.pt/pt/
+    - https://www.cig.gov.pt/recursos/bases-de-dados/
+    - https://www.bportugal.pt/area-cidadao/formulario/242
+    - https://www.pordata.pt/Portugal <br>
+    → Pas mal d'idée d'analyses en tête, à voir si je prendrai le temps de le faire !
+
+<br>
+<a style='color:#e6e6e6;'>___</a>
+<br>
+
+<br>
+<br>
+<a class="post-meta">_Post started a long time ago..._</a>
