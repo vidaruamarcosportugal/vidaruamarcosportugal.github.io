@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Nova Casa"
+date:   2021-02-10
+categories: writing
+---
+
+<picture>
+    <source srcset="https://live.staticflickr.com/65535/50925727437_8588f6881b_c.jpg"
+            media="(min-width: 800px)">
+    <img src="https://live.staticflickr.com/65535/50925727437_8588f6881b_c.jpg"/>
+</picture>
+
+<br>
+
+<picture>
+    <source srcset="https://live.staticflickr.com/65535/50925598016_72d0f1f259_c.jpg"
+            media="(min-width: 800px)">
+    <img src="https://live.staticflickr.com/65535/50925598016_72d0f1f259_c.jpg"/>
+</picture>
+
+<br>
+
+<picture>
+    <source srcset="https://live.staticflickr.com/65535/50929178497_d3fddbace1_c.jpg"
+            media="(min-width: 800px)">
+    <img src="https://live.staticflickr.com/65535/50929178497_d3fddbace1_c.jpg"/>
+</picture>
+
+<br>
