@@ -910,6 +910,16 @@ df_op['order_quarter'] = df_op.event_datetime.apply(lambda x: x.strftime('%Y' + 
 
 
 <br>
+
+**From entire date to year-month only**{:style="background-color:#B7F7D1"} <br>
+```python
+df['year_month'] = df['complete_date'].dt.to_period('M')
+```
+
+
+
+
+<br>
 <br>
 
 <a style='color:#e6e6e6;'>___</a>

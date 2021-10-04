@@ -1,0 +1,110 @@
+---
+layout: post
+title:  "Surf"
+date:   2021-10-04
+categories: peripherical-brain
+---
+
+
+Trying to build surf wisdom, one session at a time.
+
+<br>
+<br>
+<a style='color: #828282; font-style: italic;'>date | spot | tide | swell | sweel orientation | wave size | period | wind | rating | comment</a>
+
+<ul>
+{% for surf in site.data.surf_sessions %}
+    <li>
+            {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%}
+            {% assign spot = surf.spot %}
+            {% assign tide = surf.tide %}
+            {% assign swell = surf.swell %}
+            {% assign swell_orientation = surf.swell_orientation %}
+            {% assign wave_size = surf.wave_size %}
+            {% assign period = surf.period %}
+            {% assign wind = surf.wind %}
+            {% assign comment = surf.comment %}
+            <div class="{{surf.rating}}">
+                <span class="post-meta">{{ surf.date | date: date_format }}</span><span class="post-meta"> - </span>
+                <a class="spot"> {{ spot }} </a><span class="post-meta"> - </span>
+                <span class="tide"> {{ tide }} </span><span class="post-meta"> - </span>
+                <span class="swell"> {{ swell }} </span><span class="post-meta"> - </span>
+                <span class="swell_orientation"> {{ swell_orientation }} </span><span class="post-meta"> - </span>
+                <span class="wave_size"> {{ wave_size }} </span><span class="post-meta"> - </span>
+                <span class="period"> {{ period }} </span><span class="post-meta"> - </span>
+                <span class="wind"> {{ wind }} </span><span class="post-meta"> - </span>
+                {% assign rating = surf.rating %} {% case rating %} {% when '1' %} 
+                <picture>
+                    <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/hokusai_wave.png" media="(max-width: 20px)">
+                    <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/hokusai_wave.png" />
+                </picture> 
+            {% when '2' %} 
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/hokusai_wave.png" media="(max-width: 20px)">
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/hokusai_wave.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/hokusai_wave.png" />
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/hokusai_wave.png" />
+            </picture>
+            {% when '3' %}
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/hokusai_wave.png" media="(max-width: 20px)">
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/hokusai_wave.png" media="(max-width: 20px)">
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/hokusai_wave.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/hokusai_wave.png" />
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/hokusai_wave.png" />
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/hokusai_wave.png" />
+            </picture>
+            {% when '4' %}
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/hokusai_wave.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/hokusai_wave.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/hokusai_wave.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/hokusai_wave.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/hokusai_wave.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/hokusai_wave.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/hokusai_wave.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/hokusai_wave.png" />
+            </picture>
+            {% when '5' %}
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/hokusai_wave.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/hokusai_wave.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/hokusai_wave.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/hokusai_wave.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/hokusai_wave.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/hokusai_wave.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/hokusai_wave.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/hokusai_wave.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/hokusai_wave.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/hokusai_wave.png" />
+            </picture>
+            {% endcase %} 
+            <br>
+            <span class="post-meta">→ {{ comment }}</span>
+        </div>
+    </li>
+{% endfor %}
+</ul>
+
+<br>
+
+<br><br>
+
+<span class="post-meta">This page loops over a csv file thanks to [jekyll data files](https://jekyllrb.com/docs/datafiles/) to style the content below!<span>
+
+<br>
+
