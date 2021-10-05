@@ -9,14 +9,12 @@ categories: peripherical-brain
 Trying to build surf wisdom, one session at a time.
 
 <br>
-<br>
 <a style='color: #828282; font-style: italic;'>date | spot | tide | swell | sweel orientation | wave size | period | wind | rating | comment</a>
 
 <ul>
 {% for surf in site.data.surf_sessions %}
     <li>
             {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%}
-            {% assign spot = surf.spot %}
             {% assign tide = surf.tide %}
             {% assign swell = surf.swell %}
             {% assign swell_orientation = surf.swell_orientation %}
@@ -26,7 +24,14 @@ Trying to build surf wisdom, one session at a time.
             {% assign comment = surf.comment %}
             <div class="{{surf.rating}}">
                 <span class="post-meta">{{ surf.date | date: date_format }}</span><span class="post-meta"> - </span>
-                <a class="spot"> {{ spot }} </a><span class="post-meta"> - </span>
+                {% assign spot = surf.spot %} 
+                    {% case spot %} 
+                        {% when 'Matadouro' %}
+                            <a href="https://magicseaweed.com/Pedra-Branca-Surf-Report/7740/" class="spot">Matadouro</a><span class="post-meta"> - </span> 
+                        {% when 'Foz de Lizandro' %}
+                            <a href="https://magicseaweed.com/Foz-do-Lizandro-Surf-Report/901/" class="spot">Foz de Lizandro</a><span class="post-meta"> - </span> 
+                    {% endcase %} 
+                <!-- <a class="spot"> {{ spot }} </a><span class="post-meta"> - </span> -->
                 <span class="tide"> {{ tide }} </span><span class="post-meta"> - </span>
                 <span class="swell"> {{ swell }} </span><span class="post-meta"> - </span>
                 <span class="swell_orientation"> {{ swell_orientation }} </span><span class="post-meta"> - </span>
@@ -101,6 +106,9 @@ Trying to build surf wisdom, one session at a time.
 </ul>
 
 <br>
+
+<br>
+<a href="/category/surf/ressources" class="post-meta">→ Ressources</a>
 
 <br><br>
 
