@@ -17,7 +17,7 @@ Trying to build surf wisdom, one session at a time.
 <a style='color:#e6e6e6;' class='post-meta'>_Foz de Lizandro - 10.2021_</a>
 
 <br>
-<a style='color: #828282; font-style: italic;'>date | spot | tide | swell | sweel orientation | wave size | period | wind | rating | comment</a>
+<a style='color: #828282; font-style: italic;'>date | spot | tide | swell | swell orientation | wave size | period | wind | rating | comment</a>
 
 <ul>
 {% for surf in site.data.surf_sessions %}
