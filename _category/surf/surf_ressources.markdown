@@ -12,9 +12,19 @@ permalink: "/category/surf/ressources"
 **PopUp training techniques**<br>
 → Train popup everyday with weighted ankle
 
+<br>
 **Misc _(but important)_ topics**<br>
 → [How to handle fear](https://www.youtube.com/watch?v=dHuKcjpX4fY)<br>
 → [Best hand protection](https://www.youtube.com/watch?v=nF4nFOk4u-w)
+
+<br>
+**Spot Tips**
+##### Praia do Sol / Ericeira
+<picture>
+    <source srcset="https://live.staticflickr.com/65535/51561106451_c234dc4f61_4k.jpg"
+            media="(min-width: 800px)">
+    <img src="https://live.staticflickr.com/65535/51561106451_c234dc4f61_4k.jpg"/>
+</picture>
 
 
 <a href="/peripherical-brain/2021/10/04/surf.html" class="post-meta">→ back to sessions list 🌊</a>
