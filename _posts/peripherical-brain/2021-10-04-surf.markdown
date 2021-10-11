@@ -8,6 +8,8 @@ categories: peripherical-brain
 
 Trying to build surf wisdom, one session at a time.
 
+<br>
+<a href="/category/surf/ressources" class="post-meta">→ Ressources</a>
 
 <picture>
     <source srcset="https://live.staticflickr.com/65535/51559018368_0fb244007d_4k.jpg"
@@ -117,8 +119,13 @@ Trying to build surf wisdom, one session at a time.
 
 <br>
 
-<br>
-<a href="/category/surf/ressources" class="post-meta">→ Ressources</a>
+<picture>
+    <source srcset="https://live.staticflickr.com/65535/51574296595_71cd694100_4k.jpg"
+            media="(min-width: 800px)">
+    <img src="https://live.staticflickr.com/65535/51574296595_71cd694100_4k.jpg"/>
+</picture>
+<a style='color:#e6e6e6;' class='post-meta'>_Foz de Lizandro - 2021.10.10</a>
+
 
 <br><br>
 
