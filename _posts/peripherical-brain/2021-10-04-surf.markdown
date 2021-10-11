@@ -8,12 +8,6 @@ categories: peripherical-brain
 
 Trying to build surf wisdom, one session at a time.
 
-{% for session in site.data.surf_sessions %}
-    {% assign session_number = session_number | plus: 1%}
-{% endfor %}
-
-<span class='post-meta' style='background-color:#FFEF9E; font-style: bold'>→ {{ session_number }}</span><span class="post-meta" style='color: #828282; font-style: italic;'> sessions recorded so far...</span>
-
 <a href="/category/surf/ressources" class="post-meta">→ Ressources</a>
 
 <picture>
@@ -126,17 +120,16 @@ Trying to build surf wisdom, one session at a time.
 
 <br>
 
+{% for session in site.data.surf_sessions %}
+    {% assign session_number = session_number | plus: 1%}
+{% endfor %}
+
+<span class='post-meta' style='background-color:#FFEF9E; font-style: bold'>→ {{ session_number }}</span><span class="post-meta" style='color: #828282; font-style: italic;'> sessions recorded so far...</span>
+
 <picture>
     <source srcset="https://live.staticflickr.com/65535/51574296595_71cd694100_4k.jpg"
             media="(min-width: 800px)">
     <img src="https://live.staticflickr.com/65535/51574296595_71cd694100_4k.jpg"/>
 </picture>
 <a style='color:#e6e6e6;' class='post-meta'>_Foz de Lizandro - 2021.10.10</a>
-
-
-<br><br>
-
-<span class="post-meta">This page loops over a csv file thanks to [jekyll data files](https://jekyllrb.com/docs/datafiles/) to style the content below!<span>
-
-<br>
 
