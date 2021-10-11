@@ -42,6 +42,8 @@ Trying to build surf wisdom, one session at a time.
                             <a href="https://magicseaweed.com/Foz-do-Lizandro-Surf-Report/901/" class="spot">Foz de Lizandro</a><span class="post-meta"> - </span> 
                         {% when 'Praia do Sul' %}
                             <a href="https://magicseaweed.com/Ericeira-Surf-Report/198/" class="spot">Praia do Sul</a><span class="post-meta"> - </span> 
+                        {% when 'Ribeira dIlhas' %}
+                            <a href="https://magicseaweed.com/Ribeira-dIlhas-Surf-Report/4343/" class="spot">Ribeira d'Ilhas</a><span class="post-meta"> - </span> 
                     {% endcase %} 
                 <!-- <a class="spot"> {{ spot }} </a><span class="post-meta"> - </span> -->
                 <span class="tide"> {{ tide }} </span><span class="post-meta"> - </span>
