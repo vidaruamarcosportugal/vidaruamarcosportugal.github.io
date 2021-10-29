@@ -27,7 +27,7 @@ Here is the exhaustive list of the software I bought so far:
 - atext
 - workflowy
 - sizeup
-- [iterm2](https://www.youtube.com/watch?v=WuS09ECQ4H8)
+- [iterm2](https://www.youtube.com/watch?v=WuS09ECQ4H8) with config [here](https://fmacedoo.medium.com/oh-my-zsh-with-powerline-fonts-pretty-simple-as-you-deserve-fbe7f6d23723) [here](https://github.com/lysyi3m/macos-terminal-themes) and [here](https://stackoverflow.com/questions/42271657/oh-my-zsh-showing-weird-character-on-terminal)
 - [Déplacement des fenêtres à 3 doigts](https://support.apple.com/en-us/HT204609)
 - [Snap](https://teampaper.me/snap/) and [changing default screenshot directory](https://www.laptopmag.com/articles/change-macs-default-screenshot-directory)
 

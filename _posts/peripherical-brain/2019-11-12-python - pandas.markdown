@@ -10,7 +10,6 @@ This is my peripherical-brain for `python` / `pandas`, it's not exhaustive, but
 
 
 `Started: ~2015`<br>
-`Last Update: 2020.04`
 <br>
 <br>
 

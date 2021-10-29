@@ -5,7 +5,6 @@ date:   2015-03-15
 categories: peripherical-brain
 ---
 `Started: 2015-03-15`<br>
-`Last Update: 2020-04`<br><br>
 
 **English vocabulary**{: style="background-color:#B7F7D1"} that I originally started in [Evernote 🐘](https://www.evernote.com/shard/s24/sh/ce3f88f2-b3dc-4d4e-b67f-b06e43f3b08f/a1519b7cb45cdc04eadefee083484ac2).<br> 
 As an non-native speaker, I try to improve the diversity of my vocabulary.<br><br>
@@ -41,32 +40,35 @@ This page loops over a csv file thanks to [jekyll data files](https://jekyllrb.c
 <div>
     {% for vocab in site.data.learn %}
         {% assign word = vocab.words %}
-        <a class='vocab'  style='background-color:#B7F7D1; font-weight:600;'>{{ word }}</a><a class='post-meta'>  - {{ vocab.type }}</a><br>
-        {%- if vocab.synonym != nil -%}
-            <a class='post-meta'>{{ vocab.synonym }} <br></a>
-        {%- endif -%}
-        {%- if word == vocab.words -%}
-            {% for trad in vocab.trad %}
-                <li>
-                    {{ trad }} <br>
-                </li>
-            {% endfor %}
-                {%- if vocab.french_phrase != nil -%}
-                    <code>{{ vocab.french_phrase }}</code> <br>
-                {%- endif -%} 
-                {%- if vocab.english_phrase != nil -%}
-                    <code>{{ vocab.english_phrase }}</code> <br>
-                {%- endif -%} 
-                <br>
-                <a style='color:#e6e6e6;'>_________</a>
-                <br>
-                <br>
-        {%- endif -%}    
+        <div id='word'>
+            <a class='vocab' id='main_word' style='background-color:#B7F7D1; font-weight:600;'>{{ word }}</a><a class='post-meta'>  - {{ vocab.type }}</a><br>
+            {%- if vocab.synonym != nil -%}
+                <a class='post-meta'>{{ vocab.synonym }} <br></a>
+            {%- endif -%}
+            {%- if word == vocab.words -%}
+                {% for trad in vocab.trad %}
+                    <li id='trad'>
+                        {{ trad }} <br>
+                    </li>
+                {% endfor %}
+                    {%- if vocab.french_phrase != nil -%}
+                        <code>{{ vocab.french_phrase }}</code> <br>
+                    {%- endif -%} 
+                    {%- if vocab.english_phrase != nil -%}
+                        <code>{{ vocab.english_phrase }}</code> <br>
+                    {%- endif -%} 
+                    <br>
+                    <a style='color:#e6e6e6;'>_________</a>
+                    <br>
+                    <br>
+            {%- endif -%}    
+        </div>
     {% endfor %}
 </div>
 
 
 
 <script>
-console.log('test')
+{% assign word = site.data.learn %}
+
 </script>
