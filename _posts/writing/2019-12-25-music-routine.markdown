@@ -31,7 +31,7 @@ categories: writing
 #### Misc:
 - **[@dimitribosch](https://twitter.com/dimitribosch)** published this **[nice list](https://github.com/db0sch/awesome_webradios)** that I've been digging!
 - I try to enrich my vinyl collection with the albums that played a big role in my music journey ([discog wantlist](https://www.discogs.com/mywantlist))
-- I started Ukulele mid-October 2021, really enjoying it (though never played string instrument before) partly thanks to [Karim Ukulele Therapy](https://www.patreon.com/karimukuleletherapy)
+- I started playing Ukulele mid-October 2021, really enjoying it (though never played string instrument before) partly thanks to [Karim Ukulele Therapy](https://www.patreon.com/karimukuleletherapy) and its awesome tutorials!
 
 
 <br>
