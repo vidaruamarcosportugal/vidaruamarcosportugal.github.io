@@ -916,6 +916,45 @@ df['year_month'] = df['complete_date'].dt.to_period('M')
 ```
 
 
+<br>
+
+**A Cool SQL Problem: Avoiding For-Loops**{:style="background-color:#B7F7D1"} <br>
+I decided to solve the problem presented in this [post](https://ryxcommar.com/2019/08/05/a-cool-sql-problem-avoiding-for-loops/).
+The SQL is not that hard, but it took me more time to find a 'set-based' solution in Pandas without the use of a for loop.<br>
+Here is what I ended up with:
+```python
+# Dataframe creation
+d = {'trading_date': ['2015-06-01', '2015-06-02', '2015-06-03', '2015-06-04', '2015-06-05', '2015-06-08', '2015-06-09', '2015-06-10'], 'price': [41, 43, 47, 42, 45, 39, 38, 41] }
+df = pd.DataFrame(data=d)
+
+# new column that gives the max price from previous rows 
+df['rolling_max'] = df.price.expanding().max()
+# new column that gives the min price from previous rows
+df['rolling_min'] = df.price.expanding().min()
+
+# Max profit for each row
+df['max_profit'] = df.price - df.rolling_min
+# Min profit for each row
+df['min_profit'] = df.rolling_min - df.rolling_max
+
+
+# Overall Max Profit
+print(max(df.price - df.rolling_min))
+
+# Overall Min Profit
+print(min(df.rolling_min - df.rolling_max))
+```
+→ The difficulty for me lied in the translation of the sql:
+```sql
+max(price) over (order by trading_date between unbounded preceding and current row)
+```
+→ This [stackoverflow post](https://stackoverflow.com/questions/36461222/pandas-rolling-std-with-window-using-all-previous-row-counts) and in particular this sentence, helped me a lot:
+```python
+# If the goal is to get the function applied from the beginning of  the DataFrame down to the current line, then the object to use is Expanding:
+df.expanding().std()
+```
+
+
 
 
 <br>
