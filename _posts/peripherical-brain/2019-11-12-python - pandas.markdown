@@ -914,8 +914,29 @@ df_op['order_quarter'] = df_op.event_datetime.apply(lambda x: x.strftime('%Y' + 
 ```python
 df['year_month'] = df['complete_date'].dt.to_period('M')
 ```
+<br>
+
+**From unix timestamp to datetime**{:style="background-color:#B7F7D1"} <br>
+```python
+pd.to_datetime(df['timestamp'], unit='s')
+```
+<br>
+
+**Outer join to merge and to see differences between 2 dataframes thanks to a '_merge' column (_indicator=True_)**{:style="background-color:#B7F7D1"} <br>
+```python
+df_merge = df_old.merge(df_new, how='outer', on=['user_id', 'hour_event'], indicator=True)
+
+df_merge.groupby('_merge')[['user_id']].nunique()
+```
+
+| _merge   | user_id |
+|----------|---------|
+|left_only | 4017|
+|right_only | 2315|
+|both | 41400|
 
 
+<br>
 <br>
 
 **A Cool SQL Problem: Avoiding For-Loops**{:style="background-color:#B7F7D1"} <br>
