@@ -196,6 +196,7 @@ table td { border: 1px solid #e8e8e8; }
   font-size: 10px; 
   color: #828282; 
   font-weight: 200;
+  font-variant-numeric: tabular-nums;
 }
 
 /** Posts */
@@ -258,7 +259,7 @@ table td { border: 1px solid #e8e8e8; }
 .highlight .nv { color: #008080; }
 .highlight .ow { font-weight: bold; }
 .highlight .w { color: #bbb; }
-.highlight .mf { color: #099; }
+.highlight .mf { color: #099; } 
 .highlight .mh { color: #099; }
 .highlight .mi { color: #099; }
 .highlight .mo { color: #099; }
