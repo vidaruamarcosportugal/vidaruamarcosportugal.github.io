@@ -6,7 +6,6 @@ permalink: "/category/book/to-read"
 
 {%- if page.title -%}
     <h1>{{ page.title }}</h1>
-    <h3>Tsundoku</h3>
 {%- endif -%}
 
 <ul>
