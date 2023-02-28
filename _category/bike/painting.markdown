@@ -5,6 +5,12 @@ tag: bike
 permalink: "/category/bike/ressources/painting"
 ---
 
+<div>
+    {%- if page.title -%}
+        <h1>{{ page.title }}</h1>
+    {%- endif -%}
+</div>
+
 
 **→ In color I trust**<br>
 → [Vidéos](https://www.youtube.com/playlist?list=PL1yg3CQSIcvHHS0kOfXLNor8b0xw8EpfO)

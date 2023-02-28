@@ -1,30 +1,22 @@
 ---
 layout: default
-title:  "Bike Project"
+title:  "Bike Project - Ressources"
 tag: bike
 permalink: "/category/bike/ressources"
 ---
 
-# Bike Ressources
+<div>
+    {%- if page.title -%}
+        <h1>{{ page.title }}</h1>
+    {%- endif -%}
+</div>
+<br>
+<a style='color:#e6e6e6;'>___</a>
+<br>
 
 **→ Fabrication du cadre**<br>
 
-<br>
-<a style='color:#e6e6e6;'>___</a>
-<br>
-
-
 <a href="/category/bike/ressources/painting">→ In color I trust</a><br>
 
-<br>
-<a style='color:#e6e6e6;'>___</a>
-<br>
-
-**→ Apprenti mécano**:<br>
-
-
-<br>
-<a style='color:#e6e6e6;'>___</a>
-<br>
-
-**→ Bike components**:<br>
+**→ Apprenti mécano**<br>
+**→ Bike components**<br>
