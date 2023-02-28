@@ -9,7 +9,7 @@ categories: peripherical-brain
 
 'Fish' recursos :
 - [Portuguese Lab](https://www.youtube.com/channel/UCb0zJhS1C8QK3fzcZdU0Xkw)
-- 
+- <a href="/assets/portugues/1000_Palavras_mais_comuns.pdf">1000 Palavras mais comuns</a>
 
 <!-- 
 **vocabulario**{: style="background-color:#FFEF9E"} <br>
