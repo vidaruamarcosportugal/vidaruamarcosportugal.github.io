@@ -7,11 +7,14 @@ permalink: "/category/surf/ressources"
 # Surf Ressources
 
 **Warm up** <br>
-→ **Hips**: [here](https://www.youtube.com/watch?v=5BJXYk4Bdng&list=PL1yg3CQSIcvGH-DakTsMLBYYev0Y-EDnL&index=34) and [there](https://www.youtube.com/watch?v=vFSHUepEsfk)
+→ **Hips**: [here](https://www.youtube.com/watch?v=5BJXYk4Bdng&list=PL1yg3CQSIcvGH-DakTsMLBYYev0Y-EDnL&index=34) and [there](https://www.youtube.com/watch?v=vFSHUepEsfk)<br>
 → [**The Ultimate Pre Surf Warm Up**](https://www.youtube.com/watch?v=qHRwraZ5jrM&list=PL1yg3CQSIcvGH-DakTsMLBYYev0Y-EDnL&index=1)
 
 **PopUp training techniques**<br>
 → Train popup everyday with weighted ankle
+
+**Surf Skate** <br>
+→ [Surf Skate Program](https://surfersroadmap.teachable.com/courses/enrolled/1111769)
 
 <br>
 **Misc _(but important)_ topics**<br>
