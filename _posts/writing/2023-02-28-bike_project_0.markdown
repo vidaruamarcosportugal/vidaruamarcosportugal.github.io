@@ -23,6 +23,11 @@ Pas forcément une décision prise sur un coup de tête puisque le vélo a quasi
 <br> 
 Mon objectif est de documenter ce projet de A à Z et de mettre au chaud toutes les ressources que je trouve intéressantes sur mon chemin.
 
+<br> 
+<br> 
+<a href="/category/bike/ressources">→ Toutes les ressources du projet !</a><br>
+
+
 <br>
 <a style='color:#e6e6e6;'>___</a>
 <br>
