@@ -5,11 +5,16 @@ date:   2019-11-01
 categories: peripherical-brain
 ---
 
-**Portuguese vocabulary**{: style="background-color:#B7F7D1"}
-
-'Fish' recursos :
-- [Portuguese Lab](https://www.youtube.com/channel/UCb0zJhS1C8QK3fzcZdU0Xkw)
+**'Fixe' recursos**{: style="background-color:#B7F7D1"}
 - <a href="/assets/portugues/1000_Palavras_mais_comuns.pdf">1000 Palavras mais comuns</a>
+- [Portuguese with Leo](https://www.youtube.com/@PortugueseWithLeo/videos)
+- [Portuguese with Maria](https://www.youtube.com/@portuguesewithmaria/videos)
+- [Portuguese Lab](https://www.youtube.com/channel/UCb0zJhS1C8QK3fzcZdU0Xkw)
+- [The sound of Portuguese](https://www.youtube.com/@Portuguesewithadelina/videos)
+- [Practice Portuguese](https://www.youtube.com/@PracticePortuguese/videos)
+- [The Language Unschool](https://www.youtube.com/@thelanguageunschool/videos)
+
+<br>
 
 <!-- 
 **vocabulario**{: style="background-color:#FFEF9E"} <br>
@@ -19,7 +24,7 @@ categories: peripherical-brain
 **traduction**{: style="background-color:#c9c9c9"} <br> -->
 
 `Start: 2019.11`<br>
-`Last Update: 2020.05`
+`Last Update: 2023.02`
 <br>
 <br>
 
