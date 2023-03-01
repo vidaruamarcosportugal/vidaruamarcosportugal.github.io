@@ -28,7 +28,7 @@ categories: peripherical-brain
 <br>
 <br>
 
-<a class="post-meta">This page loops over a csv file thanks to [jekyll data files](https://jekyllrb.com/docs/datafiles/) to style the content below!</a>
+<a href="https://jekyllrb.com/docs/datafiles/" class="post-meta">This page loops over a csv file thanks to jekyll data files to style the content below!</a>
 
 
 <br>
