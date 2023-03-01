@@ -16,8 +16,8 @@ layout: default
             {% for post in category[1] %}
                 {% assign counter = counter | plus:1 %}
             {% endfor %}
-            {% if counter > 5 %}
-                {% for post in category[1] limit:5 %}
+            {% if counter > 3 %}
+                {% for post in category[1] limit:3 %}
                     <li>
                         {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%}
                         <span class="post-meta">{{ post.date | date: date_format }} - </span>    
