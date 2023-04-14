@@ -13,4 +13,10 @@ img: "https://live.staticflickr.com/65535/52817036844_edc9451a5c_h.jpg"
 <br>
 {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%} 
 <span class="post-meta">{{page.date | date: date_format }} - </span><a style="font-weight: 700;" href="https://www.instagram.com/chiloe____/">{{ page.title }}</a><br>
+<span class="post-meta">
+→ 🥫 @akagraffiti slow + silver 600ml<br>
+→ 〰️ Astro + 🍌 (details)<br>
+→ normal black is definitely terrible to cover silver... next time MTN nitro 2G!
+</span>
+
 <span class="post-meta" onclick="window.location='https://www.instagram.com/chiloe____/'">Ⓒ chiloe___ - All Rights Reserved.</span>

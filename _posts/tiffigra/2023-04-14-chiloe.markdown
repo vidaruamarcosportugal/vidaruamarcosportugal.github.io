@@ -13,4 +13,10 @@ img: "https://live.staticflickr.com/65535/52816284262_4c9fb2c621_h.jpg"
 <br>
 {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%} 
 <span class="post-meta">{{page.date | date: date_format }} - </span><a style="font-weight: 700;" href="https://www.instagram.com/chiloe____/">{{ page.title }}</a><br>
+<span class="post-meta">
+→ 🥫 MTN Nitro 2G black was not working properly on top of Mega Plata silver<br>
+→ 〰️ Astro + lego<br>
+→ I'll leave silver for a while!
+</span>
+
 <span class="post-meta" onclick="window.location='https://www.instagram.com/chiloe____/'">Ⓒ chiloe___ - All Rights Reserved.</span>

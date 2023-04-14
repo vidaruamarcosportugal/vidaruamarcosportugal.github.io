@@ -18,6 +18,5 @@ img: "https://live.staticflickr.com/65535/52817036594_5f665b3c45_k.jpg"
 → 〰️ Astro (fill) + Level1 (details) + lego (outline)
 </span>
 
-
 <br>
 <span class="post-meta" onclick="window.location='https://www.instagram.com/chiloe____/'">Ⓒ chiloe___ - All Rights Reserved.</span>
