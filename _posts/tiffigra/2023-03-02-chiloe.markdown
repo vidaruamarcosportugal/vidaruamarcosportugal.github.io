@@ -1,0 +1,16 @@
+---
+layout: default
+date:   2023-03-02
+categories: tiffigra
+img: "https://live.staticflickr.com/65535/52817036844_edc9451a5c_h.jpg"
+---
+
+<picture>
+    <source srcset="{{page.img}}" media="(min-width: 800px)">
+    <img src="{{page.img}}" />
+</picture>
+
+<br>
+{%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%} 
+<span class="post-meta">{{page.date | date: date_format }} - </span><a style="font-weight: 700;">{{ page.title }}</a><br>
+<span class="post-meta">Ⓒ chiloe___ - All Rights Reserved.</span>
