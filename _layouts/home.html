@@ -10,7 +10,7 @@ layout: default
 
     {%- if site.posts.size > 0 -%}
         {% for category in site.categories reversed %}
-        {% unless category == category[1] %}
+        {% unless category.categories == category[1] %}
             <h3><a href="/category/{{ category[0] }}">{{ category[0] }}</a></h3>
             <ul> 
             {% assign counter = 0 %}
