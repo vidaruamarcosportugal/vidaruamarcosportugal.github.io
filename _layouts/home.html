@@ -8,14 +8,9 @@ layout: default
 
   {{ content }}
 
-  {% for post in site.posts %}
-  {% if post.categories != 'tiffigra' %}
-    {{ category[0] }}
-  {% endif %}
-  {% endfor %}
-
     {%- if site.posts.size > 0 -%}
-        {% for category in site.categories reversed%}
+        <!-- {% for category in site.categories reversed%} -->
+        {% for category in site.categories %}
             <h3><a href="/category/{{ category[0] }}">{{ category[0] }}</a></h3>
             <ul> 
             {% assign counter = 0 %}
