@@ -10,7 +10,7 @@ layout: default
 
     {%- if site.posts.size > 0 -%}
         {% for category in site.categories reversed %}
-        {% if category.categories != "tiffigra" %}
+        {% unless category == "tiffigra" %}
             <h3><a href="/category/{{ category[0] }}">{{ category[0] }}</a></h3>
             <ul> 
             {% assign counter = 0 %}
@@ -36,7 +36,7 @@ layout: default
                 {% endfor %}       
             {% endif %}
             </ul>
-        {% endif %}
+        {% endunless %}
         {% endfor %}
     {%- endif -%}
     <h3><a href="/category/book/read">reading</a></h3>
