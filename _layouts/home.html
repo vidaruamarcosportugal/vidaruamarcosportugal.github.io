@@ -38,7 +38,7 @@ layout: default
             </ul>
         {% endfor %}
     {%- endif -%}
-    <!-- <h3><a href="/category/book/read">reading</a></h3> -->
+    <h3><a href="/category/book/read">reading</a></h3>
     <ul>
         {% for book in site.data.books limit:3 %}
             {% assign status = book.exclusive_shelf %}    
