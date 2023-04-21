@@ -21,6 +21,8 @@ permalink: "/category/photos"
 
 <br>
 
-{%- if page.title == 'Photos' -%}
-  <h1 class="page-heading">Test</h1>
-{%- endif -%}
+![](){:class="img-responsive"}
+
+<a href="/category/tiffigra/gallery">
+ <img src="/assets/photos/chiloe_logo.jpg" alt="Easter Egg" width="42" height="42" style="float:left"> 
+ </a>
