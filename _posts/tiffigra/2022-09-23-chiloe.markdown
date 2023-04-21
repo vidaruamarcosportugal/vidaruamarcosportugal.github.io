@@ -10,6 +10,7 @@ img: "https://live.staticflickr.com/65535/52509674097_810d8c4a92_h.jpg"
     <img src="{{page.img}}" />
 </picture>
 
+
 <br>
 {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%} 
 <span class="post-meta">{{page.date | date: date_format }} - </span><a style="font-weight: 700;" href="https://www.instagram.com/chiloe____/">{{ page.title }}</a><br>
