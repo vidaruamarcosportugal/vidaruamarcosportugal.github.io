@@ -9,14 +9,14 @@ layout: default
   {{ content }}
 
     {%- if site.posts.size > 0 -%}
-        <!-- {% for category in site.categories reversed%} -->
-        {% for category in site.categories %}
+        {% for category in site.categories reversed%}
             <h3><a href="/category/{{ category[0] }}">{{ category[0] }}</a></h3>
             <ul> 
             {% assign counter = 0 %}
             {% for post in category[1] %}
                 {% assign counter = counter | plus:1 %}
             {% endfor %}
+
             {% if counter > 3 %}
                 {% for post in category[1] limit:3 %}
                     <li>
@@ -34,7 +34,7 @@ layout: default
                         <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
                     </li>
                 {% endfor %}       
-            <!-- {% endif %} -->
+            {% endif %}
             </ul>
         {% endfor %}
     {%- endif -%}
