@@ -18,3 +18,9 @@ permalink: "/category/photos"
     </li>
 {% endfor %}
 </ul>
+
+<br>
+
+{%- if page.title == 'Photos' -%}
+  <h1 class="page-heading">Test</h1>
+{%- endif -%}
