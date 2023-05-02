@@ -21,11 +21,13 @@ permalink: /now/
 ###### _(started 17.04.23)_ 
 # **Fight glucose pic and eat well**{: style="background-color:#ADECF4"} <br>
 # **Finishing my Bike**{: style="background-color:#B7F7D1"} <br>
+###### _([here](/writing/2023/02/28/bike_project_0.html))_
 # **Surf / Skate**{: style="background-color:#c9c9c9"} <br>
 ###### _(and all preps that go with it)_
 # **Learning Portuguese**{: style="background-color:#FEC1D0"}
 ###### _([here](/peripherical-brain/2019/11/01/portugues.html))_ 
 # **Graffiti and drawing**{: style="background-color:#FFEF9E"} <br>
+###### _([here](/category/tiffigra/memories))_
 
 <br>
 ###### _02.05.2023_
