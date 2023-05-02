@@ -12,6 +12,9 @@ permalink: "/category/tiffigra/gallery"
 <div class="memories">
     <a class="post-meta" href="/category/tiffigra/memories">→ All Memories</a>
 </div>
+<div class="memories">
+    <a class="post-meta" href="https://docs.google.com/spreadsheets/d/1WUBuhmUQyvWrI5lD-fk98XV-pejLJyvkM8rWng2YnNE/edit?usp=sharing">→ Pieces Project</a>
+</div>
 <ul>
 {% for post in site.categories.tiffigra reverse limit:10 %}
     <br>
