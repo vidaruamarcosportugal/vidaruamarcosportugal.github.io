@@ -17,7 +17,7 @@ permalink: /now/
 
 
 # **Developping JoA Website**{: style="background-color:#FFEF9E"} <br>
-# **Cold bath/shower every day**{: style="background-color:#FEC1D0"} <br> 
+# **Cold bath/shower every day**{: style="background-color:#FEC1D0"} 
  _(started 17.04.23)_ 
 # **Fight glucose pic and eat well**{: style="background-color:#ADECF4"} <br>
 # **Finishing my Bike**{: style="background-color:#B7F7D1"} <br>
