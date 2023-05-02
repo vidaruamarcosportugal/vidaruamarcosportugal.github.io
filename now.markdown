@@ -4,7 +4,12 @@ title: Now
 permalink: /now/
 ---
 
-![](/assets/photos/auto_portrait.jpg){:class="img-responsive"}
+<picture>
+    <source srcset="https://live.staticflickr.com/65535/52720411439_803d5e0bd7_h.jpg"
+            media="(min-width: 800px)">
+    <img src="https://live.staticflickr.com/65535/52720411439_803d5e0bd7_h.jpg"/>
+</picture>
+<a style='color:#e6e6e6;' class='post-meta'>_Foz de Lizandro - 01.03.2023_</a>
 
 <!-- Style Memo
 **vocabulario**{: style="background-color:#FFEF9E"} <br>
