@@ -34,6 +34,10 @@ permalink: /now/
 # **Graffiti and drawing**{: style="background-color:#FFEF9E"} <br>
 ###### _([here](/category/tiffigra/memories))_
 
+
 <br>
+###### M. and E. are my absolute priority, always.
+
+<br><br>
 ###### _02.05.2023_
 ---
