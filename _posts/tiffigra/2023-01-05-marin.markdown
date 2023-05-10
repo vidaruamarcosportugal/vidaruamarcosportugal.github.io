@@ -1,0 +1,23 @@
+---
+layout: default
+date:   2023-01-05
+categories: tiffigra
+img: "https://live.staticflickr.com/65535/52609391296_89d480d0d2_h.jpg"
+---
+
+<picture>
+    <source srcset="{{page.img}}" media="(min-width: 800px)">
+    <img src="{{page.img}}" />
+</picture>
+
+<br>
+{%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%} 
+<span class="post-meta">{{page.date | date: date_format }} - </span><a style="font-weight: 700;" href="https://www.instagram.com/chiloe____/">{{ page.title }}</a><br>
+<span class="post-meta">
+→ Happy birthday my godson!<br>
+→ 🥫 @nbqspray slow <br>
+→ 〰️ Astro (fill+outline) + Level1 (details)
+</span>
+
+<br>
+<span class="post-meta" onclick="window.location='https://www.instagram.com/chiloe____/'">Ⓒ chiloe___ - All Rights Reserved.</span>
