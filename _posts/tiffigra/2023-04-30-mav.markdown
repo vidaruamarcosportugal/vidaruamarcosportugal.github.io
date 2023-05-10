@@ -1,0 +1,22 @@
+---
+layout: default
+date:   2023-04-30
+categories: tiffigra
+img: "https://live.staticflickr.com/65535/52863417812_33878e433d_h.jpg"
+---
+
+<picture>
+    <source srcset="{{page.img}}" media="(min-width: 800px)">
+    <img src="{{page.img}}" />
+</picture>
+
+<br>
+{%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%} 
+<span class="post-meta">{{page.date | date: date_format }} - </span><a style="font-weight: 700;" href="https://www.instagram.com/chiloe____/">{{ page.title }}</a><br>
+<span class="post-meta">
+→ 🥫 MTN Gold Fluo + MTN Mega Plata + Nitro 2G<br>
+→ 〰️ Astro <br>
+→ Autoestrada #1!
+</span>
+
+<span class="post-meta" onclick="window.location='https://www.instagram.com/chiloe____/'">Ⓒ chiloe___ - All Rights Reserved.</span>
