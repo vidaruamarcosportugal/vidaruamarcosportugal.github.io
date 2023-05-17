@@ -36,15 +36,15 @@ Trying to build surf wisdom, one session at a time.
                 {% assign spot = surf.spot %} 
                     {% case spot %} 
                         {% when 'Matadouro' %}
-                            <a href="https://magicseaweed.com/Pedra-Branca-Surf-Report/7740/" class="spot">Matadouro</a><span class="post-meta"> - </span> 
+                            <a href="https://www.surf-forecast.com/breaks/Pedra-Branca/forecasts/latest/six_day" class="spot">Matadouro</a><span class="post-meta"> - </span> 
                         {% when 'Foz de Lizandro' %}
-                            <a href="https://magicseaweed.com/Foz-do-Lizandro-Surf-Report/901/" class="spot">Foz de Lizandro</a><span class="post-meta"> - </span> 
+                            <a href="https://www.surf-forecast.com/breaks/Fozdo-Lizandro/forecasts/latest/six_day" class="spot">Foz de Lizandro</a><span class="post-meta"> - </span> 
                         {% when 'Praia do Sul' %}
-                            <a href="https://magicseaweed.com/Ericeira-Surf-Report/198/" class="spot">Praia do Sul</a><span class="post-meta"> - </span> 
+                            <a href="https://www.surf-forecast.com/breaks/Praia-do-Sul-1/forecasts/latest/six_day" class="spot">Praia do Sul</a><span class="post-meta"> - </span> 
                         {% when 'Ribeira dIlhas' %}
-                            <a href="https://magicseaweed.com/Ribeira-dIlhas-Surf-Report/4343/" class="spot">Ribeira d'Ilhas</a><span class="post-meta"> - </span>
+                            <a href="https://www.surf-forecast.com/breaks/Ribeira-Dilhas/forecasts/latest/six_day" class="spot">Ribeira d'Ilhas</a><span class="post-meta"> - </span>
                         {% when 'Pescadores' %}
-                            <a href="https://beachcam.meo.pt/livecams/praia-dos-pescadores/" class="spot">Praia dos Pescadores</a><span class="post-meta"> - </span>     
+                            <a href="https://www.surf-forecast.com/breaks/Praiado-Peixe/forecasts/latest/six_day" class="spot">Praia dos Pescadores</a><span class="post-meta"> - </span>     
                     {% endcase %} 
                 <!-- <a class="spot"> {{ spot }} </a><span class="post-meta"> - </span> -->
                 <span class="tide"> {{ tide }} </span><span class="post-meta"> - </span>
