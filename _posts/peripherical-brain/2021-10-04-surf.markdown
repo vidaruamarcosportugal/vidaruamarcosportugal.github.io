@@ -18,7 +18,7 @@ Trying to build surf wisdom, one session at a time.
 <a style='color:#e6e6e6;' class='post-meta'>_Foz de Lizandro - 10.2021_</a>
 
 <br>
-<a style='color: #828282; font-style: italic;'>date | spot | tide | swell | swell orientation | wave size | period | wind | rating | comment</a>
+<a style='color: #828282; font-style: italic;'>date | spot | tide | swell | swell orientation | wave size | period | wind | rating | energy | comment</a>
 
 <ul>
 {% for surf in site.data.surf_sessions %}
@@ -31,6 +31,7 @@ Trying to build surf wisdom, one session at a time.
             {% assign period = surf.period %}
             {% assign wind = surf.wind %}
             {% assign comment = surf.comment %}
+            {% assign energy = surf.energy %}
             <div class="{{surf.rating}}">
                 <span class="post-meta">{{ surf.date | date: date_format }}</span><span class="post-meta"> - </span>
                 {% assign spot = surf.spot %} 
@@ -53,6 +54,7 @@ Trying to build surf wisdom, one session at a time.
                 <span class="wave_size"> {{ wave_size }} </span><span class="post-meta"> - </span>
                 <span class="period"> {{ period }} </span><span class="post-meta"> - </span>
                 <span class="wind"> {{ wind }} </span><span class="post-meta"> - </span>
+                <span class="energy"> {{ energy }} </span><span class="post-meta"> - </span>
                 {% assign rating = surf.rating %} {% case rating %} {% when '1' %} 
                 <picture>
                     <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/hokusai_wave.png" media="(max-width: 20px)">
