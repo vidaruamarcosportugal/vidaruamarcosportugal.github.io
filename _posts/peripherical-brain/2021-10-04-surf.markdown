@@ -18,7 +18,7 @@ Trying to build surf wisdom, one session at a time.
 <a style='color:#e6e6e6;' class='post-meta'>_Foz de Lizandro - 10.2021_</a>
 <br>
 
-<a href="/category/surf/2021">→ Surf 2021</a>
+<a href="/category/surf/2021">→ Surf 2021</a><br>
 <a href="/category/surf/2022">→ Surf 2022</a>
 
 <br>
@@ -26,8 +26,7 @@ Trying to build surf wisdom, one session at a time.
 
 <ul>
 {% for surf in site.data.surf_sessions %}
-    <li>
-            {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%}
+    {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%}
             {%- assign surf_year = surf.date | date: "%Y" -%}
             {% assign tide = surf.tide %}
             {% assign swell = surf.swell %}
@@ -38,6 +37,7 @@ Trying to build surf wisdom, one session at a time.
             {% assign comment = surf.comment %}
             {% assign energy = surf.energy %}
             {%- if surf_year == '2023' -%}
+    <li>
             <div class="{{surf.rating}}">
                 <span class="post-meta">{{ surf.date | date: date_format }}</span><span class="post-meta"> - </span>
                 {% assign spot = surf.spot %} 
@@ -124,8 +124,8 @@ Trying to build surf wisdom, one session at a time.
             <br>
             <span class="post-meta">→ {{ comment }}</span>
         </div>
-        {%- endif -%}
     </li>
+    {%- endif -%}
 {% endfor %}
 </ul>
 
