@@ -125,10 +125,7 @@ permalink: "/category/surf/2021"
 <br>
 
 {% for session in site.data.surf_sessions %}
-    {%- assign surf_year = surf.date | date: "%Y" -%}
-    {%- if surf_year == '2021' -%}
-        {% assign session_number = session_number | plus: 1%}
-    {%- endif -%}  
+    {% assign session_number = session_number | plus: 1%}
 {% endfor %}
 
 <span class="post-meta" style='color: #828282; font-style: italic;'>→ </span><span class='post-meta' style='background-color:#FFEF9E; font-style: bold'>{{ session_number }}</span><span class="post-meta" style='color: #828282; font-style: italic;'> sessions recorded</span>
