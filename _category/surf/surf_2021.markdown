@@ -1,15 +1,14 @@
 ---
 layout: post
-title:  "Surf"
-date:   2021-10-04
-categories: peripherical-brain
+title:  "Surf 2021"
+date:   2021
+permalink: "/category/surf/2021"
 ---
 
 
-Trying to build surf wisdom, one session at a time.
+## Sessions in 2021
 
 <a href="/category/surf/ressources" class="post-meta">→ Ressources</a>
-<a href="/category/surf/2021" class="post-meta">→ 2021</a>
 
 <picture>
     <source srcset="https://live.staticflickr.com/65535/51559018368_0fb244007d_4k.jpg"
@@ -23,16 +22,18 @@ Trying to build surf wisdom, one session at a time.
 
 <ul>
 {% for surf in site.data.surf_sessions %}
+    {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%}
+    {%- assign surf_year = surf.date | date: "%Y" -%}
+    {% assign tide = surf.tide %}
+    {% assign swell = surf.swell %}
+    {% assign swell_orientation = surf.swell_orientation %}
+    {% assign wave_size = surf.wave_size %}
+    {% assign period = surf.period %}
+    {% assign wind = surf.wind %}
+    {% assign comment = surf.comment %}
+    {% assign energy = surf.energy %}
+    {%- if surf_year == '2021' -%}
     <li>
-            {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%}
-            {% assign tide = surf.tide %}
-            {% assign swell = surf.swell %}
-            {% assign swell_orientation = surf.swell_orientation %}
-            {% assign wave_size = surf.wave_size %}
-            {% assign period = surf.period %}
-            {% assign wind = surf.wind %}
-            {% assign comment = surf.comment %}
-            {% assign energy = surf.energy %}
             <div class="{{surf.rating}}">
                 <span class="post-meta">{{ surf.date | date: date_format }}</span><span class="post-meta"> - </span>
                 {% assign spot = surf.spot %} 
@@ -120,6 +121,7 @@ Trying to build surf wisdom, one session at a time.
             <span class="post-meta">→ {{ comment }}</span>
         </div>
     </li>
+    {%- endif -%}    
 {% endfor %}
 </ul>
 
