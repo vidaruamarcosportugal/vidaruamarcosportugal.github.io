@@ -9,7 +9,8 @@ categories: peripherical-brain
 Trying to build surf wisdom, one session at a time.
 
 <a href="/category/surf/ressources" class="post-meta">→ Ressources</a>
-<a href="/category/surf/2021" class="post-meta">→ 2021</a>
+
+### [→ Surf 2021]("/category/surf/2021")
 
 <picture>
     <source srcset="https://live.staticflickr.com/65535/51559018368_0fb244007d_4k.jpg"
