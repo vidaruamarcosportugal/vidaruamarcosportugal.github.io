@@ -18,7 +18,7 @@ Trying to build surf wisdom, one session at a time.
 <a style='color:#e6e6e6;' class='post-meta'>_Foz de Lizandro - 10.2021_</a>
 <br>
 
-#### [→ Surf 2021]("http:://vidaruamarcosportugal.github.io/category/surf/2021")
+<a href="/category/surf/2021">→ Surf 2021</a>
 
 <br>
 <a style='color: #828282; font-style: italic;'>date | spot | tide | swell | swell orientation | wave size | period | wind | rating | energy | comment</a>
