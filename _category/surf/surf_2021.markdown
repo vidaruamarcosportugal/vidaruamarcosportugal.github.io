@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Surf 2021"
-date:   2021
+date:   2021-12-31
 permalink: "/category/surf/2021"
 ---
 
