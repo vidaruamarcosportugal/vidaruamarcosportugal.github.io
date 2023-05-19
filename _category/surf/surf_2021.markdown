@@ -124,7 +124,7 @@ permalink: "/category/surf/2021"
 
 <br>
 
-{% for session in site.data.surf_sessions %}
+{% for surf in site.data.surf_sessions %}
     {% assign session_number = session_number | plus: 1%}
 {% endfor %}
 
