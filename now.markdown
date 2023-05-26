@@ -26,18 +26,18 @@ permalink: /now/
 - _Ayurveda tips_
 
 # **Graffiti and drawing**{: style="background-color:#FFEF9E"} 
-######_([here](/category/tiffigra/memories))_ 
+###### _([here](/category/tiffigra/memories))_ 
 
 # **Developping JoA Website**{: style="background-color:#FFEF9E"}
 
 # **Finishing my Bike**{: style="background-color:#B7F7D1"} 
-######_([here](/writing/2023/02/28/bike_project_0.html))_
+###### _([here](/writing/2023/02/28/bike_project_0.html))_
 
 # **Surf / Skate**{: style="background-color:#c9c9c9"} 
-######_([and all preps that go with it](/category/surf/ressources))_ 
+###### _([and all preps that go with it](/category/surf/ressources))_ 
 
 # **Learning Portuguese**{: style="background-color:#FEC1D0"} 
-######_([here](/peripherical-brain/2019/11/01/portugues.html))_ 
+###### _([here](/peripherical-brain/2019/11/01/portugues.html))_ 
  
 
 <br>
