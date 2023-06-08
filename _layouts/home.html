@@ -10,7 +10,7 @@ layout: default
 
     {%- if site.posts.size > 0 -%}
         {% for category in site.categories reversed%}
-        {%- unless category contains "tiffigra" or "now" -%}
+        {%- unless category contains "tiffigra" -%}
         {%- unless category contains "now" -%}
             <h3><a href="/category/{{ category[0] }}">{{ category[0] }}</a></h3>
             <ul> 

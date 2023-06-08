@@ -1,6 +1,5 @@
 ---
-layout: page
-title: now
+layout: default
 tag: now
 permalink: "/category/now/02052023"
 ---
