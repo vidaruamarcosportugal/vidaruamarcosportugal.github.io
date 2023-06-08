@@ -1,16 +1,16 @@
 ---
 layout: page
 title: now
-permalink: /now/
+tag: now
+permalink: /now/02052023
 ---
 
-
 <picture>
-    <source srcset="https://live.staticflickr.com/65535/52922738626_49f94c4ee7_h.jpg"
+    <source srcset="https://live.staticflickr.com/65535/52720411439_803d5e0bd7_h.jpg"
             media="(min-width: 800px)">
-    <img src="https://live.staticflickr.com/65535/52922738626_49f94c4ee7_h.jpg"/>
+    <img src="https://live.staticflickr.com/65535/52720411439_803d5e0bd7_h.jpg"/>
 </picture>
-<a style='color:#e6e6e6;' class='post-meta'>_Pescadores - 23.05.2023_</a>
+<a style='color:#e6e6e6;' class='post-meta'>_Foz de Lizandro - 01.03.2023_</a>
 
 <!-- Style Memo
 **vocabulario**{: style="background-color:#FFEF9E"} <br>
@@ -19,13 +19,12 @@ permalink: /now/
 **vocabulario**{: style="background-color:#B7F7D1"} <br>
 **traduction**{: style="background-color:#c9c9c9"} <br> -->
 
+**↓↓↓ Those are the things where I put my focus on at the moment**<br><br>
 
 # **Regaining energy and enthousiasm**{: style="background-color:#ADECF4"} <br>
-- _Cold bath/shower every day (started 17.04.23 and still doing every day)_ 
+- _Cold bath/shower every day (started 17.04.23)_ 
 - _Fight glucose pic and eat well_
 - _Ayurveda tips_
-- _start reading again_
-- _podcasts_
 
 # **Graffiti and drawing**{: style="background-color:#FFEF9E"} 
 ###### _([here](/category/tiffigra/memories))_ 
@@ -48,6 +47,5 @@ permalink: /now/
 
 <br><br>
 
-###### _08.06.2023_
+###### _02.05.2023_
 ---
-###### _[02.05.2023](/now/02032023)_
