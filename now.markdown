@@ -13,11 +13,11 @@ permalink: /now/
 <a style='color:#e6e6e6;' class='post-meta'>_Pescadores - 23.05.2023_</a>
 
 <!-- Style Memo
-**vocabulario**{: style="background-color:#FFEF9E"} <br>
-**sentenças**{: style="background-color:#FEC1D0"} <br>
-**vocabulario**{: style="background-color:#ADECF4"} <br>
-**vocabulario**{: style="background-color:#B7F7D1"} <br>
-**traduction**{: style="background-color:#c9c9c9"} <br> -->
+**yellow**{: style="background-color:#FFEF9E"} <br>
+**pink**{: style="background-color:#FEC1D0"} <br>
+**blue**{: style="background-color:#ADECF4"} <br>
+**green**{: style="background-color:#B7F7D1"} <br>
+**grey**{: style="background-color:#c9c9c9"} <br> -->
 
 
 # **Regaining energy and enthousiasm**{: style="background-color:#ADECF4"} <br>
@@ -27,13 +27,15 @@ permalink: /now/
 - _start reading again_
 - _podcasts_
 
-# **Graffiti and drawing**{: style="background-color:#FFEF9E"} 
-###### _([here](/category/tiffigra/memories))_ 
-
 # **Developping JoA Website**{: style="background-color:#FFEF9E"}
 
 # **Finishing my Bike**{: style="background-color:#B7F7D1"} 
 ###### _([here](/writing/2023/02/28/bike_project_0.html))_
+
+# **Job: start next steps**{: style="background-color:#FEC1D0"}
+
+# **Graffiti and drawing**{: style="background-color:#FFEF9E"} 
+###### _([here](/category/tiffigra/memories))_ 
 
 # **Surf / Skate**{: style="background-color:#c9c9c9"} 
 ###### _([and all preps that go with it](/category/surf/ressources))_ 
@@ -50,4 +52,4 @@ permalink: /now/
 
 ###### _08.06.2023_
 ---
-###### _[02.05.2023](/now/02032023)_
+###### _[02.05.2023](/category/now/02032023)_

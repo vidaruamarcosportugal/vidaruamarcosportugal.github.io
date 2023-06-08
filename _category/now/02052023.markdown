@@ -2,7 +2,7 @@
 layout: page
 title: now
 tag: now
-permalink: /now/02052023
+permalink: "/category/now/02052023"
 ---
 
 <picture>
