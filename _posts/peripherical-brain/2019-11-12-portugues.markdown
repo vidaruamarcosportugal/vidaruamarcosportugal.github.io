@@ -58,8 +58,8 @@ categories: peripherical-brain
         {%- if word == vocab.words -%}
             {% for trad in vocab.trad %}
                 <code>
-                    {{ trad }} <br>
-                </code>
+                    {{ trad }} 
+                </code><br>
             {% endfor %}
                 {%- if vocab.french_phrase != nil -%}
                     <code>{{ vocab.french_phrase }}</code> <br>
