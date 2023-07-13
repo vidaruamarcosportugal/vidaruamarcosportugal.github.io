@@ -13,6 +13,7 @@ categories: peripherical-brain
 - [The sound of Portuguese](https://www.youtube.com/@Portuguesewithadelina/videos)
 - [Practice Portuguese](https://www.youtube.com/@PracticePortuguese/videos)
 - [The Language Unschool](https://www.youtube.com/@thelanguageunschool/videos)
+- [Anki - My Portuguese Learning]()
 
 <br>
 
@@ -23,8 +24,7 @@ categories: peripherical-brain
 **vocabulario**{: style="background-color:#B7F7D1"} <br>
 **traduction**{: style="background-color:#c9c9c9"} <br> -->
 
-`Start: 2019.11`<br>
-`Last Update: 2023.02`
+`Started: 2019.11`<br>
 <br>
 <br>
 
@@ -57,9 +57,9 @@ categories: peripherical-brain
         {%- endif -%}
         {%- if word == vocab.words -%}
             {% for trad in vocab.trad %}
-                <li>
+                <code>
                     {{ trad }} <br>
-                </li>
+                </code>
             {% endfor %}
                 {%- if vocab.french_phrase != nil -%}
                     <code>{{ vocab.french_phrase }}</code> <br>
