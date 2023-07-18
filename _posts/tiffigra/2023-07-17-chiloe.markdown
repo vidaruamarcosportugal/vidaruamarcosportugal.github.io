@@ -2,7 +2,7 @@
 layout: default
 date:   2023-07-14
 categories: tiffigra
-img: "https://live.staticflickr.com/65535/53054501480_c665d171f1_n.jpg"
+img: "https://live.staticflickr.com/65535/53054501480_e7bdcd30a1_h.jpg"
 ---
 
 <picture>
