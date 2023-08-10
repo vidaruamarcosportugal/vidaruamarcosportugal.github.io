@@ -1,13 +1,13 @@
 ---
-layout: page
-title: now
-permalink: /now/
+layout: default
+tag: now
+permalink: "/category/now/08062023"
 ---
 
 <picture>
-    <source srcset="https://live.staticflickr.com/65535/53053419765_da825fdfd0_h.jpg"
+    <source srcset="https://live.staticflickr.com/65535/52922738626_49f94c4ee7_h.jpg"
             media="(min-width: 800px)">
-    <img src="https://live.staticflickr.com/65535/53053419765_da825fdfd0_h.jpg"/>
+    <img src="https://live.staticflickr.com/65535/52922738626_49f94c4ee7_h.jpg"/>
 </picture>
 <a style='color:#e6e6e6;' class='post-meta'>_Pescadores - 23.05.2023_</a>
 
@@ -18,12 +18,6 @@ permalink: /now/
 **green**{: style="background-color:#B7F7D1"} <br>
 **grey**{: style="background-color:#c9c9c9"} <br> -->
 
-# **Finishing my Bike**{: style="background-color:#B7F7D1"} 
-###### _([here](/writing/2023/02/28/bike_project_0.html))_
-
-# **Job**{: style="background-color:#FEC1D0"}
-- profil Malt en ligne
-- Activation du réseau
 
 # **Regaining energy and enthousiasm**{: style="background-color:#ADECF4"} <br>
 - _Cold bath/shower every day (started 17.04.23 and still doing every day)_ 
@@ -32,20 +26,22 @@ permalink: /now/
 - _start reading again_
 - _podcasts_
 
+# **Developping JoA Website**{: style="background-color:#FFEF9E"}
+
+# **Finishing my Bike**{: style="background-color:#B7F7D1"} 
+###### _([here](/writing/2023/02/28/bike_project_0.html))_
+
+# **Job: start next steps**{: style="background-color:#FEC1D0"}
+
 # **Graffiti and drawing**{: style="background-color:#FFEF9E"} 
 ###### _([here](/category/tiffigra/memories))_ 
 
-# **Surf / Skate / Climbing**{: style="background-color:#c9c9c9"} 
+# **Surf / Skate**{: style="background-color:#c9c9c9"} 
 ###### _([and all preps that go with it](/category/surf/ressources))_ 
 
 # **Learning Portuguese**{: style="background-color:#FEC1D0"} 
 ###### _([here](/peripherical-brain/2019/11/01/portugues.html))_ 
  
-# **Job next Step?**{: style="background-color:#FEC1D0"}
-- Formation personnelle réalisation bilan carbone ?
-    - [Cours Jancovici aux Mines](https://youtu.be/xgy0rW0oaFI)
-    - [Méthodologie Bilan Carbone de l'ADEME](https://www.ecologie.gouv.fr/sites/default/files/methodo_BEGES_decli_07.pdf)
-
 
 <br>
 
@@ -53,7 +49,6 @@ permalink: /now/
 
 <br><br>
 
-###### _10.08.2023_
+###### _08.06.2023_
 ---
 ###### _[02.05.2023](/category/now/02052023)_
-###### _[08.06.2023](/category/now/08062023)_
