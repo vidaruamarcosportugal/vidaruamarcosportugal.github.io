@@ -1,0 +1,56 @@
+---
+layout: post
+title:  "Python / Pandas"
+date:   2015-10-01
+categories: peripherical-brain
+---
+
+*I'm a product data analyst <br>
+This is my peripherical-brain for `sql`, it's not exhaustive, but I try to update it with cool stuff I learned along the way.*
+
+
+`Started: ~2015`<br>
+<br>
+<br>
+
+
+
+<!-- **vocabulario**{: style="background-color:#FFEF9E"} <br>
+**sentenças**{: style="background-color:#FEC1D0"} <br>
+**vocabulario**{: style="background-color:#ADECF4"} <br>
+**vocabulario**{: style="background-color:#B7F7D1"} <br>
+**traduction**{: style="background-color:#c9c9c9"} <br> -->
+
+
+# **SQL** 🛢️ 
+
+**Ressources**{: style="background-color:#FFEF9E"}
+- [Datalemur](https://datalemur.com)
+
+<br>
+<a style='color:#e6e6e6;'>___</a>
+<br>
+
+<br>
+
+**row_number() vs rank() vs dense_rank()**{: style="background-color:#FEC1D0"} <br>
+
+``` sql
++---+------------+------+------------+
+| V | ROW_NUMBER | RANK | DENSE_RANK |
++---+------------+------+------------+
+| p |          1 |    1 |          1 |
+| p |          2 |    1 |          1 |
+| p |          3 |    1 |          1 |
+| q |          4 |    4 |          2 |
+| r |          5 |    5 |          3 |
+| r |          6 |    5 |          3 |
+| s |          7 |    7 |          4 |
+| t |          8 |    8 |          5 |
++---+------------+------+------------+
+```
+<br>
+
+**#WIP**
+* CoolStuffILearn - unix / bash
+* [CoolStuffILearn - Python / Pandas](/Users/ju/vidaruamarcosportugal/_posts/peripherical-brain/2019-11-12-python - pandas.markdown)
