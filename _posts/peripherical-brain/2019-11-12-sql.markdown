@@ -33,9 +33,17 @@ This is my peripherical-brain for `sql`, it's not exhaustive, but I try to updat
 
 <br>
 
-**row_number() vs rank() vs dense_rank()**{: style="background-color:#FEC1D0"} <br>
+**[row_number() vs rank() vs dense_rank()](https://stackoverflow.com/questions/64420584/when-to-choose-rank-over-dense-rank-or-row-number)**{: style="background-color:#FEC1D0"} <br>
 
 ``` sql
+SELECT
+  v,
+  ROW_NUMBER() OVER (ORDER BY v) row_number,
+  RANK()       OVER (ORDER BY v) rank,
+  DENSE_RANK() OVER (ORDER BY v) dense_rank
+FROM t
+ORDER BY v;
+
 +---+------------+------+------------+
 | V | ROW_NUMBER | RANK | DENSE_RANK |
 +---+------------+------+------------+
