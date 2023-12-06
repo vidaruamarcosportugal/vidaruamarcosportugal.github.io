@@ -25,7 +25,9 @@ This is my peripherical-brain for `sql`, it's not exhaustive, but I try to updat
 # **SQL** 🛢️ 
 
 **Ressources**{: style="background-color:#FFEF9E"}
-- [Datalemur](https://datalemur.com)
+- [Datalemur](https://datalemur.com) ++
+- [sql-practice](https://www.sql-practice.com/) +++
+- [selectstarsql](https://selectstarsql.com/) +++
 
 <br>
 <a style='color:#e6e6e6;'>___</a>
@@ -57,6 +59,17 @@ ORDER BY v;
 | t |          8 |    8 |          5 |
 +---+------------+------+------------+
 ```
+**Update the patients table for the allergies column. If the patient's allergies is null then replace it with 'NKA'**{: style="background-color:#FEC1D0"} <br>
+
+``` sql
+UPDATE patients
+SET allergies = 'NKA'
+WHERE allergies IS null;
+```
+
+**`UNION` removes duplicate records (where all columns in the results are the same), `UNION ALL` does not.**
+
+
 <br>
 
 **#WIP**
