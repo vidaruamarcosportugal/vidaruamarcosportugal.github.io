@@ -1,0 +1,17 @@
+---
+layout: default
+date:   2023-10-13
+categories: tiffigra
+img: "https://live.staticflickr.com/65535/53293225547_c0b0a16722_4k.jpg"
+---
+
+<picture>
+    <source srcset="{{page.img}}" media="(min-width: 800px)">
+    <img src="{{page.img}}" />
+</picture>
+
+<br>
+{%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%} 
+<span class="post-meta">{{page.date | date: date_format }} - </span><a style="font-weight: 700;" href="https://www.instagram.com/chiloe____/">{{ page.title }}</a><br>
+
+<span class="post-meta" onclick="window.location='https://www.instagram.com/chiloe____/'">Ⓒ chiloe___ - All Rights Reserved.</span>
