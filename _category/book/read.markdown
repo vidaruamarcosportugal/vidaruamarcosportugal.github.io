@@ -31,19 +31,19 @@ jsarr:
             <a style='font-style: italic; font-weight: 200; font-size: 12px;' href="{{book.open_library_url_info_ISBN13}}">{{ book.author }}</a> 
             {% assign rating = book.rating %} 
             {% case rating %} 
-                {% when '1' %} 
+                {% when '1.0' %} 
                     <picture>
                         <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
                         <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
                     </picture> 
-                {% when '2' %} 
+                {% when '2.0' %} 
                     <picture>
                         <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
                         <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
                         <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
                         <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
                     </picture>
-                {% when '3' %}
+                {% when '3.0' %}
                     <picture>
                         <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
                         <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
@@ -52,11 +52,7 @@ jsarr:
                         <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
                         <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
                     </picture>
-                {% when '4' %}
-                    <picture>
-                        <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
-                        <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
-                    </picture>
+                {% when '4.0' %}
                     <picture>
                         <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
                         <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
@@ -69,7 +65,11 @@ jsarr:
                         <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
                         <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
                     </picture>
-                {% when '5' %}
+                    <picture>
+                        <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                        <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+                    </picture>
+                {% when '5.0' %}
                     <picture>
                         <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
                         <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
