@@ -29,8 +29,8 @@ permalink: /now/
 # **Read!**{: style="background-color:#c9c9c9"} 
 ###### _([→ "Lire c'est résister"](/category/book/read.markdown))_ 
 
-# **Maintain energy and enthousiasm**{: style="background-color:#ADECF4"} <br>
-- _Cold bath/shower every day (started 17.04.23 and still doing every day)_ 
+# **Maintain energy and enthousiasm with good dopamine trigger**{: style="background-color:#ADECF4"} <br>
+- _Cold bath_
 - _Food (Yuka tips)_
 - _20min Nap_
 - _podcasts_
@@ -47,7 +47,7 @@ _L'océan vu du coeur_, passage de Frédéric Lenoir :
 
 <br><br>
 
-###### _10.08.2023_
+###### _28.01.2025_
 ---
 ###### _[10.08.2023](/category/now/10082023)_ <br>
 ###### _[02.05.2023](/category/now/02052023)_ <br>
