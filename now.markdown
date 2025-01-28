@@ -27,13 +27,10 @@ permalink: /now/
 ###### _([Level Up Fitness App](/category/surf/ressources))_ 
 
 # **Read!**{: style="background-color:#c9c9c9"} 
-###### _([→ "Lire c'est résister"](/category/book/read.markdown))_ 
+###### _([→ "Lire c'est résister"](/category/book/read))_ 
 
 # **Maintain energy and enthousiasm with good dopamine trigger**{: style="background-color:#ADECF4"} <br>
-- _Cold bath_
-- _Food (Yuka tips)_
-- _20min Nap_
-- _podcasts_
+- _Cold bath, food (Yuka tips), nap, podcasts..._
 
 ##### _L'océan vu du coeur_, passage de Frédéric Lenoir :
 > Beaucoup de gens se disent "jai pas le droit d'être heureux" c'est une absurdité.
