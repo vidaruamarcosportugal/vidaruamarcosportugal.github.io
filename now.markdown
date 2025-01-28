@@ -32,6 +32,8 @@ permalink: /now/
 # **Maintain energy and enthousiasm with good dopamine trigger**{: style="background-color:#ADECF4"} <br>
 - _Cold bath, food (Yuka tips), nap, podcasts..._
 
+<br><br>
+
 ##### _L'océan vu du coeur_, passage de Frédéric Lenoir :
 > Beaucoup de gens se disent "jai pas le droit d'être heureux" c'est une absurdité.
 > Mon malheur ne va rien apporter au malheur des autres, alors que si je suis moi même heureux et que je cultive la joie de vivre, je vais développer une énergie qui va m'engager et cet altruisme va être utile aux autres.
