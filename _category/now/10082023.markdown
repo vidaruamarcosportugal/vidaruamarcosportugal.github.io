@@ -1,7 +1,7 @@
 ---
-layout: page
-title: now
-permalink: /now/
+layout: default
+tag: now
+permalink: "/category/now/10082023"
 ---
 
 <picture>

@@ -5,7 +5,7 @@ permalink: /now/
 ---
 
 <picture>
-    <source srcset="https://live.staticflickr.com/65535/53053419765_da825fdfd0_h.jpg"
+    <source srcset="https://live.staticflickr.com/65535/54075714136_85b4c5fdd5_4k.jpg"
             media="(min-width: 800px)">
     <img src="https://live.staticflickr.com/65535/54075714136_85b4c5fdd5_4k.jpg"/>
 </picture>
@@ -24,7 +24,7 @@ permalink: /now/
 ###### _([here](/category/tiffigra/memories))_ 
 
 # **Surf / Skate / Climbing / Mobility**{: style="background-color:#FEC1D0"} 
-###### _([and all preps that go with it](/category/surf/ressources))_ 
+###### _([Level Up Fitness App](/category/surf/ressources))_ 
 
 # **Read!**{: style="background-color:#c9c9c9"} 
 ###### _([→ "Lire c'est résister"](/category/book/read.markdown))_ 
@@ -35,7 +35,7 @@ permalink: /now/
 - _20min Nap_
 - _podcasts_
 
-_L'océan vu du coeur_, passage de Frédéric Lenoir :
+##### _L'océan vu du coeur_, passage de Frédéric Lenoir :
 > Beaucoup de gens se disent "jai pas le droit d'être heureux" c'est une absurdité.
 > Mon malheur ne va rien apporter au malheur des autres, alors que si je suis moi même heureux et que je cultive la joie de vivre, je vais développer une énergie qui va m'engager et cet altruisme va être utile aux autres.
 > Diderot nous disait : "c'est un devoir d'être heureux"
