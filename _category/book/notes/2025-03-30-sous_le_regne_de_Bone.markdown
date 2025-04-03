@@ -22,6 +22,7 @@ date: 2025-03-30
         {%- if title == 'Sous le règne de Bone' -%}
             {% break %}
             {% assign title = title %}
+            {% assign year_published = year_published %}
             {% assign author = author %}
             {% assign date_read = date_read %}
             {% assign rating = rating %}
@@ -35,6 +36,7 @@ date: 2025-03-30
 
 <div>
 <span class='post-meta'>Date read: {{date_read}}</span><br>
+<span class='post-meta'>Date published: {{year_published}}</span><br>
 {% for book in site.data.books %}
     {% assign status = book.exclusive_shelf %}
     {% assign title = book.title %}
@@ -117,3 +119,8 @@ date: 2025-03-30
 <a style='color:#e6e6e6;'>___</a>
 
 <br>
+
+Supers sensations à la fin de la lecture. _(avec même une réminiscence de Garp !)_
+On sent l'évolution de la pensée de Bone / Chappie entre le début et la fin, ça se ressent aussi beaucoup par rapport à ce qu'il pense de Russ.
+Le fait qu'il se rende compte qu'il a grandi grâce / à cause de ce qu'il a pu vivre avec Bruce et les Adirondack Iron Rosie, iMan et me parle beaucoup.
+L'écriture est trash mais regorge de beauté dans tous les recoins (vraiment étonnant et plaisant cette alternance trash / beau).
