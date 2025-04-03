@@ -38,8 +38,8 @@ date: 2025-03-30
 # **{{title}}**{: style="background-color:#FFEF9E"} _by_ **{{author}}**{: style="background-color:#FFEF9E"}<br> 
 
 <div>
-<span class='post-meta'>Date published: {{year_published}}</span><br>
-<span class='post-meta'>Date read: {{date_read}}</span><br>
+<span class='post-meta' font-style='italic'>Date published: {{year_published}}</span><br>
+<span class='post-meta' font-style='italic' style="background-color:#FFEF9E">Date read: {{date_read}}</span><br>
 <span class='post-meta'>Recommendation from: {{recommendation_from}}</span><br>
 {% for book in site.data.books %}
     {% assign status = book.exclusive_shelf %}
@@ -128,5 +128,5 @@ Supers sensations à la fin de la lecture. _(avec même une réminiscence de Gar
 On sent l'évolution de la pensée de Bone / Chappie entre le début et la fin, ça se ressent aussi beaucoup par rapport à ce qu'il pense de Russ.<br>
 Le fait qu'il se rende compte qu'il a grandi grâce / à cause de ce qu'il a pu vivre avec Bruce et les Adirondack Iron Rosie, iMan et me parle beaucoup. J'ai adoré la fin.<br><br>
 L'écriture est trash mais regorge de beauté dans tous les recoins (vraiment étonnant et plaisant cette alternance trash / beau).<br>
-Et bien que Bone _(mais que j'ai plus de tendresse à appeler Chappie, je ne sais pas pourquoi)_ peut être complètement fou dans ses actes et ses pensées, ce qui semble normal vu sa situation, il est extrêmement attachant.<br><br>
+Et bien que Bone _(mais que j'ai plus de tendresse à appeler Chappie, je ne sais pas pourquoi)_ peut être complètement fou dans ses actes et ses pensées, ce qui semble normal vu sa situation familiale et son beau-père, il est extrêmement attachant.<br><br>
 Lecture géniale, merci Paupiette.
