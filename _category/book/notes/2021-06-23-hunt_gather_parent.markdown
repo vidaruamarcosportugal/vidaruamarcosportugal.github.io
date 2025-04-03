@@ -49,20 +49,20 @@ date: 2021-06-23
         {%- if title == 'Hunt Gather Parent' -%}
                 {% assign rating = book.rating %} 
                 {% case rating %}   
-                    {% when '1' %} 
+                    {% when '1.0' %} 
                     <div>
                         <picture>
                             <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
                             <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
                         </picture></div>
-                    {% when '2' %} 
+                    {% when '2.0' %} 
                         <div><picture>
                             <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
                             <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
                             <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
                             <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
                         </picture></div>
-                    {% when '3' %}
+                    {% when '3.0' %}
                         <div><picture>
                             <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
                             <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
@@ -71,7 +71,7 @@ date: 2021-06-23
                             <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
                             <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
                         </picture></div>
-                    {% when '4' %}
+                    {% when '4.0' %}
                         <div><picture>
                             <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
                             <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
@@ -88,7 +88,7 @@ date: 2021-06-23
                             <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
                             <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
                         </picture></div>
-                    {% when '5' %}
+                    {% when '5.0' %}
                     <div>
                         <picture>
                             <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
