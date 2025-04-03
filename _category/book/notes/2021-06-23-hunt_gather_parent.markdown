@@ -24,6 +24,7 @@ date: 2021-06-23
             {% assign title = title %}
             {% assign author = author %}
             {% assign date_read = date_read %}
+            {% assign rating = rating %}
         {%- endif -%}
     {%- endif -%}
 {%- endfor -%}
@@ -43,6 +44,7 @@ date: 2021-06-23
     {% assign status = book.exclusive_shelf %}
     {% assign title = book.title %}
     {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%}
+    {% assign rating = book.rating %}
     {%- if status == 'read' -%}
         {%- if title == 'Hunt Gather Parent' -%}
                 {% assign rating = book.rating %} 
