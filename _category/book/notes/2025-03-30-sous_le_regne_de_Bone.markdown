@@ -38,8 +38,8 @@ date: 2025-03-30
 # **{{title}}**{: style="background-color:#FFEF9E"} _by_ **{{author}}**{: style="background-color:#FFEF9E"}<br> 
 
 <div>
-<span class='post-meta' font-style='italic'>Date published: {{year_published}}</span><br>
-<span class='post-meta' font-style='italic' style="background-color:#FFEF9E">Date read: {{date_read}}</span><br>
+<span class='post-meta' font-style='italic' style="background-color:#FEC1D0">Date published: {{year_published}}</span><br>
+<span class='post-meta' font-style='italic' style="background-color:#FEC1D0">Date read: {{date_read}}</span><br>
 <span class='post-meta'>Recommendation from: {{recommendation_from}}</span><br>
 {% for book in site.data.books %}
     {% assign status = book.exclusive_shelf %}
