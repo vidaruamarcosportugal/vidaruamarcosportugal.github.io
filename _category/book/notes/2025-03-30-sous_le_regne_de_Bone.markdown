@@ -39,7 +39,7 @@ date: 2025-03-30
 
 <div>
 <span class='post-meta' font-style='italic' style="background-color:#FEC1D0">Date published: {{year_published}}</span><br>
-<span class='post-meta' font-style='italic' style="background-color:#FEC1D0">Date read: {{date_read}}</span><br>
+<span class='post-meta' style="background-color:#FEC1D0; font-style='italic'">Date read: {{date_read}}</span><br>
 <span class='post-meta'>Recommendation from: {{recommendation_from}}</span><br>
 {% for book in site.data.books %}
     {% assign status = book.exclusive_shelf %}
