@@ -126,4 +126,5 @@ date: 2025-01-07
 
 Essai démarré à Dijon et qui m'a vraiment remis à la lecture.<br>
 Je l'ai dévoré. <br>
+Enquête vraiment bien fouillée et structurée, bravo. <br>
 Quoi de mieux pour rester jeune que de lire sur la jeunesse !
