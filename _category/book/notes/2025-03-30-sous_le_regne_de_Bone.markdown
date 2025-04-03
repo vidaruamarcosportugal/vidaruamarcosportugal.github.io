@@ -120,7 +120,7 @@ date: 2025-03-30
 
 <br>
 
-Supers sensations à la fin de la lecture. _(avec même une réminiscence de Garp !)_
-On sent l'évolution de la pensée de Bone / Chappie entre le début et la fin, ça se ressent aussi beaucoup par rapport à ce qu'il pense de Russ.
-Le fait qu'il se rende compte qu'il a grandi grâce / à cause de ce qu'il a pu vivre avec Bruce et les Adirondack Iron Rosie, iMan et me parle beaucoup.
-L'écriture est trash mais regorge de beauté dans tous les recoins (vraiment étonnant et plaisant cette alternance trash / beau).
+Supers sensations à la fin de la lecture. _(avec même une réminiscence de Garp !)_<br>
+On sent l'évolution de la pensée de Bone / Chappie entre le début et la fin, ça se ressent aussi beaucoup par rapport à ce qu'il pense de Russ.<br>
+Le fait qu'il se rende compte qu'il a grandi grâce / à cause de ce qu'il a pu vivre avec Bruce et les Adirondack Iron Rosie, iMan et me parle beaucoup.<br>
+L'écriture est trash mais regorge de beauté dans tous les recoins (vraiment étonnant et plaisant cette alternance trash / beau).<br>
