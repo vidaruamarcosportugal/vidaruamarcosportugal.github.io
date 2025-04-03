@@ -5,10 +5,10 @@ permalink: "/category/book/notes/Sous-le-regne-de-Bone"
 date: 2025-03-30
 ---
 
-<!-- **vocabulario**{: style="background-color:#FFEF9E"} <br>
-**sentenças**{: style="background-color:#FEC1D0"} <br>
-**vocabulario**{: style="background-color:#ADECF4"} <br>
-**vocabulario**{: style="background-color:#B7F7D1"} <br>
+<!-- **yellow**{: style="background-color:#FFEF9E"} <br>
+**pink**{: style="background-color:#FEC1D0"} <br>
+**blu**{: style="background-color:#ADECF4"} <br>
+**green**{: style="background-color:#B7F7D1"} <br>
 **traduction**{: style="background-color:#c9c9c9"} <br>  -->
 
 
@@ -38,8 +38,8 @@ date: 2025-03-30
 # **{{title}}**{: style="background-color:#FFEF9E"} _by_ **{{author}}**{: style="background-color:#FFEF9E"}<br> 
 
 <div>
-<span class='post-meta' font-style='italic' style="background-color:#FEC1D0">Date published: {{year_published}}</span><br>
-<span class='post-meta' style="background-color:#FEC1D0; font-style='italic'">Date read: {{date_read}}</span><br>
+<span class='post-meta' font-style='italic' style="background-color:#B7F7D1; font-style='italic'">Date published: {{year_published}}</span><br>
+<span class='post-meta' style="background-color:#B7F7D1; font-style='italic'">Date read: {{date_read}}</span><br>
 <span class='post-meta'>Recommendation from: {{recommendation_from}}</span><br>
 {% for book in site.data.books %}
     {% assign status = book.exclusive_shelf %}
