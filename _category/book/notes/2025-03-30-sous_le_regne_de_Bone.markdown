@@ -18,6 +18,8 @@ date: 2025-03-30
     {% assign title = book.title %}
     {% assign author = book.author %}
     {% assign date_read = book.date_read %}
+    {% assign year_published = book.year_published %}
+    {% assign recommendation_from = book.recommendation_from %}
     {%- if status == 'read' -%}
         {%- if title == 'Sous le règne de Bone' -%}
             {% break %}
@@ -26,6 +28,7 @@ date: 2025-03-30
             {% assign author = author %}
             {% assign date_read = date_read %}
             {% assign rating = rating %}
+            {% assign recommendation_from = recommendation_from %}
         {%- endif -%}
     {%- endif -%}
 {%- endfor -%}
@@ -35,8 +38,9 @@ date: 2025-03-30
 # **{{title}}**{: style="background-color:#FFEF9E"} _by_ **{{author}}**{: style="background-color:#FFEF9E"}<br> 
 
 <div>
-<span class='post-meta'>Date read: {{date_read}}</span><br>
 <span class='post-meta'>Date published: {{year_published}}</span><br>
+<span class='post-meta'>Date read: {{date_read}}</span><br>
+<span class='post-meta'>Recommendation from: {{recommendation_from}}</span><br>
 {% for book in site.data.books %}
     {% assign status = book.exclusive_shelf %}
     {% assign title = book.title %}
@@ -124,3 +128,5 @@ Supers sensations à la fin de la lecture. _(avec même une réminiscence de Gar
 On sent l'évolution de la pensée de Bone / Chappie entre le début et la fin, ça se ressent aussi beaucoup par rapport à ce qu'il pense de Russ.<br>
 Le fait qu'il se rende compte qu'il a grandi grâce / à cause de ce qu'il a pu vivre avec Bruce et les Adirondack Iron Rosie, iMan et me parle beaucoup.<br>
 L'écriture est trash mais regorge de beauté dans tous les recoins (vraiment étonnant et plaisant cette alternance trash / beau).<br>
+Et bien que Bone _(mais que j'ai plus de tendresse à appeler Chappie, je ne sais pas pourquoi)_ peut être complètement fou dans ses actes et ses pensées, ce qui semble normal vu sa situation, il est extrêmement attachant.<br>
+Lecture géniale, merci Paupiette.
