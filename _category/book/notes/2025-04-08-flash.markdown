@@ -1,0 +1,137 @@
+---
+layout: default
+tag: book
+permalink: "/category/book/notes/Flash"
+date: 2025-04-08
+---
+
+<!-- **yellow**{: style="background-color:#FFEF9E"} <br>
+**pink**{: style="background-color:#FEC1D0"} <br>
+**blu**{: style="background-color:#ADECF4"} <br>
+**green**{: style="background-color:#B7F7D1"} <br>
+**grey**{: style="background-color:#c9c9c9"} <br>  -->
+
+
+<div>
+{%- for book in site.data.books -%}
+    {% assign status = book.exclusive_shelf %}
+    {% assign title = book.title %}
+    {% assign author = book.author %}
+    {% assign date_read = book.date_read %}
+    {% assign year_published = book.year_published %}
+    {% assign recommendation_from = book.recommendation_from %}
+    {%- if status == 'read' -%}
+        {%- if title == 'Sous le règne de Bone' -%}
+            {% break %}
+            {% assign title = title %}
+            {% assign year_published = year_published %}
+            {% assign author = author %}
+            {% assign date_read = date_read %}
+            {% assign rating = rating %}
+            {% assign recommendation_from = recommendation_from %}
+        {%- endif -%}
+    {%- endif -%}
+{%- endfor -%}
+</div>
+
+
+# **{{title}}**{: style="background-color:#FFEF9E"} _by_ **{{author}}**{: style="background-color:#FFEF9E"}<br> 
+
+<div>
+<span class='post-meta' font-style='italic' style="background-color:#B7F7D1; font-style=italic">Date published: {{year_published}}</span><br>
+<span class='post-meta' style="background-color:#B7F7D1; font-style=italic">Date read: {{date_read}}</span><br>
+<span class='post-meta'>Recommendation from: {{recommendation_from}}</span><br>
+{% for book in site.data.books %}
+    {% assign status = book.exclusive_shelf %}
+    {% assign title = book.title %}
+    {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%}
+    {%- if status == 'read' -%}
+        {%- if title == 'Hunt Gather Parent' -%}
+                {% assign rating = book.rating %} 
+                {% case rating %}   
+                    {% when '1.0' %} 
+                    <div>
+                        <picture>
+                            <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                            <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+                        </picture></div>
+                    {% when '2.0' %} 
+                        <div><picture>
+                            <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                            <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                            <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+                            <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+                        </picture></div>
+                    {% when '3.0' %}
+                        <div><picture>
+                            <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                            <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                            <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                            <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+                            <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+                            <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+                        </picture></div>
+                    {% when '4.0' %}
+                        <div><picture>
+                            <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                            <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+                        </picture>
+                        <picture>
+                            <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                            <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+                        </picture>
+                        <picture>
+                            <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                            <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+                        </picture>
+                        <picture>
+                            <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                            <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+                        </picture></div>
+                    {% when '5.0' %}
+                    <div>
+                        <picture>
+                            <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                            <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+                        </picture>
+                        <picture>
+                            <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                            <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+                        </picture>
+                        <picture>
+                            <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                            <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+                        </picture>
+                        <picture>
+                            <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                            <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+                        </picture>
+                        <picture>
+                            <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                            <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+                        </picture>
+                        </div>
+                    {% endcase %} 
+    {%- endif -%}
+    {%- endif -%}
+{% endfor %}
+
+</div>
+
+
+
+<a style='color:#e6e6e6;'>___</a>
+
+<br>
+
+Grosse claque.<br><br>
+Le dégoût, l'effroi et la colère qu'on ressent à certaines pages sont incroyables. <br>
+_(pauvre Krishna, même si j'ai lu qu'il a appelé son fils Krishna-Romain)_<br><br>
+C'est fou de se dire qu'on peut vivre autant de choses en si peu de temps. Quelle est la part romancée de ce récit ?<br>
+C'est d'une insouciance qui semble révolue et c'est accentué par l'écriture directe qu'on sent bien être d'une autre époque.<br>
+_(j'apprendrai plus tard que le livre a été dicté au microphone et envoyé à des éditeurs)_<br><br>
+L'écriture est d'ailleurs plutôt sobre et directe et elle m'a happé à chaque fois que j'ai repris le bouquin.<br>
+Nombres de passages hallucinants sont contés de façon naturelle.<br><br>
+La sensation à la fin du livre est étonnante, un peu suffoquante sur l'aspect folie, j'avais envi que ça s'arrête.<br>
+J'avais aussi envi de lire comment il s'en était sorti (il est visiblement mort en 1991).<br>
+Sacré choc.
