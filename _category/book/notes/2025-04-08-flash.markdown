@@ -22,7 +22,7 @@ book_title: 'Flash ou le grand voyage'
     {% assign year_published = book.year_published %}
     {% assign recommendation_from = book.recommendation_from %}
     {%- if status == 'read' -%}
-        {%- if title == {{ page.book_title }} -%}
+        {%- if title == 'Flash ou le grand voyage' -%}
             {% break %}
             {% assign title = title %}
             {% assign year_published = year_published %}
@@ -135,5 +135,5 @@ L'écriture est d'ailleurs plutôt sobre et directe et elle m'a happé à chaque
 Nombres de passages hallucinants sont contés de façon naturelle.<br><br>
 La sensation à la fin du livre est étonnante, un peu suffoquante sur l'aspect folie, j'avais envi que ça s'arrête.<br>
 J'avais aussi envi de lire comment il s'en était sorti (il est visiblement mort en 1991).<br>
-Sacré choc.<br>
+Sacré choc.<br><br>
 _[Ressources](https://duchaussois.com/index.htm)_
