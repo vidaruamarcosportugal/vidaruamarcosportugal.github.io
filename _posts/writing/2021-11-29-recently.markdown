@@ -1,0 +1,100 @@
+---
+layout: post
+title:  "Recently"
+date:   2021-11-29
+categories: writing
+---
+
+<picture>
+    <source srcset="https://live.staticflickr.com/65535/51726231926_75bb1811dc_4k.jpg"
+            media="(min-width: 800px)">
+    <img src="https://live.staticflickr.com/65535/51726231926_75bb1811dc_4k.jpg"/>
+</picture>
+<a style='color:#e6e6e6;'></a>
+
+<br> 
+
+ukulele, merci KUT
+
+<br>
+<a style='color:#e6e6e6;'>___</a>
+<br>
+
+
+**Films / Documentaires / Séries qui m'ont marqués / inspirées** 
+- [ORELSAN : Montre jamais ça à personne](https://ecolabeldiffusion.com/orelsan-montre-jamais-ca-a-personne) → _incroyable que son frère est capté tous ces moments, ça donne un rendu génial._
+- Lost track torren martyn
+- [Discours de remise des diplômes Polytech UCLouvain](https://www.youtube.com/watch?v=uAE22c19EjU) : ça fait du bien d'entendre ça, à ré-écouter très fréquemment.
+- [Rame pour ta planète](https://www.ramepourtaplanete.com/)
+- Julie en 12 chapitres, quelle claque !
+- [Redéfinir la réussite des entreprises - Julia Faure ](https://www.youtube.com/watch?v=Fr8-gK2a5TE)
+
+<br>
+<a style='color:#e6e6e6;'>___</a>
+<br>
+
+
+**Ces podcasts ont fait du bien à mes oreilles (et mon cerveau) :**<br>
+
+- Julia Faure, fondatrice de la marque Loom, sur le podcast [Le Sapping](https://open.spotify.com/episode/0ENhb3XyrrdgrhtSznkdnU?si=B1vuJL8_R_27RSTlK_0uFQ)
+- Sur la route de Nazaré à Ericeira, avec mon Papa à côté dans la voiture, nos oreilles ne pouvaient pas espérer mieux : [Pop N'Co Georges Brassens](https://www.franceinter.fr/emissions/pop-n-co/pop-n-co-du-samedi-20-novembre-2021)
+- Nouveau podcast de Nate Hagens, The Great Simplification avec un [premier épisode inspirant.](https://www.thegreatsimplification.com/episode/01-dickgephardt) <br>
+    |→ Treat other people as you would like to be treated <br>
+    |→ Work hard (nothing comes out of hard work) <br>
+    |→ Be involved in whatever your purpose is in life <br>
+    |→ Take care of yourself + exercise <br>
+    "leadership is all about getting people to trust you" <br>
+    "none of us is better than anybody else"<br> 
+    "leave the campsite better than we found it"<br>
+
+- Meta de choc - Beatrice Kemerer   
+- [Octet vert](https://www.standblog.org/blog/post/2022/01/21/Octet-Vert-S2E07-Xavier-Verne-Shift-Project-SNCF)
+- Impact zone
+
+<br>
+<a style='color:#e6e6e6;'>___</a>
+<br>
+
+**On repeat tracks**:<br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/znScX_8nxEY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<br>
+<a style='color:#e6e6e6;'>___</a>
+<br>
+
+**Bouquins lus ces deux derniers mois :**
+- [**La place** - _Annie Ernaux_](https://www.leslibraires.fr/musique/16746818-la-place-annie-ernaux-gallimard-electa)<picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <picture>
+                <source style='height: 3%; width: 3%; object-fit: contain' srcset="/assets/swallow.png" media="(max-width: 20px)">
+                <img style='height: 3%; width: 3%; object-fit: contain' src="/assets/swallow.png" />
+            </picture>
+            <br> 
+            _"J'ai glissé dans cette moitié du monde pour laquelle l'autre n'est qu'un décor"_
+            
+<br>
+<a style='color:#e6e6e6;'>___</a>
+
+<br>
+
+
+<picture>
+    <source srcset="https://live.staticflickr.com/65535/51726875769_891fb90103_4k.jpg"
+            media="(min-width: 800px)">
+    <img src="https://live.staticflickr.com/65535/51726875769_891fb90103_4k.jpg"/>
+</picture>
+
+<br>
+<a class="post-meta">_Post started a very long time ago..._</a>
