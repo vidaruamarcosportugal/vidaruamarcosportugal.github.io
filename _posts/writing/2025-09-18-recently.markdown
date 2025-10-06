@@ -69,8 +69,11 @@ Marcel Proust
 
 {% for book in site.data.books %}
 {%- assign book_year = book.date_read | date: "%Y" -%}
+{%- assign book_month = book.date_read | date: "%M" -%}
     {%- if book_year == '2025' -%}
-        {% assign book_number = book_number | plus: 1%}
+        {%- if book_month < '10' -%}
+            {% assign book_number = book_number | plus: 1%}
+        {%- endif -%}
     {%- endif -%}
 {% endfor %}
 
