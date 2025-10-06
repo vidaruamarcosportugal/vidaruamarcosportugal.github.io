@@ -64,7 +64,7 @@ Agir est autre chose que parler, même avec éloquence,
 et penser, même avec ingéniosité. 
 Marcel Proust
 ```
-_<u>Faites-les lire !</u> - Michel Desmurget_
+<a class="post-meta"><u>Faites-les lire !</u> - Michel Desmurget</a>
 
 
 {% for book in site.data.books %}
