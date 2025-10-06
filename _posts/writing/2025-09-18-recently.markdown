@@ -18,7 +18,7 @@ categories: writing
 Je comprends ici ce qu'on appelle gloire : 
 le droit d'aimer sans mesure.
 ```
-_<ins>Noces à Tipasa</ins> - Albert Camus_
+<a class="post-meta"><ins>Noces à Tipasa</ins> - Albert Camus</a>
 
 <a style='color:#e6e6e6;'>___</a>
 <br>
