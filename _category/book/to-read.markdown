@@ -4,9 +4,17 @@ tag: book
 permalink: "/category/book/to-read"
 ---
 
+{% for book in site.data.books %}
+    {% assign status = book.exclusive_shelf %}    
+    {%- if status == 'to-read' -%}
+        {% assign book_number = book_number | plus: 1%}
+    {%- endif -%}
+{% endfor %}
+
 {%- if page.title -%}
-    <h1>{{ page.title }}</h1>
+    <h1>{{ page.title }}</h1><a class="post-meta"> - {{ book_number }}</a>
 {%- endif -%}
+
 
 <ul>
 {% for book in site.data.books %}
