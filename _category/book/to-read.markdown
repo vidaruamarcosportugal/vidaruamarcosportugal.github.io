@@ -12,8 +12,9 @@ permalink: "/category/book/to-read"
 {% endfor %}
 
 {%- if page.title -%}
-    <h1>{{ page.title }}</h1><a class="post-meta"> - {{ book_number }}</a>
+    <h1>{{ page.title }}</h1>
 {%- endif -%}
+<a class="post-meta"> - {{ book_number }}</a>
 
 
 <ul>
