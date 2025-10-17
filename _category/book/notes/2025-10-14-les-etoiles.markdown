@@ -127,6 +127,6 @@ book_title: "Les étoiles s'éteignent à l'aube"
 
 Franck et son rapport au monde m'a rendu admiratif, même envieux par moment.<br>
 Il se demande s'il a tout pour être quelqu'un de bien et la réponse est tellement évidente à la lecture...<br>
-Ce personnage m'a vraiment happé et j'aurais pu lire encore beaucoup de page juste sur lui même si j'ai trouvé le reste de l'histoire vraiment très bien aussi.<br>
+Ce personnage m'a vraiment happé et j'aurais pu lire encore beaucoup de pages juste sur lui même si j'ai trouvé le reste de l'histoire vraiment très bien aussi.<br>
 Ça et la manière dont la nature est décrite sont ce qui m'a le plus marqué dans ce roman. L'histoire est dure, parfois très dure même mais c'est étonnamment pas ce qu'il m'en reste.<br>
 Quelle belle lecture !
