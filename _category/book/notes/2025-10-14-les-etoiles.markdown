@@ -3,7 +3,7 @@ layout: default
 tag: book
 permalink: "/category/book/notes/Les-etoiles-seteignent-a-laube"
 date: 2025-10-14
-book_title: "Les étoiles d'éteignent à l'aube"
+book_title: "Les étoiles s'éteignent à l'aube"
 ---
 
 <!-- **yellow**{: style="background-color:#FFEF9E"} <br>
@@ -22,7 +22,7 @@ book_title: "Les étoiles d'éteignent à l'aube"
     {% assign year_published = book.year_published %}
     {% assign recommendation_from = book.recommendation_from %}
     {%- if status == 'read' -%}
-        {%- if title == "Les étoiles d'éteignent à l'aube" -%}
+        {%- if title == "Les étoiles s'éteignent à l'aube" -%}
             {% break %}
             {% assign title = title %}
             {% assign year_published = year_published %}
@@ -47,7 +47,7 @@ book_title: "Les étoiles d'éteignent à l'aube"
     {% assign title = book.title %}
     {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%}
     {%- if status == 'read' -%}
-        {%- if title == 'Hunt Gather Parent' -%}
+        {%- if title == 'Les étoiles s'éteignent à l'aube' -%}
                 {% assign rating = book.rating %} 
                 {% case rating %}   
                     {% when '1.0' %} 
