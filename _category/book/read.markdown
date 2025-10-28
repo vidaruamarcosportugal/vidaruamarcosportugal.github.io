@@ -18,6 +18,18 @@ jsarr:
 
 <h3><a href="/category/book/to-read">→ To Read List (Tsundoku)</a></h3>
 
+{% for book in site.data.books %}
+    {% assign status = book.exclusive_shelf %}  
+    {%- assign year = book.date_read | date: "%Y" -%}  
+    {%- if status == 'read' -%}
+        {%- if year == '2025' -%}
+            {% assign book_number = book_number | plus: 1%}
+        {%- endif -%}
+    {%- endif -%}
+{% endfor %}
+<br>
+<a class="post-meta">{{ book_number }} this year so far!</a>
+<br>
 <ul>
 {% for book in site.data.books %}
     {% assign status = book.exclusive_shelf %}
