@@ -20,12 +20,11 @@ jsarr:
 
 {% for book in site.data.books %}
     {% assign status = book.exclusive_shelf %}  
-    {%- assign year = book.date_read | date: "%Y" -%}  
+    {%- assign year = book.date_read | date: "%Y" -%}
     {%- if status == 'read' -%}
         {%- if year == '2025' -%}
             {% assign book_number = book_number | plus: 1%}
             {% assign total_pages = book.number_pages | sum %}
-{{ total_rating }}
         {%- endif -%}
     {%- endif -%}
 {% endfor %}
