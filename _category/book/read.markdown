@@ -18,13 +18,16 @@ jsarr:
 
 <h3><a href="/category/book/to-read">→ To Read List (Tsundoku)</a></h3>
 
+{% assign book_number = 0 %}
+{% assign total_pages = 0 %}
+
 {% for book in site.data.books %}
     {% assign status = book.exclusive_shelf %}  
     {%- assign year = book.date_read | date: "%Y" -%}
     {%- if status == 'read' -%}
         {%- if year == '2025' -%}
-            {% assign book_number = book_number | plus: 1%}
-            {% assign total_pages = book.number_pages %}
+            {% assign book_number = book_number | plus: 1 %}
+            {% assign total_pages = total_pages | plus: book.number_pages %}
         {%- endif -%}
     {%- endif -%}
 {% endfor %}
