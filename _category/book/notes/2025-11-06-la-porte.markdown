@@ -1,7 +1,7 @@
 ---
 layout: default
 tag: book
-permalink: "/category/book/notes/Un-homme"
+permalink: "/category/book/notes/La-porte"
 date: 2025-11-06
 book_title: "La porte"
 ---
