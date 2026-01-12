@@ -32,7 +32,7 @@ jsarr:
     {%- endif -%}
 {% endfor %}
 <br>
-<a class="post-meta">{{ book_number_2025 }} books and {{ total_pages }} in 2025.</a>
+<a class="post-meta">{{ book_number_2025 }} books and {{ total_pages_2025 }} pages in 2025.</a>
 <br>
 
 {% assign book_number_2026= 0 %}
@@ -48,7 +48,7 @@ jsarr:
         {%- endif -%}
     {%- endif -%}
 {% endfor %}
-<a class="post-meta">{{ book_number }} books for {{ total_pages }} pages this year so far!</a>
+<a class="post-meta">{{ book_number_2026 }} books for {{ total_pages_2026 }} pages this year so far!</a>
 <ul>
 {% for book in site.data.books %}
     {% assign status = book.exclusive_shelf %}
