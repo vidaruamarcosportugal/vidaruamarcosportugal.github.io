@@ -27,7 +27,7 @@ jsarr:
     {%- if status == 'read' -%}
         {%- if year == '2025' -%}
             {% assign book_number_2025 = book_number_2025 | plus: 1 %}
-            {% assign total_pages_2025 = total_pages_2025 | plus: book.book_number_2025 %}
+            {% assign total_pages_2025 = total_pages_2025 | plus: book.book.number_pages %}
         {%- endif -%}
     {%- endif -%}
 {% endfor %}
@@ -44,7 +44,7 @@ jsarr:
     {%- if status == 'read' -%}
         {%- if year == '2026' -%}
             {% assign book_number_2026 = book_number_2026 | plus: 1 %}
-            {% assign total_pages_2026 = total_pages_2026 | plus: book.book_number_2026 %}
+            {% assign total_pages_2026 = total_pages_2026 | plus: book.book.number_pages %}
         {%- endif -%}
     {%- endif -%}
 {% endfor %}
