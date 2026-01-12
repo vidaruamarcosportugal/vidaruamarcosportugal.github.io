@@ -33,7 +33,6 @@ jsarr:
 {% endfor %}
 <br>
 <a class="post-meta">{{ book_number_2025 }} books and {{ total_pages_2025 }} pages in 2025.</a>
-<br>
 
 {% assign book_number_2026= 0 %}
 {% assign total_pages_2026 = 0 %}
