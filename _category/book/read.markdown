@@ -18,22 +18,37 @@ jsarr:
 
 <h3><a href="/category/book/to-read">→ To Read List (Tsundoku)</a></h3>
 
-{% assign book_number = 0 %}
-{% assign total_pages = 0 %}
+{% assign book_number_2025 = 0 %}
+{% assign total_pages_2025 = 0 %}
 
 {% for book in site.data.books %}
     {% assign status = book.exclusive_shelf %}  
     {%- assign year = book.date_read | date: "%Y" -%}
     {%- if status == 'read' -%}
         {%- if year == '2025' -%}
-            {% assign book_number = book_number | plus: 1 %}
-            {% assign total_pages = total_pages | plus: book.number_pages %}
+            {% assign book_number_2025 = book_number_2025 | plus: 1 %}
+            {% assign total_pages_2025 = total_pages_2025 | plus: book.book_number_2025 %}
         {%- endif -%}
     {%- endif -%}
 {% endfor %}
 <br>
-<a class="post-meta">{{ book_number }} books for {{ total_pages }} this year so far!</a>
+<a class="post-meta">{{ book_number_2025 }} books and {{ total_pages }} in 2025.</a>
 <br>
+
+{% assign book_number_2026= 0 %}
+{% assign total_pages_2026 = 0 %}
+
+{% for book in site.data.books %}
+    {% assign status = book.exclusive_shelf %}  
+    {%- assign year = book.date_read | date: "%Y" -%}
+    {%- if status == 'read' -%}
+        {%- if year == '2026' -%}
+            {% assign book_number_2026 = book_number_2026 | plus: 1 %}
+            {% assign total_pages_2026 = total_pages_2026 | plus: book.book_number_2026 %}
+        {%- endif -%}
+    {%- endif -%}
+{% endfor %}
+<a class="post-meta">{{ book_number }} books for {{ total_pages }} pages this year so far!</a>
 <ul>
 {% for book in site.data.books %}
     {% assign status = book.exclusive_shelf %}
