@@ -16,6 +16,9 @@ jsarr:
 <iframe width="100%" height="544" frameborder="0"
   src="https://observablehq.com/embed/@evryjazz/book-rating-graph?cells=final_plot"></iframe>
 
+<iframe width="100%" height="500" frameborder="0"
+  src="https://observablehq.com/embed/@julienzanni/cumulative_reading?cell=*"></iframe>
+
 <h3><a href="/category/book/to-read">→ To Read List (Tsundoku)</a></h3>
 
 {% assign book_number_2025 = 0 %}
